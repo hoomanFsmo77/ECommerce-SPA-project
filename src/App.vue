@@ -13,7 +13,7 @@
 /////////// main style
 import './style/App.scss';
 ////////// components
-import Header from "./components/Header.vue";
+import Header from "./components/Header/Header.vue";
 import Navbar from "./components/Navbar/Navbar.vue";
 import Footer from "./components/Footer.vue";
 </script>

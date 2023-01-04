@@ -7,8 +7,8 @@ import './style/Tailwind.config/Tailwind.utilities.scss'
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
-library.add(faHouse)
+import { faCartShopping ,faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
+library.add(faCartShopping,faMagnifyingGlass)
 
 
 ////////// vue router
@@ -21,7 +21,10 @@ import {createPinia} from "pinia";
 //////// global component
 import column from "./components/Grid/column.vue";
 import row from "./components/Grid/row.vue";
+import container from './components/Grid/container.vue'
 
+////// directives
+import vFade from './composables/vFade.js'
 
 ////////// Vue
 import {createApp} from "vue";
@@ -33,4 +36,6 @@ app.use(router)
 app.use(createPinia())
 app.component('row',row);
 app.component('column',column);
+app.component('container',container);
+app.directive('fade',vFade)
 app.mount('#app')

@@ -1,5 +1,5 @@
 <template>
-  <div class="row"><slot/></div>
+  <div class="row flex flex-wrap py-0.5 my-0.5"><slot/></div>
 </template>
 
 <script>
@@ -19,7 +19,6 @@ export default {
 @tailwind components;
 @layer components {
   .row{
-    @apply flex flex-wrap py-0.5 my-0.5;
     column-gap: v-bind(columnGaps);
     row-gap: v-bind(rowGaps);
   }

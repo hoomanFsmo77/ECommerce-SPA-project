@@ -1,1 +1,15 @@
 @import "tailwindcss/components";
+@layer components {
+  .btn{
+      @apply rounded-full py-0.8 px-1.3;
+    span{
+      @apply text-1 ml-0.5 font-600;
+    }
+  }
+  .btn-dark-fill{
+    @apply bg-dark text-light hover:bg-[#444] transition-all;
+  }
+  .input-light{
+      @apply border-[1px] border-gray-200 focus:outline-none p-0.8 rounded-full hover:border-dark transition-all hover:placeholder:text-dark focus:border-dark placeholder:text-gray-500 placeholder:font-500 focus:placeholder:text-dark focus:ring-4 focus:ring-dark/10 font-500 text-1
+  }
+}
