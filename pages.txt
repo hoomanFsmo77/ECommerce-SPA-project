@@ -13,7 +13,7 @@ pages={
         		Stickers,
         		Calendars,
         		Books,
-        		T-Shirts,
+        		Clothing,
         		Accessories,
         		Surfboards,
         		original-artwork,
@@ -65,8 +65,9 @@ routes=[
     {
         name:'products',
         component:products,
-        path:'/products/:name:id',
+        path:'/products/',
         children:[
+
         ]
     },
     {
