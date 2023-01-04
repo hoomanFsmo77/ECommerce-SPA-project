@@ -3,7 +3,15 @@ const plugin = require('tailwindcss/plugin')
 
 
 module.exports = {
-  content: ["./index.html","./src/javascript/*.vue","./src/javascript/components/*.vue"],
+  content: [
+    "./index.html",
+    "./src/**/*.vue",
+    "./src/*.vue",
+    "./src/components/**/*.vue",
+    "./src/components/*.vue",
+    "./src/pages/**/*.vue",
+    "./src/pages/*.vue",
+  ],
   theme: {
     screens: {
       'sm': '500px',
@@ -12,13 +20,16 @@ module.exports = {
       'xlg':  '1200px'
     },
     spacing: {
-      '0.125':'0.125rem',
-      '0.25':'0.25rem',
-      '0.375':'0.375rem',
+      '0':'0',
+      '0.1':'0.1rem',
+      '0.2':'0.2rem',
+      '0.3':'0.3rem',
+      '0.4':'0.4rem',
       '0.5':'0.5rem',
-      '0.625':'0.625rem',
-      '0.75':'0.75rem',
-      '0.875':'0.875rem',
+      '0.6':'0.6rem',
+      '0.7':'0.7rem',
+      '0.8':'0.8rem',
+      '0.9':'0.9rem',
       '1':'1rem',
       '1.1':'1.1rem',
       '1.2':'1.2rem',
@@ -66,13 +77,16 @@ module.exports = {
       '24':'24rem',
     },
     fontSize:{
-      '0.125':'0.125rem',
-      '0.25':'0.25rem',
-      '0.375':'0.375rem',
+      '0':'0',
+      '0.1':'0.1rem',
+      '0.2':'0.2rem',
+      '0.3':'0.3rem',
+      '0.4':'0.4rem',
       '0.5':'0.5rem',
-      '0.625':'0.625rem',
-      '0.75':'0.75rem',
-      '0.875':'0.875rem',
+      '0.6':'0.6rem',
+      '0.7':'0.7rem',
+      '0.8':'0.8rem',
+      '0.9':'0.9rem',
       '1':'1rem',
       '1.1':'1.1rem',
       '1.2':'1.2rem',
@@ -121,14 +135,14 @@ module.exports = {
     },
     fontWeight:{
       '100':'100',
-      '200':'100',
-      '300':'100',
-      '400':'100',
-      '500':'100',
-      '600':'100',
-      '700':'100',
-      '800':'100',
-      '900':'100'
+      '200':'200',
+      '300':'300',
+      '400':'400',
+      '500':'500',
+      '600':'600',
+      '700':'700',
+      '800':'800',
+      '900':'900'
     },
     lineHeight:{
       '1':'1',
@@ -146,10 +160,15 @@ module.exports = {
       '4':'4',
     },
     borderRadius:{
+      '1':'1px',
       '2':'2px',
+      '3':'3px',
       '4':'4px',
+      '5':'5px',
       '6':'6px',
+      '7':'7px',
       '8':'8px',
+      '9':'9px',
       '10':'10px',
       '12':'12px',
       '14':'14px',
@@ -170,7 +189,8 @@ module.exports = {
 
     extend:{
         colors:{
-
+            dark:'#1c181f',
+          light:'#fff'
         }
     }
   },
@@ -184,7 +204,12 @@ module.exports = {
             overflowX:'hidden'
           },
           'h1,h2,h3,h4,h5,h6':{
-            lineHeight:'1.6'
+            lineHeight:'1.5',
+            fontWeight:'500'
+          },
+          'p,span,a':{
+            fontSize:'0.9rem',
+            fontWeight:'500'
           }
         })
       })

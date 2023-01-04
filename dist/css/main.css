@@ -363,9 +363,64 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.6;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
+p, span, a {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box !important;
+}
+
+h1, .h1 {
+  padding: 0.2rem;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.5rem;
+  }
+}
+h2, .h2 {
+  font-size: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  h2, .h2 {
+    font-size: 2rem;
+  }
+}
+h3, .h3 {
+  font-size: 1.7rem;
+}
+
+h4, .h4 {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  h4, .h4 {
+    font-size: 1.4rem;
+  }
+}
+h5, .h5 {
+  font-size: 1.2rem;
+}
+
+h6, .h6 {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  h6, .h6 {
+    font-size: 1rem;
+  }
+}
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -466,7 +521,243 @@ h1, h2, h3, h4, h5, h6 {
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style/Tailwind.config/Tailwind.utilities.scss ***!
   \**************************************************************************************************************************************************************************************/
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.py-0\.5 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .sm\:col-1 {
+    width: 8.3333333333%;
+  }
+  .sm\:col-2 {
+    width: 16.6666666667%;
+  }
+  .sm\:col-3 {
+    width: 25%;
+  }
+  .sm\:col-4 {
+    width: 33.3333333333%;
+  }
+  .sm\:col-5 {
+    width: 41.6666666667%;
+  }
+  .sm\:col-6 {
+    width: 50%;
+  }
+  .sm\:col-7 {
+    width: 58.3333333333%;
+  }
+  .sm\:col-8 {
+    width: 66.6666666667%;
+  }
+  .sm\:col-9 {
+    width: 75%;
+  }
+  .sm\:col-10 {
+    width: 83.3333333333%;
+  }
+  .sm\:col-11 {
+    width: 91.6666666667%;
+  }
+  .sm\:col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .md\:col-1 {
+    width: 8.3333333333%;
+  }
+  .md\:col-2 {
+    width: 16.6666666667%;
+  }
+  .md\:col-3 {
+    width: 25%;
+  }
+  .md\:col-4 {
+    width: 33.3333333333%;
+  }
+  .md\:col-5 {
+    width: 41.6666666667%;
+  }
+  .md\:col-6 {
+    width: 50%;
+  }
+  .md\:col-7 {
+    width: 58.3333333333%;
+  }
+  .md\:col-8 {
+    width: 66.6666666667%;
+  }
+  .md\:col-9 {
+    width: 75%;
+  }
+  .md\:col-10 {
+    width: 83.3333333333%;
+  }
+  .md\:col-11 {
+    width: 91.6666666667%;
+  }
+  .md\:col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 968px) {
+  .lg\:col-1 {
+    width: 8.3333333333%;
+  }
+  .lg\:col-2 {
+    width: 16.6666666667%;
+  }
+  .lg\:col-3 {
+    width: 25%;
+  }
+  .lg\:col-4 {
+    width: 33.3333333333%;
+  }
+  .lg\:col-5 {
+    width: 41.6666666667%;
+  }
+  .lg\:col-6 {
+    width: 50%;
+  }
+  .lg\:col-7 {
+    width: 58.3333333333%;
+  }
+  .lg\:col-8 {
+    width: 66.6666666667%;
+  }
+  .lg\:col-9 {
+    width: 75%;
+  }
+  .lg\:col-10 {
+    width: 83.3333333333%;
+  }
+  .lg\:col-11 {
+    width: 91.6666666667%;
+  }
+  .lg\:col-12 {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .xlg\:col-1 {
+    width: 8.3333333333%;
+  }
+  .xlg\:col-2 {
+    width: 16.6666666667%;
+  }
+  .xlg\:col-3 {
+    width: 25%;
+  }
+  .xlg\:col-4 {
+    width: 33.3333333333%;
+  }
+  .xlg\:col-5 {
+    width: 41.6666666667%;
+  }
+  .xlg\:col-6 {
+    width: 50%;
+  }
+  .xlg\:col-7 {
+    width: 58.3333333333%;
+  }
+  .xlg\:col-8 {
+    width: 66.6666666667%;
+  }
+  .xlg\:col-9 {
+    width: 75%;
+  }
+  .xlg\:col-10 {
+    width: 83.3333333333%;
+  }
+  .xlg\:col-11 {
+    width: 91.6666666667%;
+  }
+  .xlg\:col-12 {
+    width: 100%;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[8].use[0]!./src/components/Grid/row.vue?vue&type=style&index=0&id=0ff87f41&lang=scss&scoped=true ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.row[data-v-0ff87f41] {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  -moz-column-gap: var(--0ff87f41-columnGaps);
+  column-gap: var(--0ff87f41-columnGaps);
+  row-gap: var(--0ff87f41-rowGaps);
+}
 /*!*******************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style/App.scss ***!
   \*******************************************************************************************************************************************************/

@@ -1,19 +1,26 @@
 pages={
 	Home,
 	Cart
-	Collection={
-		index(show all others categories),
-		Naturescapes,Surfing Koala Prints,Family Prints,Up Late,Minimals,Wildlife Portraits,Fine Art Prints,
-		Travel Posters,Postcard Booklets,Stickers,Calendars,Books,T-Shirts,Beach Towels,Hats,Beach Totes,
-		Surfboards,original-artwork,Art Print Bundles,Sale	
-
-		},
+	Collection,
 	pages={
 		Paintings,Comics,Murals and Public Art,contact-brentos,Brand Collaborations,our-story
 	},
 	
-	products,
-	policiy:{
+	products:{
+        		Art Prints,
+        		Travel Posters,
+        		Postcard Booklets,
+        		Stickers,
+        		Calendars,
+        		Books,
+        		T-Shirts,
+        		Accessories,
+        		Surfboards,
+        		original-artwork,
+        		Art Print Bundles,
+        		Sale
+	},
+	policy:{
 		refund-policy,terms-of-service,privacy-policy
 	
 
@@ -21,3 +28,60 @@ pages={
 
 
 }
+<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>
+
+routes=[
+    {
+        name:'Home',
+        path:'',
+        component:Home
+
+    },
+    {
+           name:'Collections',
+           component:Collections,
+           path:'/Collections',
+           children:[
+                {
+                       name:'index',
+                       component:index,
+                       path:''
+                },
+                {
+                    name:'CollectionLists',
+                    component:CollectionLists,
+                    path:'/:name'
+
+                }
+           ]
+    },
+    {
+        name:'pages',
+        component:pages,
+        path:'/pages',
+        children:[
+        ]
+    },
+    {
+        name:'products',
+        component:products,
+        path:'/products/:name:id',
+        children:[
+        ]
+    },
+    {
+                name:'policy',
+                component:policy,
+                path:'/policy',
+                children:[]
+
+    },
+    {
+        name:'Cart'
+    }
+
+
+
+
+]
+
