@@ -1,0 +1,23 @@
+pages={
+	Home,
+	Cart
+	Collection={
+		index(show all others categories),
+		Naturescapes,Surfing Koala Prints,Family Prints,Up Late,Minimals,Wildlife Portraits,Fine Art Prints,
+		Travel Posters,Postcard Booklets,Stickers,Calendars,Books,T-Shirts,Beach Towels,Hats,Beach Totes,
+		Surfboards,original-artwork,Art Print Bundles,Sale	
+
+		},
+	pages={
+		Paintings,Comics,Murals and Public Art,contact-brentos,Brand Collaborations,our-story
+	},
+	
+	products,
+	policiy:{
+		refund-policy,terms-of-service,privacy-policy
+	
+
+	}
+
+
+}
