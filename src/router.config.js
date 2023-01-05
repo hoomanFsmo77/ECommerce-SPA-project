@@ -1,4 +1,7 @@
 import {createRouter,createWebHashHistory} from "vue-router";
+
+const MAIN_PAGE=()=>import('./pages/Main.vue')
+
 //// 404 page
 const NOT_FOUND=()=>import('./pages/404.vue')
 
@@ -33,122 +36,162 @@ const PRODUCT_INDEX=()=>import('./pages/product/index.vue')
 const PRODUCT=()=>import('./pages/product/Product.vue')
 const ART=()=>import('./pages/product/Art.vue')
 
+//// checkout page
+const CHECKOUT_INDEX=()=>import('./pages/checkout/index.vue')
+const INFORMATION=()=>import('./pages/checkout/information.vue')
+const PAYMENT=()=>import('./pages/checkout/payment.vue')
+const SHIPPING=()=>import('./pages/checkout/shipping.vue')
 
-
-
+//// search page
+const SEARCH=()=>import('./pages/Search.vue')
 
 const routes=[
     {
-        name:'HOME',
-        path:'',
-        component:HOME
-    },
-    {
-        name:'COLLECTION_INDEX',
-        path:'/Collections',
-        component:COLLECTION_INDEX,
-        children:[
+      name:'MAIN_PAGE'  ,
+      component:MAIN_PAGE,
+      path:'',
+      children: [
             {
-                name:'ALL_COLLECTION',
+                name:'HOME',
                 path:'',
-                component:ALL_COLLECTION
+                component:HOME
             },
             {
-                name:'COLLECTION_LIST',
-                path:':name',
-                component:COLLECTION_LIST,
-                props:true
+                name:'COLLECTION_INDEX',
+                path:'/Collections',
+                component:COLLECTION_INDEX,
+                children:[
+                    {
+                        name:'ALL_COLLECTION',
+                        path:'',
+                        component:ALL_COLLECTION
+                    },
+                    {
+                        name:'COLLECTION_LIST',
+                        path:':name',
+                        component:COLLECTION_LIST,
+                        props:true
+                    },
+                ]
             },
-        ]
+            {
+                name:'CART',
+                path:'/cart',
+                component:CART
+            },
+            {
+                path: '/:pathMatch(.*)*',
+                name: 'NOT_FOUND',
+                component:NOT_FOUND
+            },
+            {
+                name:'POLICY_INDEX',
+                path:'/Policy',
+                component:POLICY_INDEX,
+                children: [
+                    {
+                        name:'REFUND_POLICY',
+                        path:'/refund-policy',
+                        component:REFUND_POLICY
+                    },
+                    {
+                        name:'TERMS_OF_SERVICE',
+                        path:'/terms-of-service',
+                        component:TERMS_OF_SERVICE
+                    },
+                    {
+                        name:'PRIVACY_POLICY',
+                        path:'/privacy-policy',
+                        component:PRIVACY_POLICY
+                    },
+
+                ]
+            },
+            {
+                name:'PAGES_INDEX',
+                path:'/Pages',
+                component:PAGES_INDEX,
+                children: [
+                    {
+                        name:'PAINTINGS',
+                        path:'/Paintings',
+                        component:PAINTINGS
+                    },
+                    {
+                        name:'COMICS',
+                        path:'/Comics',
+                        component:COMICS
+                    },{
+                        name:'MURALS_AND_PUBLIC_ART',
+                        path:'/Murals-and-Public-Art',
+                        component:MURALS_AND_PUBLIC_ART
+                    },{
+                        name:'CONTACT_BRENTOS',
+                        path:'/contact-brentos',
+                        component:CONTACT_BRENTOS
+                    },{
+                        name:'BRAND_COLLABORATIONS',
+                        path:'/Brand-Collaborations',
+                        component:BRAND_COLLABORATIONS
+                    },{
+                        name:'OUR_STORY',
+                        path:'/our-story',
+                        component:OUR_STORY
+                    },
+
+
+                ]
+            },
+            {
+                name:'PRODUCT_INDEX',
+                path:'/Products',
+                component:PRODUCT_INDEX,
+                children: [
+                    {
+                        name:'PRODUCT',
+                        path:':name',
+                        component:PRODUCT,
+                        props: true
+                    },
+                    {
+                        name:'ART',
+                        path:':name',
+                        component:ART,
+                        props: true
+                    },
+
+                ]
+            },
+          {
+              name:'SEARCH',
+              path:'/search',
+              component:SEARCH
+          },
+      ]
     },
     {
-        name:'CART',
-        path:'/cart',
-        component:CART
-    },
-    {
-        path: '/:pathMatch(.*)*',
-        name: 'NOT_FOUND',
-        component:NOT_FOUND
-    },
-    {
-        name:'POLICY_INDEX',
-        path:'/Policy',
-        component:POLICY_INDEX,
+        name:'',
+        component:CHECKOUT_INDEX,
+        path: '/checkout',
         children: [
             {
-                name:'REFUND_POLICY',
-                path:'/refund-policy',
-                component:REFUND_POLICY
+                name:'INFORMATION',
+                component:INFORMATION,
+                path: 'information'
+            },{
+                name:'PAYMENT',
+                component:PAYMENT,
+                path: 'payment'
+            },{
+                name:'SHIPPING',
+                component:SHIPPING,
+                path: 'shipping'
             },
-            {
-                name:'TERMS_OF_SERVICE',
-                path:'/terms-of-service',
-                component:TERMS_OF_SERVICE
-            },
-            {
-                name:'PRIVACY_POLICY',
-                path:'/privacy-policy',
-                component:PRIVACY_POLICY
-            },
-
         ]
-    },
-    {
-        name:'PAGES_INDEX',
-        path:'/Pages',
-        component:PAGES_INDEX,
-        children: [
-            {
-                name:'PAINTINGS',
-                path:'/Paintings',
-                component:PAINTINGS
-            },
-            {
-                name:'COMICS',
-                path:'/Comics',
-                component:COMICS
-            },{
-                name:'MURALS_AND_PUBLIC_ART',
-                path:'/Murals-and-Public-Art',
-                component:MURALS_AND_PUBLIC_ART
-            },{
-                name:'CONTACT_BRENTOS',
-                path:'/contact-brentos',
-                component:CONTACT_BRENTOS
-            },{
-                name:'BRAND_COLLABORATIONS',
-                path:'/Brand-Collaborations',
-                component:BRAND_COLLABORATIONS
-            },{
-                name:'OUR_STORY',
-                path:'/our-story',
-                component:OUR_STORY
-            },
+    }
 
 
-        ]
-    },
-    {
-        name:'PRODUCT_INDEX',
-        path:'/Products',
-        component:PRODUCT_INDEX,
-        children: [
-            {
-                name:'PRODUCT',
-                path:':name',
-                component:PRODUCT,
-                props: true
-            },
-            {
-                name:'ART',
-                path:':name',
-                component:ART,
-                props: true
-            },
 
-        ]
-    },
 
 ]
 

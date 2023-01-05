@@ -1,10 +1,10 @@
 <template>
-  cart
+  <router-view></router-view>
 </template>
 
 <script>
 export default {
-  name: "Cart"
+  name: "index"
 }
 </script>
 

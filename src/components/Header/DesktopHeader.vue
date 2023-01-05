@@ -3,9 +3,9 @@
   <row  class="lg:flex items-center hidden !py-1">
     <column col="6">
       <div>
-        <a href="#">
+        <router-link  :to="{name:'HOME'}">
           <img src="https://cdn.shopify.com/s/files/1/0272/9548/1943/files/brentoslogo.png?v=1663235427" width="110" alt="">
-        </a>
+        </router-link>
       </div>
     </column>
     <column col="6" class="flex gap-1 items-center justify-end">
@@ -23,8 +23,8 @@
 </template>
 
 <script setup>
-import SearchBox from "../SearchBox.vue";
-import DarkOverlay from "../DarkOverlay.vue";
+import SearchBox from "../Form/SearchBox.vue";
+import DarkOverlay from "./DarkOverlay.vue";
 import {computed,ref} from "vue";
 import {useCartStore} from "../../store/Cart.js";
 /////////////////////////////////////

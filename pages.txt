@@ -1,6 +1,9 @@
 pages={
+    checkout={
+        information,shipping,payment
+    },
 	Home,
-	Cart
+	Cart,
 	Collection,
 	pages={
 		Paintings,Comics,Murals and Public Art,contact-brentos,Brand Collaborations,our-story

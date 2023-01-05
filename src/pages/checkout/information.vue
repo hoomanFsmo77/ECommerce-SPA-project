@@ -1,10 +1,10 @@
 <template>
-  cart
+  information
 </template>
 
 <script>
 export default {
-  name: "Cart"
+  name: "information"
 }
 </script>
 

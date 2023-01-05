@@ -1,11 +1,11 @@
 <template>
+  collection list
 
 </template>
 
 <script>
 export default {
   name: "CollectionList",
-
 }
 </script>
 
