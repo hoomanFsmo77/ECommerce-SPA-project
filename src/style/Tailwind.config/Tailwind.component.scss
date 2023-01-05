@@ -7,7 +7,7 @@
     }
   }
   .btn-dark-fill{
-    @apply bg-dark text-light hover:bg-[#444] transition-all;
+    @apply bg-dark text-light [&_*]:text-light hover:bg-[#444] transition-all;
   }
   .input-light{
       @apply border-[1px] border-gray-200 focus:outline-none p-0.8 rounded-full hover:border-dark transition-all hover:placeholder:text-dark focus:border-dark placeholder:text-gray-500 placeholder:font-500 focus:placeholder:text-dark focus:ring-4 focus:ring-dark/10 font-500 text-1
@@ -46,5 +46,12 @@
   }
   .ul-col{
     @apply flex flex-col gap-0.5
+  }
+
+  .navbar-link{
+    @apply py-0.5 relative flex justify-center items-center
+  }
+  .navbar-link-content{
+    @apply mr-0.5 text-[0.9rem] font-600 text-dark capitalize ;
   }
 }

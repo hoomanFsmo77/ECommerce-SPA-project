@@ -1,6 +1,6 @@
 const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
-
+const theme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: [
@@ -205,11 +205,13 @@ module.exports = {
           },
           'h1,h2,h3,h4,h5,h6':{
             lineHeight:'1.5',
-            fontWeight:'500'
+            fontWeight:'500',
+            color:'#333'
           },
           'p,span,a':{
             fontSize:'0.9rem',
-            fontWeight:'500'
+            fontWeight:'500',
+            color:'#333'
           }
         })
       })

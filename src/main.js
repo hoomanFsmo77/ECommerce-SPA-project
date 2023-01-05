@@ -7,8 +7,8 @@ import './style/Tailwind.config/Tailwind.utilities.scss'
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCartShopping ,faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
-library.add(faCartShopping,faMagnifyingGlass)
+import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight} from '@fortawesome/free-solid-svg-icons'
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight)
 
 
 ////////// vue router
@@ -25,6 +25,7 @@ import container from './components/Grid/container.vue'
 
 ////// directives
 import vFade from './composables/directives/vFade.js'
+import vCollapse from './composables/directives/vCollapse.js'
 
 ////////// Vue
 import {createApp} from "vue";
@@ -38,4 +39,5 @@ app.component('row',row);
 app.component('column',column);
 app.component('container',container);
 app.directive('fade',vFade)
+app.directive('collapse',vCollapse)
 app.mount('#app')

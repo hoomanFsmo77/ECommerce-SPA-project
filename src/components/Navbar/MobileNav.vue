@@ -1,13 +1,13 @@
 <template>
-<!--  mobile header-->
   <div class="flex lg:hidden">
     mobile
-    <MobileNav/>
   </div>
 </template>
 
-<script setup>
-import MobileNav from "../Navbar/MobileNav.vue";
+<script>
+export default {
+  name: "MobileNav"
+}
 </script>
 
 <style scoped>
