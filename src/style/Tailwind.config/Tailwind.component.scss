@@ -12,4 +12,39 @@
   .input-light{
       @apply border-[1px] border-gray-200 focus:outline-none p-0.8 rounded-full hover:border-dark transition-all hover:placeholder:text-dark focus:border-dark placeholder:text-gray-500 placeholder:font-500 focus:placeholder:text-dark focus:ring-4 focus:ring-dark/10 font-500 text-1
   }
+  .responsive-image{
+    @apply w-full object-cover;
+  }
+  .stretch-link{
+    @apply absolute top-0 left-0 w-full h-full z-10;
+  }
+  .search-result-item{
+    @apply my-1 text-0.9 relative;
+  }
+  .btn-link{
+    @apply ease-in-out transition-all duration-500 bg-[linear-gradient(to_right,currentColor_0%,currentColor_100%)] bg-no-repeat bg-[size:0px_6%] bg-[position:left_100%] hover:bg-[size:100%_6%]
+  }
+  .btn-link.btn-bold {
+    @apply !bg-[size:100%_8%]
+  }
+  .btn-link.btn-stretch{
+    @apply after:absolute after:top-0 after:right-0 after:bottom-0 after:z-[1] after:w-full;
+  }
+
+  .divider{
+    @apply w-full h-[1px] bg-gray-300 my-1
+  }
+  .search-result-container{
+    @apply absolute top-5 w-full before:w-0 before:w-0 before:border-solid before:border-[transparent_transparent_#fff_transparent] before:absolute before:left-[24px] before:top-[-18px]
+  }
+  .search-result{
+    @apply overflow-y-auto bg-light overflow-x-hidden max-h-[35rem] w-full rounded-l-8 ;
+  }
+  .search-result-container::before{
+    border-width: 0 12.5px 20px 12.5px;
+
+  }
+  .ul-col{
+    @apply flex flex-col gap-0.5
+  }
 }

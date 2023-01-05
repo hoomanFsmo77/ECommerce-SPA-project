@@ -24,7 +24,7 @@ import row from "./components/Grid/row.vue";
 import container from './components/Grid/container.vue'
 
 ////// directives
-import vFade from './composables/vFade.js'
+import vFade from './composables/directives/vFade.js'
 
 ////////// Vue
 import {createApp} from "vue";

@@ -9,9 +9,10 @@
       </div>
     </column>
     <column col="6" class="flex gap-1 items-center justify-end">
-      <div class="w-[65%]">
-        <SearchBox @isFocus="focusHandler($event)"/>
-        <DarkOverlay :is-focus="focusFlag"/>
+      <div class="w-[65%] relative">
+        <SearchBox v-model="searchText" @on="showResult($event)"/>
+        <DarkOverlay @outside="closeResult($event)" :is-fire="isOn"/>
+        <SearchResult :is-fire="isOn" :search-text="searchText"/>
       </div>
       <router-link :to="{name:'CART'}" class="btn btn-dark-fill">
         <font-awesome-icon size="lg" icon="fa-solid fa-cart-shopping" />
@@ -25,15 +26,9 @@
 <script setup>
 import SearchBox from "../Form/SearchBox.vue";
 import DarkOverlay from "./DarkOverlay.vue";
-import {computed,ref} from "vue";
-import {useCartStore} from "../../store/Cart.js";
+import {useDesktopHeader} from "../../composables/useHeader.js";
+import SearchResult from "../SearchResult.vue";
 /////////////////////////////////////
-const focusFlag=ref(false)
-const store=useCartStore()
-const cartLength=computed(()=>store.cartLength)
-const totalPrice=computed(()=>store.totalPrice.toFixed(2))
-const focusHandler=e=>{
-  focusFlag.value=e
-}
+const {closeResult,totalPrice,cartLength,searchText,showResult,isOn}=useDesktopHeader()
 </script>
 
