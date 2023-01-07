@@ -25,3 +25,22 @@ export const useDesktopHeader=()=>{
     )
     return {isOn,showResult,searchText,cartLength,totalPrice,closeResult}
 }
+
+
+export  const useMobileHeader=()=>{
+    const isOpen=ref(false)
+    const route=useRoute()
+
+    const closeMenu = e => {
+      isOpen.value=e
+    }
+    watch(
+        ()=>route.path,
+        ()=>{
+            if(route.name!=='HOME'){
+                isOpen.value=false
+            }
+        }
+    )
+    return{isOpen,closeMenu}
+}

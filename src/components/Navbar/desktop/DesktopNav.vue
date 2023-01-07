@@ -19,17 +19,10 @@
 </template>
 
 <script setup>
+import useNavbar from "../../../composables/useNavbar.js";
 import NavbarItem from "./NavbarItem.vue";
-import axios from 'axios'
-import {ref} from "vue";
-////////////////////////////
-let fetchFlag=ref(false)
-let navbarData=ref([])
-axios.get('./data/NavbarData.json').then(response=>{
-  navbarData.value=response.data.navbarItems
-  fetchFlag.value=true
-})
-
+///////////////////////////
+const {navbarData,fetchFlag}=useNavbar()
 </script>
 
 <style scoped>

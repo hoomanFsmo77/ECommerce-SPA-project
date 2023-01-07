@@ -1,5 +1,5 @@
 <template>
-  <nav class="lg:flex hidden border-t-[1px] border-gray-200 border-b-[1px] ">
+  <nav v-if="windowWidth > 960" class=" border-t-[1px] border-gray-200 border-b-[1px] ">
     <container>
       <DesktopNav/>
     </container>
@@ -7,7 +7,8 @@
 </template>
 
 <script setup>
-import DesktopNav from "./DesktopNav.vue";
+import DesktopNav from "./desktop/DesktopNav.vue";
+const windowWidth=window.innerWidth
 </script>
 
 <style scoped>

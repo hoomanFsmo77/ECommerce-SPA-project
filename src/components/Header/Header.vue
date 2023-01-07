@@ -1,14 +1,15 @@
 <template>
   <header>
-    <container class="lg:block hidden">
+    <container v-if="windowWidth > 960" >
       <DesktopHeader/>
     </container>
-    <MobileHeader/>
+    <MobileHeader v-else/>
   </header>
 </template>
 
 <script setup>
-import DesktopHeader from "./DesktopHeader.vue";
-import MobileHeader from "./MobileHeader.vue";
+import DesktopHeader from "./desktop/DesktopHeader.vue";
+import MobileHeader from "./mobile/MobileHeader.vue";
+const windowWidth=window.innerWidth
 </script>
 

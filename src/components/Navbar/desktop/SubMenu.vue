@@ -15,7 +15,7 @@ const endTop=ref(props.endTop)
 </script>
 
 <style lang="scss" >
-@import "tailwindcss/components";
+@import "../../../../node_modules/tailwindcss/components.css";
 
 @layer components {
   .show-enter-active,.show-leave-active{

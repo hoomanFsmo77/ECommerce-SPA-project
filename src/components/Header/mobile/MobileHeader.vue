@@ -1,6 +1,6 @@
 <template>
 <!--  mobile header-->
-  <div class="block lg:hidden ">
+  <div >
     <div class="flex justify-between items-center !py-1 px-0.7">
       <MobileNav/>
       <div>
@@ -14,7 +14,7 @@
     </div>
     <div class="relative w-[95%] py-1 mx-auto">
       <SearchBox class="w-full" v-model="searchText" @on="showResult($event)"/>
-      <DarkOverlay @outside="closeResult($event)" :is-fire="isOn"/>
+      <DarkOverlay z-index="999" @outside="closeResult($event)" :is-fire="isOn"/>
       <SearchResult :is-fire="isOn" :search-text="searchText"/>
     </div>
     <div class="flex w-full justify-start gap-1 items-center py-0.8 border-b-[1px] border-t-[1px] border-gray-200 px-0.7">
@@ -28,12 +28,12 @@
 </template>
 
 <script setup>
-import MobileNav from "../Navbar/MobileNav.vue";
-import {useDesktopHeader} from "../../composables/useHeader.js";
-import SearchBox from "../Form/SearchBox.vue";
-import DarkOverlay from "./DarkOverlay.vue";
-import SearchResult from "./SearchResult.vue";
-import Badge from "../Widget/Badge.vue";
+import MobileNav from "../../Navbar/mobile/MobileNav.vue";
+import {useDesktopHeader} from "../../../composables/useHeader.js";
+import SearchBox from "../../Form/SearchBox.vue";
+import DarkOverlay from "../DarkOverlay.vue";
+import SearchResult from "../SearchResult.vue";
+import Badge from "../../Widget/Badge.vue";
 const {cartLength,isOn,showResult,searchText,totalPrice,closeResult}=useDesktopHeader()
 </script>
 
