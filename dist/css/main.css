@@ -836,6 +836,10 @@ h6, .h6 {
   margin-top: 1rem;
 }
 
+.mb-0\.7 {
+  margin-bottom: 0.7rem;
+}
+
 .block {
   display: block;
 }
@@ -852,6 +856,10 @@ h6, .h6 {
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -866,6 +874,14 @@ h6, .h6 {
 
 .w-11 {
   width: 11rem;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -888,12 +904,24 @@ h6, .h6 {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .gap-1 {
   gap: 1rem;
 }
 
 .gap-1\.6 {
   gap: 1.6rem;
+}
+
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
+.gap-0 {
+  gap: 0;
 }
 
 .rounded-8 {

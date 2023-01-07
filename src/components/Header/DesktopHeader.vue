@@ -27,7 +27,7 @@
 import SearchBox from "../Form/SearchBox.vue";
 import DarkOverlay from "./DarkOverlay.vue";
 import {useDesktopHeader} from "../../composables/useHeader.js";
-import SearchResult from "../SearchResult.vue";
+import SearchResult from "./SearchResult.vue";
 /////////////////////////////////////
 const {closeResult,totalPrice,cartLength,searchText,showResult,isOn}=useDesktopHeader()
 </script>
