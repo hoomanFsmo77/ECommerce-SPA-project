@@ -25,6 +25,7 @@ import {createPinia} from "pinia";
 import column from "./components/Grid/column.vue";
 import row from "./components/Grid/row.vue";
 import container from './components/Grid/container.vue'
+import containerFull from "./components/Grid/containerFull.vue";
 
 ////// directives
 import vFade from './composables/directives/vFade.js'
@@ -34,6 +35,10 @@ import vCollapse from './composables/directives/vCollapse.js'
 ///// skeletor
 import VueSkeletor from 'vue-skeletor';
 import { Skeletor } from 'vue-skeletor';
+
+
+///// lazy loading image
+import VueLazyLoad from 'vue3-lazyload'
 
 ////////// Vue
 import {createApp} from "vue";
@@ -46,10 +51,10 @@ app.use(createPinia())
 app.component('row',row);
 app.component('column',column);
 app.component('container',container);
+app.component('container-full',containerFull);
 app.component(Skeletor.name, Skeletor);
-app.use(VueSkeletor, {
-    shimmer: false,
-})
+app.use(VueSkeletor, {shimmer: false,})
+app.use(VueLazyLoad)
 app.directive('fade',vFade)
 app.directive('collapse',vCollapse)
 app.mount('#app')

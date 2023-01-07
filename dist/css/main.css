@@ -750,6 +750,12 @@ h6, .h6 {
   --tw-text-opacity: 1;
   color: rgb(28 24 31/var(--tw-text-opacity));
 }
+
+.container-full {
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+}
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style/Tailwind.config/Tailwind.utilities.scss ***!
   \**************************************************************************************************************************************************************************************/
@@ -1394,6 +1400,12 @@ h6, .h6 {
   }
 }
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+  .md\:hidden {
+    display: none;
+  }
   .md\:col-1 {
     width: 8.3333333333%;
   }

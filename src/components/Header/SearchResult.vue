@@ -9,9 +9,9 @@
           <!--      <<<<<<<<< render the search result here >>>>>>>>>>>>>>>-->
           <!--          <<<<<<<<< start >>>>>>>>-->
           <div class="search-result-item  ">
-            <img
+            <img v-lazy="'https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=110&v=1669608345&width=100'"
                 srcset="//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=110&v=1669608345&width=100 100w, //cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=220&v=1669608345&width=200 200w, //cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=330&v=1669608345&width=300 300w"
-                src="//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=110&v=1669608345&width=100" height="110"  class="responsive-image rounded-8" alt="">
+                src="" height="110"  class="responsive-image rounded-8" alt="">
             <span class="mt-0.5 block font-600">$45.00</span>
             <router-link :to="{name:'HOME'}" class="font-600 btn-stretch btn-link">Gumnut Boardriders Hat</router-link>
           </div>

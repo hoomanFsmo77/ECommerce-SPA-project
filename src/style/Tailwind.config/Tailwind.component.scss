@@ -54,4 +54,7 @@
   .navbar-link-content{
     @apply mr-0.5 text-[0.9rem] font-600 text-dark capitalize ;
   }
+  .container-full{
+    @apply max-w-full m-0 p-0
+  }
 }

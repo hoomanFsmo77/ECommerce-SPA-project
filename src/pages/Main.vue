@@ -1,11 +1,13 @@
 <template>
   <Header/>
   <Navbar/>
-  <router-view v-slot="{Component}">
-    <keep-alive>
-      <component :is="Component"/>
-    </keep-alive>
-  </router-view>
+  <main>
+    <router-view v-slot="{Component}">
+      <keep-alive>
+        <component :is="Component"/>
+      </keep-alive>
+    </router-view>
+  </main>
   <Footer/>
 </template>
 
