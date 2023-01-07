@@ -10,8 +10,8 @@ import './Data/NavbarData.json'
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight} from '@fortawesome/free-solid-svg-icons'
-library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight)
+import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars} from '@fortawesome/free-solid-svg-icons'
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars)
 
 
 ////////// vue router

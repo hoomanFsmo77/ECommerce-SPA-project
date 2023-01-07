@@ -1,13 +1,40 @@
 <template>
 <!--  mobile header-->
-  <div class="flex lg:hidden">
-    mobile
-    <MobileNav/>
+  <div class="block lg:hidden ">
+    <div class="flex justify-between items-center !py-1 px-0.7">
+      <MobileNav/>
+      <div>
+        <router-link  :to="{name:'HOME'}">
+          <img src="https://cdn.shopify.com/s/files/1/0272/9548/1943/files/brentoslogo.png?v=1663235427" width="70" alt="">
+        </router-link>
+      </div>
+      <router-link :to="{name:'CART'}" class="pr-0.5" >
+        <Badge size="lg" class="cursor-pointer text-gray-800" icon="fa-solid fa-cart-shopping" :value="cartLength"/>
+      </router-link>
+    </div>
+    <div class="relative w-[95%] py-1 mx-auto">
+      <SearchBox class="w-full" v-model="searchText" @on="showResult($event)"/>
+      <DarkOverlay @outside="closeResult($event)" :is-fire="isOn"/>
+      <SearchResult :is-fire="isOn" :search-text="searchText"/>
+    </div>
+    <div class="flex w-full justify-start gap-1 items-center py-0.8 border-b-[1px] border-t-[1px] border-gray-200 px-0.7">
+      <font-awesome-icon icon="fa-solid fa-truck-fast" size="lg" class="text-dark"/>
+      <div>
+        <span class="text-0.6 block">Free Shipping in Australia</span>
+        <span class="font-600 text-0.9  text-dark">Orders Over $70</span>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup>
 import MobileNav from "../Navbar/MobileNav.vue";
+import {useDesktopHeader} from "../../composables/useHeader.js";
+import SearchBox from "../Form/SearchBox.vue";
+import DarkOverlay from "./DarkOverlay.vue";
+import SearchResult from "./SearchResult.vue";
+import Badge from "../Widget/Badge.vue";
+const {cartLength,isOn,showResult,searchText,totalPrice,closeResult}=useDesktopHeader()
 </script>
 
 <style scoped>

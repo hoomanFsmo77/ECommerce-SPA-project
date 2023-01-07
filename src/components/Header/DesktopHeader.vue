@@ -1,6 +1,6 @@
 <template>
 <!--  desktop header-->
-  <row  class="lg:flex items-center hidden !py-1">
+  <row  class="items-center !py-1">
     <column col="6">
       <div>
         <router-link  :to="{name:'HOME'}">

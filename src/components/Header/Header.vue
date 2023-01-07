@@ -1,9 +1,9 @@
 <template>
   <header>
-    <container>
+    <container class="lg:block hidden">
       <DesktopHeader/>
-      <MobileHeader/>
     </container>
+    <MobileHeader/>
   </header>
 </template>
 
