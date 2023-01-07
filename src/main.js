@@ -4,6 +4,9 @@ import './style/Tailwind.config/Tailwind.component.scss'
 import './style/Tailwind.config/Tailwind.utilities.scss'
 
 
+/////////// data
+import './Data/NavbarData.json'
+
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'

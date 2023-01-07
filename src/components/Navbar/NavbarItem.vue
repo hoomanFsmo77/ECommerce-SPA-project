@@ -1,5 +1,5 @@
 <template>
-  <li @mouseenter="isActive=true" @mouseleave="isActive=false" class="py-0.5 relative py-1 ">
+  <li @click="isActive=false" @mouseenter="isActive=true" @mouseleave="isActive=false" class="py-0.5 relative py-1 ">
     <router-link  class="navbar-link" :to="data.link">
       <span class="navbar-link-content btn-link btn-stretch ">{{data.name}}</span>
       <font-awesome-icon v-if="data.subMenu>0" icon="fa-solid fa-chevron-down" />
@@ -40,7 +40,8 @@ const closeSubMenu = () => {
 }
 let subActiveEvent={
   'mouseenter':openSubMenu,
-  'mouseleave':closeSubMenu
+  'mouseleave':closeSubMenu,
+  'click':closeSubMenu
 }
 </script>
 

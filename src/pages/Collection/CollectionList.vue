@@ -1,11 +1,12 @@
 <template>
-  collection list
+  collection list >> {{name}}
 
 </template>
 
 <script>
 export default {
   name: "CollectionList",
+  props:['name']
 }
 </script>
 

@@ -91,17 +91,17 @@ const routes=[
                 children: [
                     {
                         name:'REFUND_POLICY',
-                        path:'/refund-policy',
+                        path:'refund-policy',
                         component:REFUND_POLICY
                     },
                     {
                         name:'TERMS_OF_SERVICE',
-                        path:'/terms-of-service',
+                        path:'terms-of-service',
                         component:TERMS_OF_SERVICE
                     },
                     {
                         name:'PRIVACY_POLICY',
-                        path:'/privacy-policy',
+                        path:'privacy-policy',
                         component:PRIVACY_POLICY
                     },
 
@@ -114,28 +114,28 @@ const routes=[
                 children: [
                     {
                         name:'PAINTINGS',
-                        path:'/Paintings',
+                        path:'Paintings',
                         component:PAINTINGS
                     },
                     {
                         name:'COMICS',
-                        path:'/Comics',
+                        path:'Comics',
                         component:COMICS
                     },{
                         name:'MURALS_AND_PUBLIC_ART',
-                        path:'/Murals-and-Public-Art',
+                        path:'Murals-and-Public-Art',
                         component:MURALS_AND_PUBLIC_ART
                     },{
                         name:'CONTACT_BRENTOS',
-                        path:'/contact-brentos',
+                        path:'contact-brentos',
                         component:CONTACT_BRENTOS
                     },{
                         name:'BRAND_COLLABORATIONS',
-                        path:'/Brand-Collaborations',
+                        path:'Brand-Collaborations',
                         component:BRAND_COLLABORATIONS
                     },{
                         name:'OUR_STORY',
-                        path:'/our-story',
+                        path:'our-story',
                         component:OUR_STORY
                     },
 
