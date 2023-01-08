@@ -6,12 +6,13 @@ import './style/Tailwind.config/Tailwind.utilities.scss'
 
 /////////// data
 import './Data/NavbarData.json'
+import './Data/AllCollectionLists.json'
 
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX} from '@fortawesome/free-solid-svg-icons'
-library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX)
+import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft} from '@fortawesome/free-solid-svg-icons'
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft)
 
 
 ////////// vue router
@@ -36,6 +37,8 @@ import vCollapse from './composables/directives/vCollapse.js'
 import VueSkeletor from 'vue-skeletor';
 import { Skeletor } from 'vue-skeletor';
 
+///// carousel
+import 'vue3-carousel/dist/carousel.css'
 
 ///// lazy loading image
 import VueLazyLoad from 'vue3-lazyload'

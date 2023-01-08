@@ -184,7 +184,7 @@ module.exports = {
       main:['Montserrat','sans-serif']
     },
     container:{
-      center:true
+      center:true,
     },
 
     extend:{

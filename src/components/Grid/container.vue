@@ -1,5 +1,5 @@
 <template>
-  <div v-bind="$attrs"  class="container"><slot></slot></div>
+  <div v-bind="$attrs"  class="v-container"><slot></slot></div>
 </template>
 
 <script>

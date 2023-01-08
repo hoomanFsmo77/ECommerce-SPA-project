@@ -4,6 +4,7 @@
   *,::before,::after{
     box-sizing: border-box!important;
   }
+
   h1,.h1{
     @apply p-0.2 md:text-2.5 text-1.7 capitalize
   }
