@@ -9,7 +9,9 @@ export const useCollectionData=defineStore('collection',{
     },
     getters:{
         getAllList(state){
-            return state.collections
+            if(state.collections.length>0){
+                return state.collections
+            }
         },
         getRandomCollection:(state)=>(len)=>{
             if(state.collections.length>0){
