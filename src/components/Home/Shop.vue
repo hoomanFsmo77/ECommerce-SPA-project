@@ -41,4 +41,15 @@ const {breakpoints,prev,next,carousel,settings,randomCollection}=useCarousel()
 .carousel__pagination{
   margin: 0 !important;
 }
+.carousel__pagination-button::after{
+  width: 9px!important;
+  height: 9px!important;
+  border-radius: 50%!important;
+  transition: all 300ms linear;
+}
+ .carousel__pagination-button--active::after{
+  width: 30px!important;
+   border-radius: 7px!important;
+
+ }
 </style>

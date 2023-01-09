@@ -3,10 +3,10 @@
       <ul class="flex gap-1 items-center">
         <template v-for="(item,index) in pages">
           <li >
-            <router-link class="font-600 text-0.9" v-if="item.link" :to="item.link">
+            <router-link class="font-600 text-0.9 capitalize" v-if="item.link" :to="item.link">
               {{item.name}}
             </router-link>
-            <span class="font-600 text-0.9" v-else>
+            <span class="font-600 text-0.9 capitalize" v-else>
             {{item.name}}
           </span>
           </li>

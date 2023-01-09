@@ -7,6 +7,7 @@ import './style/Tailwind.config/Tailwind.utilities.scss'
 /////////// data
 import './Data/NavbarData.json'
 import './Data/AllCollectionLists.json'
+import './Data/ProductsData.json'
 
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'

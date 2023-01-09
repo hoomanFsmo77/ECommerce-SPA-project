@@ -1,10 +1,13 @@
 import {useCollectionData} from "../store/collection.js";
+import {useProductStore} from "../store/Products.js";
 import {onMounted} from "vue";
 
 export default ()=>{
-    const store=useCollectionData()
+    const collectionStore=useCollectionData()
+    const productStore=useProductStore()
     onMounted(()=>{
-        store.setCollectionData()
+        collectionStore.setCollectionData()
+        productStore.setProductLists()
     })
 
 }
