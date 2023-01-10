@@ -940,6 +940,68 @@ h6, .h6 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.pagination-btn {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219/var(--tw-border-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 24 31/var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagination-btn:hover {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(28 24 31/var(--tw-border-opacity)) !important;
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 24 31/var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
+
+.pagination-btn.disabled {
+  cursor: default;
+  border-style: none !important;
+}
+
+.pagination-btn.disabled:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(28 24 31/var(--tw-text-opacity));
+}
+
+.pagination-counter {
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+  border-width: 1px;
+  font-weight: 500;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.pagination-counter:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(28 24 31/var(--tw-border-opacity));
+}
+
+.pagination-counter.selected {
+  cursor: default;
+  --tw-border-opacity: 1;
+  border-color: rgb(28 24 31/var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 24 31/var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
+}
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style/Tailwind.config/Tailwind.utilities.scss ***!
   \**************************************************************************************************************************************************************************************/
@@ -1057,6 +1119,11 @@ h6, .h6 {
   margin-bottom: 0 !important;
 }
 
+.mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .mt-0\.5 {
   margin-top: 0.5rem;
 }
@@ -1091,6 +1158,10 @@ h6, .h6 {
 
 .\!mt-3 {
   margin-top: 3rem !important;
+}
+
+.mr-1 {
+  margin-right: 1rem;
 }
 
 .block {

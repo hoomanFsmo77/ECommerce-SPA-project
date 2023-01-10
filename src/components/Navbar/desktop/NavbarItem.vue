@@ -11,7 +11,7 @@
               <span class="navbar-link-content  btn-link btn-stretch ">{{sub1.name}}</span>
               <font-awesome-icon v-if="sub1.subMenu>0" class="!text-0.8" icon="fa-solid fa-chevron-right" />
             </router-link>
-            <SubMenu v-if="sub1.subMenu>0" class="left-[100%] border-t-[1px]" :is-active="subActive" start-top="0" end-top="10px">
+            <SubMenu v-if="sub1.subMenu>0" class="left-[100%] border-t-[1px]" :is-active="subActive" start-top="-15px" end-top="-8px">
               <ul class="[&_*]:font-500 [&_*]:text-0.9 [&_*]:text-dark">
                 <li class="my-0.5  px-1" v-for="sub2 in sub1.children">
                   <router-link  class="navbar-link !justify-start" :to="sub2.link">

@@ -7,13 +7,13 @@ import './style/Tailwind.config/Tailwind.utilities.scss'
 /////////// data
 import './Data/NavbarData.json'
 import './Data/AllCollectionLists.json'
-import './Data/ProductsData.json'
+import './Data/ProductListData.json'
 
 ///////// font awesome
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft} from '@fortawesome/free-solid-svg-icons'
-library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft)
+import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft} from '@fortawesome/free-solid-svg-icons'
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft)
 
 
 ////////// vue router
