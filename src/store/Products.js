@@ -24,7 +24,8 @@ export const useProductStore=defineStore('products',{
                         item?.isPopular ? popular.push(item) : null
                     })
                 })
-                return popular
+
+                return [...new Set(popular)]
             }
         }
     },

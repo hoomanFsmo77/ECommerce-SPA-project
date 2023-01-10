@@ -4,6 +4,7 @@ import {computed,ref} from "vue";
 export default ()=>{
     const store=useCollectionData()
     const randomCollection=computed(()=>store.getRandomCollection(8))
+    const fetchFlag=computed(()=>store.getFetchFlag)
     const settings=ref({
         itemsToShow: 1,
         snapAlign: 'center'
@@ -28,6 +29,6 @@ export default ()=>{
         },
     }
     return {
-        randomCollection,settings,carousel,next,prev,breakpoints
+        randomCollection,settings,carousel,next,prev,breakpoints,fetchFlag
     }
 }

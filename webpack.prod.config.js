@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader')
+const JsonMinimizerPlugin = require("json-minimizer-webpack-plugin");
 module.exports={
     entry: "./src/main.js",
     output: {
@@ -55,7 +56,7 @@ module.exports={
     },
     optimization: {
         minimize: true,
-        minimizer: [new TerserPlugin()],
+        minimizer: [new TerserPlugin(),new JsonMinimizerPlugin(),],
     },
     plugins: [
         new VueLoaderPlugin(),

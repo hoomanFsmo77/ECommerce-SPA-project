@@ -29,6 +29,10 @@
               "name":"up late",
               "link":{"name":"COLLECTION_LIST","params": {"name": "up-late"}}
             },{
+              "id":114,
+              "name":"Minimals",
+              "link":{"name":"COLLECTION_LIST","params": {"name": "minimals"}}
+            },{
               "id":115,
               "name":"wildlife portraits",
               "link":{"name":"COLLECTION_LIST","params": {"name": "wildlife-portraits"}}

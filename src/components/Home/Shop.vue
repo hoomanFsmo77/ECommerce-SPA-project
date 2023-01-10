@@ -4,7 +4,7 @@
       <row>
         <column col="12" >
           <h4 class="text-left font-600 mb-1 md:pl-1 pl-0">Shop Brentos</h4>
-          <Carousel ref="carousel" :breakpoints="breakpoints" :settings="settings" :wrap-around="true">
+          <Carousel v-if="fetchFlag" ref="carousel" :breakpoints="breakpoints" :settings="settings" :wrap-around="true">
             <Slide v-for="(item,index) in randomCollection" :key="index">
               <CollectionCart
                   :srcset="item.srcset"
@@ -34,7 +34,7 @@
 import CollectionCart from "../Widget/CollectionCart.vue";
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 import useCarousel from "../../composables/useCarousel.js";
-const {breakpoints,prev,next,carousel,settings,randomCollection}=useCarousel()
+const {breakpoints,prev,next,carousel,settings,randomCollection,fetchFlag}=useCarousel()
 </script>
 
 <style lang="scss">
