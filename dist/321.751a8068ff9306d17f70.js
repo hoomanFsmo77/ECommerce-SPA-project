@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[321],{321:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});var r=n(577);const a={name:"Product",props:["name"]};const u=(0,n(744).Z)(a,[["render",function(e,t,n,a,u,c){return" product >>> "+(0,r.zw)(n.name)}]])}}]);

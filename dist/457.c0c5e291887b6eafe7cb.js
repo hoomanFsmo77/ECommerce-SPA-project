@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[457],{457:(e,t,n)=>{n.r(t),n.d(t,{default:()=>a});const u={name:"Murals and Public Art"};const a=(0,n(744).Z)(u,[["render",function(e,t,n,u,a,r){return" Murals and Public Art "}]])}}]);

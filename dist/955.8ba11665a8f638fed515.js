@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[955],{955:(e,n,t)=>{t.r(n),t.d(n,{default:()=>s});const c={name:"index"};const s=(0,t(744).Z)(c,[["render",function(e,n,t,c,s,u){return" policy index "}]])}}]);
