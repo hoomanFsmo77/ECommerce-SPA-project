@@ -1069,6 +1069,10 @@ h6, .h6 {
   order: 2;
 }
 
+.\!m-0 {
+  margin: 0 !important;
+}
+
 .my-0\.5 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1159,8 +1163,16 @@ h6, .h6 {
   margin-top: 3rem !important;
 }
 
+.mt-2 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -1185,6 +1197,22 @@ h6, .h6 {
 
 .h-0 {
   height: 0;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.h-\[90vh\] {
+  height: 90vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-\[80vh\] {
+  min-height: 80vh;
 }
 
 .w-full {
@@ -1346,12 +1374,34 @@ h6, .h6 {
   background-color: rgb(229 231 235/var(--tw-bg-opacity));
 }
 
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 24 31/var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .p-1\.5 {
   padding: 1.5rem;
 }
 
 .p-1 {
   padding: 1rem;
+}
+
+.\!p-0 {
+  padding: 0 !important;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
 }
 
 .py-0\.5 {
@@ -1409,6 +1459,11 @@ h6, .h6 {
   padding-bottom: 0.9rem;
 }
 
+.\!px-2 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
 .\!pl-3 {
   padding-left: 3rem !important;
 }
@@ -1435,6 +1490,10 @@ h6, .h6 {
 
 .pr-0 {
   padding-right: 0;
+}
+
+.\!pl-0 {
+  padding-left: 0 !important;
 }
 
 .text-left {
@@ -1481,6 +1540,14 @@ h6, .h6 {
   font-size: 0.6rem;
 }
 
+.text-3 {
+  font-size: 3rem;
+}
+
+.text-1 {
+  font-size: 1rem;
+}
+
 .font-600 {
   font-weight: 600;
 }
@@ -1497,6 +1564,10 @@ h6, .h6 {
   font-weight: 700 !important;
 }
 
+.font-700 {
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1507,6 +1578,14 @@ h6, .h6 {
 
 .leading-2 {
   line-height: 2;
+}
+
+.leading-1\.6 {
+  line-height: 1.6;
+}
+
+.leading-1 {
+  line-height: 1;
 }
 
 .text-dark\/90 {
@@ -1646,14 +1725,32 @@ h6, .h6 {
 }
 
 @media (min-width: 500px) {
+  .sm\:order-2 {
+    order: 2;
+  }
+  .sm\:order-3 {
+    order: 3;
+  }
   .sm\:h-\[calc\(100vh-7rem\)\] {
     height: calc(100vh - 7rem);
+  }
+  .sm\:h-\[90vh\] {
+    height: 90vh;
   }
   .sm\:w-\[60vw\] {
     width: 60vw;
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:overflow-hidden {
+    overflow: hidden;
+  }
+  .sm\:text-3 {
+    font-size: 3rem;
+  }
+  .sm\:text-1 {
+    font-size: 1rem;
   }
   .sm\:col-1 {
     width: 8.3333333333%;
@@ -1849,6 +1946,11 @@ h6, .h6 {
 .\[\&_\*\]\:text-dark * {
   --tw-text-opacity: 1;
   color: rgb(28 24 31/var(--tw-text-opacity));
+}
+
+.\[\&_\*\]\:text-light * {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255/var(--tw-text-opacity));
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./src/components/Grid/row.vue?vue&type=style&index=0&id=0ff87f41&lang=scss&scoped=true ***!
