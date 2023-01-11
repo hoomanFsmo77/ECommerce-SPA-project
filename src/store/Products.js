@@ -5,6 +5,7 @@ export const useProductStore=defineStore('products',{
         return{
             productListData:[],
             productListFetchFlag:false,
+            productListErrorFlag:false,
 
 
 
@@ -14,6 +15,9 @@ export const useProductStore=defineStore('products',{
     },
     getters:{
         getProductListFetchFlag(state){
+          return state.productListFetchFlag
+        } ,
+        getProductListErrorFlag(state){
           return state.productListFetchFlag
         } ,
         getProductList(state){
@@ -35,9 +39,12 @@ export const useProductStore=defineStore('products',{
         fetchProductList(name){
             this.productListData=[]
             this.productListFetchFlag=false
+            this.productListErrorFlag=false
             axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productListData/${name}.json`).then(response=>{
                 this.productListData=response.data
                 this.productListFetchFlag=true
+            }).catch(err=>{
+                this.productListErrorFlag=true
             })
         },
         fetchPopularProduct(){

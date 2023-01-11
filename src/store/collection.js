@@ -5,7 +5,7 @@ export const useCollectionData=defineStore('collection',{
     state:()=>{
         return{
             collections:[],
-            fetchFlag:false
+            fetchFlag:false,
         }
     },
     getters:{

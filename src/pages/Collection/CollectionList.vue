@@ -6,7 +6,7 @@
         <h1 class="font-600 text-left mb-1">{{name.split('-').join(' ')}}</h1>
       </column>
     </row>
-    <template v-if="fetchFlag">
+    <template v-if="fetchFlag && productListData">
       <template  v-if="24 < productListData.length">
         <row>
           <column col="12">
@@ -32,8 +32,9 @@
 
       </template>
     </template>
-
-
+    <template v-if="errorFlag">
+      <span class="font-500 my-1">There are currently no products in this collection. </span>
+    </template>
   </container>
 </template>
 
@@ -50,6 +51,7 @@ const store=useProductStore()
 const route=useRoute()
 const productListData=computed(()=>store.getProductList)
 const fetchFlag=computed(()=>store.getProductListFetchFlag)
+const errorFlag=computed(()=>store.getProductListErrorFlag)
 const {updatePage,list}=usePaginating()
 watch(
     ()=>route.path,

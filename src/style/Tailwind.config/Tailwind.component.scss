@@ -74,7 +74,7 @@
     @apply rounded-8 border-[1px] border-gray-300 overflow-hidden relative w-full
   }
   .collection-card-image{
-
+    @apply relative;
     img{
       @apply w-full rounded-t-8;
     }
