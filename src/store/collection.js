@@ -33,8 +33,10 @@ export const useCollectionData=defineStore('collection',{
     },
     actions:{
         setCollectionData(){
-            axios.get('./data/AllCollectionLists.json').then(response=>{
-                this.collections=response.data[Object.keys(response.data)[0]]
+            this.collections=[]
+            this.fetchFlag=false
+            axios.get('https://ecommerce-199b2-default-rtdb.firebaseio.com/collection/AllCollectionLists.json').then(response=>{
+                this.collections=response.data
                 this.fetchFlag=true
             })
         }

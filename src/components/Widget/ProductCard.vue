@@ -1,8 +1,13 @@
 <template>
   <div :id="`product-${id}`" class="product-card">
-    <div class="product-card-image">
+    <div class="product-card-image " :class="{'h-[400px]':isLoading}" >
+<!--      <<<<<<<<<<<<< skeleton loader  start>>>>>>>>>>>>>>-->
+      <Skeletor v-if="isLoading" class="!absolute top-0 left-0" width="100%" :shimmer="true" height="400"/>
+<!--      <<<<<<<<<<<<< skeleton loader end>>>>>>>>>>>>>>-->
+
       <div class="product-card-image-cover ">
         <img
+            @load="imageLoad"
             sizes="(max-width: 359px) calc(100vw - 30px), (max-width: 767px) calc((100vw - 50px) / 2),(max-width: 1023px) calc((100vw - 100px) / 3), (max-width: 1280px) calc((100vw - 120px) / 4), 300px"
             v-lazy="coverSrc"
             :srcset="coverSrcset"
@@ -11,7 +16,8 @@
         >
       </div>
       <router-link
-          class="stretch-link peer"
+          :class="{'peer':!isLoading}"
+          class="stretch-link"
           :to="link"
       ></router-link>
       <div v-if="overlaySrc" class="product-card-image-overlay peer-hover:opacity-100 peer-hover:visible">
@@ -22,7 +28,7 @@
             src=""
             :alt="title">
       </div>
-<!--      <<<<<<<<<<<< sold out and discount badge start>>>>>>>>>>>>>-->
+      <!--      <<<<<<<<<<<< sold out and discount badge start>>>>>>>>>>>>>-->
       <template v-if="isSoldOut && !discount">
            <span class="product-card-badge" >
              Sold out
@@ -41,7 +47,8 @@
               -{{discountPercent}}%
         </span>
       </template>
-<!--      <<<<<<<<<<<< sold out and discount badge start>>>>>>>>>>>>>-->
+      <!--      <<<<<<<<<<<< sold out and discount badge start>>>>>>>>>>>>>-->
+
     </div>
     <div class="product-card-text">
 <!--      <<<<<<<<<<<< price start >>>>>>>>>>>>>>>>-->
@@ -94,9 +101,16 @@
 import useProductCard from "../../composables/useProductCard.js";
 import Modal from '../Widget/Modal.vue'
 let props=defineProps(['link','coverSrc','overlaySrc','coverSrcset','overlaySrcset','isSoldOut','isPeriod','price','title','discount','id'])
-const {isActive,closeModal,toggleModal,discountPercent}=useProductCard(props)
+const {isActive,closeModal,toggleModal,discountPercent,isLoading,imageLoad}=useProductCard(props)
+
+
+
+
+
 </script>
 
 <style scoped>
-
+.vue-skeletor.vue-skeletor--rect.\!absolute.top-0.left-0{
+  background-color: #ccc!important;
+}
 </style>

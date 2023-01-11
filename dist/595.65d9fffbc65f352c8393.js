@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[595],{595:(e,n,t)=>{t.r(n),t.d(n,{default:()=>r});const a={name:"Brand Collaborations"};const r=(0,t(744).Z)(a,[["render",function(e,n,t,a,r,l){return" Brand Collaborations "}]])}}]);

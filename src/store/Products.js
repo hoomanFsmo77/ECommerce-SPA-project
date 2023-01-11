@@ -3,37 +3,48 @@ import axios from "axios";
 export const useProductStore=defineStore('products',{
     state:()=>{
         return{
-            products:null,
-            fetchFlag:false
+            productListData:[],
+            productListFetchFlag:false,
+
+
+
+            popularProduct:[],
+            popularFetchFlag:false
         }
     },
     getters:{
-        getFetchFlag(state){
-          return state.fetchFlag
-        },
-        getCollectionData:(state)=>(name)=>{
-            if(state.fetchFlag){
-                return state.products[name]
+        getProductListFetchFlag(state){
+          return state.productListFetchFlag
+        } ,
+        getProductList(state){
+            if(state.productListFetchFlag){
+                return state.productListData
             }
         },
-        getPopularProducts(state){
-            let popular=[]
-            if(state.fetchFlag){
-                Object.entries(state.products).forEach(product=>{
-                    product[1].forEach(item=>{
-                        item?.isPopular ? popular.push(item) : null
-                    })
-                })
 
-                return [...new Set(popular)]
+        getPopularProductFetchFlag(state){
+            return state.popularFetchFlag
+        },
+        getPopularProduct(state){
+            if(state.popularFetchFlag){
+                return state.popularProduct
             }
         }
     },
     actions:{
-        setProductLists(){
-            axios.get('./data/ProductListData.json').then(response=>{
-                this.products=response.data[Object.keys(response.data)[0]]
-                this.fetchFlag=true
+        fetchProductList(name){
+            this.productListData=[]
+            this.productListFetchFlag=false
+            axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productListData/${name}.json`).then(response=>{
+                this.productListData=response.data
+                this.productListFetchFlag=true
+            })
+        },
+        fetchPopularProduct(){
+            this.popularFetchFlag=false
+            axios.get('https://ecommerce-199b2-default-rtdb.firebaseio.com/product/popularProducts.json').then(response=>{
+                this.popularProduct=response.data
+                this.popularFetchFlag=true
             })
         }
 

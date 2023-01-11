@@ -62,7 +62,7 @@
         {
           "id":15,
           "name":"Calendars",
-          "link":{"name":"PRODUCT","params": {"name": "Calendars"}},
+          "link":{"name":"COLLECTION_LIST","params": {"name": "Calendars"}},
           "subMenu":0
         }
       ]

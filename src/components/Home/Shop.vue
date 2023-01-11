@@ -52,4 +52,7 @@ const {breakpoints,prev,next,carousel,settings,randomCollection,fetchFlag}=useCa
    border-radius: 7px!important;
 
  }
+.carousel__viewport{
+  padding-bottom: 10px!important;
+}
 </style>
