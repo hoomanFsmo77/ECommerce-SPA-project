@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[797],{797:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});const u={name:"refund policy"};const l=(0,t(744).Z)(u,[["render",function(e,n,t,u,l,c){return null}]])}}]);

@@ -11,15 +11,8 @@
 </template>
 
 <script setup>
-import {computed} from "vue";
 import CollectionCard from '../../components/Widget/CollectionCart.vue'
-import {useCollectionData} from "../../store/collection.js";
 import BreadCrumb from "../../components/Widget/BreadCrumb.vue";
-const store=useCollectionData()
-const allCollectionList=computed(()=>store.getAllList)
-const fetchFlag=computed(()=>store.getFetchFlag)
+import {useAllCollection} from "../../composables/useCollection.js";
+const {fetchFlag,allCollectionList}=useAllCollection()
 </script>
-
-<style scoped>
-
-</style>

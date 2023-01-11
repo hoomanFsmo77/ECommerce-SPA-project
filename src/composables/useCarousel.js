@@ -1,8 +1,8 @@
-import {useCollectionData} from "../store/collection.js";
+import {useCollectionStore} from "../store/collection.js";
 import {computed,ref} from "vue";
 
 export default ()=>{
-    const store=useCollectionData()
+    const store=useCollectionStore()
     const randomCollection=computed(()=>store.getRandomCollection(8))
     const fetchFlag=computed(()=>store.getFetchFlag)
     const settings=ref({

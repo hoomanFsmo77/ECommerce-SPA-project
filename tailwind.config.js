@@ -211,6 +211,7 @@ module.exports = {
           'p,span,a':{
             fontSize:'0.9rem',
             fontWeight:'500',
+            lineHeight:'1.6',
             color:'#333'
           }
         })

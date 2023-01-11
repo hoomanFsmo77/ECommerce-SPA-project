@@ -1,7 +1,7 @@
 import {defineStore} from "pinia";
 import axios from "axios";
 
-export const useCollectionData=defineStore('collection',{
+export const useCollectionStore=defineStore('collection',{
     state:()=>{
         return{
             collections:[],

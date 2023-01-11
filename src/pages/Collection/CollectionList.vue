@@ -39,32 +39,13 @@
 </template>
 
 <script setup>
-import {computed,watch} from "vue";
 import ProductCard from '../../components/Widget/ProductCard.vue'
-import {useRoute} from "vue-router";
 import BreadCrumb from '../../components/Widget/BreadCrumb.vue'
-import {useProductStore} from "../../store/Products.js";
 import {usePaginating} from "../../composables/usePagination.js";
 import Pagination from "../../components/Widget/Pagination.vue";
+import {useCollectList} from "../../composables/useCollection.js";
+/////////////////////////////////////////////////////////////////////////
 let props=defineProps(['name'])
-const store=useProductStore()
-const route=useRoute()
-const productListData=computed(()=>store.getProductList)
-const fetchFlag=computed(()=>store.getProductListFetchFlag)
-const errorFlag=computed(()=>store.getProductListErrorFlag)
 const {updatePage,list}=usePaginating()
-watch(
-    ()=>route.path,
-    ()=>{
-      store.fetchProductList(route.params.name)
-    },
-    {
-      immediate:true
-    }
-)
-
+const {errorFlag,fetchFlag,productListData}=useCollectList()
 </script>
-
-<style scoped>
-
-</style>

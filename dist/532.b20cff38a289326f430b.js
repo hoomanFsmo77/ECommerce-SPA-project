@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[532],{532:(e,t,n)=>{n.r(t),n.d(t,{default:()=>u});const s={name:"404"};const u=(0,n(744).Z)(s,[["render",function(e,t,n,s,u,a){return" 404 "}]])}}]);
