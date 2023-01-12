@@ -1,0 +1,19 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[9].use[0]!./src/components/Home/Shop.vue?vue&type=style&index=0&id=04a77974&lang=scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.carousel__pagination {
+  margin: 0 !important;
+}
+.carousel__pagination-button::after {
+  width: 9px !important;
+  height: 9px !important;
+  border-radius: 50% !important;
+  transition: all 300ms linear;
+}
+.carousel__pagination-button--active::after {
+  width: 30px !important;
+  border-radius: 7px !important;
+}
+.carousel__viewport {
+  padding-bottom: 10px !important;
+}

@@ -1,0 +1,18 @@
+@tailwind components;
+@layer components {
+  .responsive-image{
+    @apply w-full object-cover;
+  }
+
+  .divider{
+    @apply w-full h-[1px] bg-gray-300 my-1
+  }
+
+  .ul-col{
+    @apply flex flex-col gap-0.5
+  }
+
+  .span-row{
+    @apply block w-full;
+  }
+}

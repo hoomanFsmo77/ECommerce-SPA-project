@@ -40,7 +40,7 @@
 </template>
 
 <script setup>
-import ProductCard from '../../components/Widget/ProductCard.vue'
+import ProductCard from '../../components/product/ProductCard.vue'
 import BreadCrumb from '../../components/Widget/BreadCrumb.vue'
 import {usePaginating} from "../../composables/usePagination.js";
 import Pagination from "../../components/Widget/Pagination.vue";

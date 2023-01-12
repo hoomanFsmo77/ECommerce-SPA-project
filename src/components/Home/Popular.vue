@@ -23,7 +23,7 @@
 
 <script setup>
 import {computed,onMounted} from "vue";
-import ProductCard from "../Widget/ProductCard.vue";
+import ProductCard from "../product/ProductCard.vue";
 import {useProductStore} from "../../store/Products.js";
 const store=useProductStore()
 const popularProducts=computed(()=>store.getPopularProduct)
