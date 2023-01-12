@@ -1416,6 +1416,10 @@ h6, .h6 {
   border-radius: 6px;
 }
 
+.border-\[1px\] {
+  border-width: 1px;
+}
+
 .border-t-\[1px\] {
   border-top-width: 1px;
 }
@@ -1435,6 +1439,11 @@ h6, .h6 {
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235/var(--tw-border-opacity));
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219/var(--tw-border-opacity));
 }
 
 .bg-dark\/50 {
@@ -1475,6 +1484,10 @@ h6, .h6 {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.bg-gray-100\/70 {
+  background-color: rgba(243, 244, 246, 0.7);
+}
+
 .object-cover {
   -o-object-fit: cover;
   object-fit: cover;
@@ -1494,6 +1507,10 @@ h6, .h6 {
 
 .p-3 {
   padding: 3rem;
+}
+
+.p-2 {
+  padding: 2rem;
 }
 
 .py-0\.5 {
@@ -1574,6 +1591,11 @@ h6, .h6 {
 .py-4 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.py-2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .\!pl-3 {

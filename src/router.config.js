@@ -1,4 +1,5 @@
 import {createRouter,createWebHashHistory} from "vue-router";
+import {getCookie} from "./composables/Cookie.js";
 
 const MAIN_PAGE=()=>import('./pages/Main.vue')
 
@@ -44,6 +45,9 @@ const SHIPPING=()=>import('./pages/checkout/shipping.vue')
 
 //// search page
 const SEARCH=()=>import('./pages/Search.vue')
+
+//// challenge page
+const CHALLENGE_PAGE=()=>import('./pages/Challenge.vue')
 
 const routes=[
     {
@@ -167,6 +171,11 @@ const routes=[
               path:'/search',
               component:SEARCH
           },
+          {
+              name:'CHALLENGE_PAGE',
+              component:CHALLENGE_PAGE,
+              path: '/challenge'
+          }
       ]
     },
     {
@@ -208,5 +217,20 @@ const router=createRouter({
 
     }
 })
+
+router.beforeEach((to,from,next)=>{
+    if(to.name==="CHALLENGE_PAGE"){
+        if(getCookie('_news_letter_')){
+            next()
+        }else{
+            next({
+                name:'NOT_FOUND'
+            })
+        }
+    }else {
+        next()
+    }
+})
+
 
 export default router
