@@ -1,0 +1,7 @@
+.fade-enter-active[data-v-10b946d9],.fade-leave-active[data-v-10b946d9]{transition:all 300ms linear}.fade-enter-from[data-v-10b946d9],.fade-leave-to[data-v-10b946d9]{opacity:0;visibility:hidden}.fade-enter-to[data-v-10b946d9],.fade-leave-from[data-v-10b946d9]{opacity:1;visibility:visible}
+
+.vue-skeletor.vue-skeletor--rect.\!absolute.top-0.left-0[data-v-3c3c7db1]{
+  background-color: #ccc!important;
+}
+
+.carousel__pagination{margin:0 !important}.carousel__pagination-button::after{width:9px !important;height:9px !important;border-radius:50% !important;transition:all 300ms linear}.carousel__pagination-button--active::after{width:30px !important;border-radius:7px !important}.carousel__viewport{padding-bottom:10px !important}
