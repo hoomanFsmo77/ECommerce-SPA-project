@@ -28,7 +28,7 @@
           <template v-else>
 
             <Carousel  ref="carousel" :breakpoints="breakpoints" :settings="settings" :wrap-around="true">
-              <Slide v-for="i in 8" :key="i">
+              <Slide v-for="i in 3" :key="i">
                 <Skeletor class="rounded-4 mr-1" width="100%" :shimmer="true" height="400"/>
               </Slide>
               <template #addons>

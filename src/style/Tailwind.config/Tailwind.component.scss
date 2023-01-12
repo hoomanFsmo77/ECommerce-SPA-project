@@ -18,8 +18,14 @@
   .btn-dark-outline{
     @apply bg-light border-[1px] border-dark  font-700 !text-1.1 text-dark  hover:bg-dark hover:text-light transition-all;
   }
+  .btn-dark-outline-light{
+    @apply !rounded-l-[0px] transition-all px-2 border-[1px] border-light hover:border-dark text-light capitalize;
+  }
   .input-light{
       @apply border-[1px] border-gray-200 focus:outline-none p-0.8 rounded-full hover:border-dark transition-all hover:placeholder:text-dark focus:border-dark placeholder:text-gray-500 placeholder:font-500 focus:placeholder:text-dark focus:ring-4 focus:ring-dark/10 font-500 text-1
+  }
+  .input-dark{
+    @apply border-[1px] border-r-0 border-light focus:outline-none p-0.8 rounded-l-full placeholder:text-gray-400 placeholder:font-500  font-500 text-1 bg-transparent caret-gray-400 text-gray-400;
   }
   .responsive-image{
     @apply w-full object-cover;

@@ -1,5 +1,6 @@
 <template>
-  <container>
+  <container class="relative">
+    <PreLoader :show="!fetchFlag && !errorFlag"/>
     <row>
       <column col="12">
         <BreadCrumb :pages="[{name:'Home',link:{name:'HOME'}},{name:'Collections',link:{name:'ALL_COLLECTION'}},{name:name.split('-').join(' ')}]"/>
@@ -44,6 +45,7 @@ import BreadCrumb from '../../components/Widget/BreadCrumb.vue'
 import {usePaginating} from "../../composables/usePagination.js";
 import Pagination from "../../components/Widget/Pagination.vue";
 import {useCollectList} from "../../composables/useCollection.js";
+import PreLoader from '../../components/loader/preLoader.vue'
 /////////////////////////////////////////////////////////////////////////
 let props=defineProps(['name'])
 const {updatePage,list}=usePaginating()

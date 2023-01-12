@@ -1,0 +1,19 @@
+<template>
+  <div v-if="show" class="w-full h-[250px] bg-light/20 absolute top-0 left-0 flex justify-center items-end">
+    <hollow-dots-spinner class="z-50 relative"
+        :animation-duration="1000"
+        :dot-size="50"
+        :dots-num="3"
+        color="#333"
+    />
+  </div>
+</template>
+
+<script setup>
+import { HollowDotsSpinner } from 'epic-spinners'
+let props=defineProps(['show'])
+</script>
+
+<style scoped>
+
+</style>
