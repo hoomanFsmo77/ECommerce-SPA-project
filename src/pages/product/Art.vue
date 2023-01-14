@@ -1,6 +1,7 @@
 <template>
-  <section :id="`product-show-id-${productId}`">
-    <container>
+<!--  {{productId}}-->
+  <section class="relative" :id="`product-show-id-${productId}`">
+    <container >
       <row>
         <column col="12">
           <BreadCrumb :pages="
@@ -11,8 +12,9 @@
           />
         </column>
       </row>
-      <row>
-        <column  class="sm:!pr-1"  col="12" sm="6">
+      <PreLoader class="!static !items-center !h-[500px]" :show="!productDetailFlag"/>
+      <row v-if="productDetailFlag">
+        <column class="sm:!pr-1"  col="12" sm="6">
           <div class="sticky top-1.5">
             <Carousel  ref="carousel" :settings="settings" :wrap-around="true">
               <Slide v-for="(item,index) in productData.gallery" :key="index">
@@ -29,7 +31,7 @@
             </Carousel>
           </div>
         </column>
-        <column col="12" sm="6" >
+        <column  col="12" sm="6" >
           <div class="sm:pl-1">
             <div>
               <h1 class="font-600 ">{{productData.title}}</h1>
@@ -52,7 +54,7 @@
               <button
                       :class="{'disabled':!item.available,'selected':sizeIndex===index}"
                       @click="changeSize(item,index)" v-for="(item,index) in productData.option.sizes"
-                      class="btn btn-dark-outline mr-1 "
+                      class="btn btn-dark-outline mr-1 mb-1"
               >
                 {{item.size}}
               </button>
@@ -307,6 +309,7 @@ import GalleryItem from '../../components/product/GalleryItem.vue'
 import useProduct from "../../composables/useProduct.js";
 import ProductCard from '../../components/product/ProductCard.vue'
 import FaqItem from '../../components/Widget/FaqItem.vue'
+import PreLoader from '../../components/loader/preLoader.vue'
 //////////////////////////////////////
 let props=defineProps(['name'])
 let faqData=[
@@ -330,7 +333,7 @@ let faqData=[
   },
 ]
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame}=useProduct(carousel)
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag}=useProduct(carousel)
 </script>
 
 <style lang="scss">

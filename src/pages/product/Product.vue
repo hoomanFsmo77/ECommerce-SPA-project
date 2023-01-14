@@ -1,5 +1,6 @@
 <template>
-  <section :id="`product-show-id-${productId}`">
+<!--  {{productId}}-->
+  <section  :id="`product-show-id-${productId}`">
       <container>
         <row>
           <column col="12">
@@ -11,7 +12,8 @@
             />
           </column>
         </row>
-        <row>
+        <PreLoader class="!static !items-center !h-[500px]" :show="!productDetailFlag"/>
+        <row v-if="productDetailFlag">
           <column  class="sm:!pr-1"  col="12" sm="6">
             <div class="sticky top-1.5">
               <Carousel  ref="carousel" :settings="settings" :wrap-around="true">
@@ -142,10 +144,11 @@ import useCarousel from "../../composables/useCarousel.js";
 import GalleryItem from '../../components/product/GalleryItem.vue'
 import useProduct from "../../composables/useProduct.js";
 import ProductCard from '../../components/product/ProductCard.vue'
+import PreLoader from '../../components/loader/preLoader.vue'
 //////////////////////////////////////
 let props=defineProps(['name'])
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame}=useProduct(carousel)
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag}=useProduct(carousel)
 </script>
 
 <style lang="scss">

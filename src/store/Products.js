@@ -8,7 +8,10 @@ export const useProductStore=defineStore('products',{
             productListErrorFlag:false,
 
             popularProduct:[],
-            popularFetchFlag:false
+            popularFetchFlag:false,
+
+            productDetail:{},
+            productDetailFetchFlag:false
         }
     },
     getters:{
@@ -31,6 +34,14 @@ export const useProductStore=defineStore('products',{
             if(state.popularFetchFlag){
                 return state.popularProduct
             }
+        },
+        getProductData(state){
+            if(state.productDetailFetchFlag){
+                return state.productDetail
+            }
+        },
+        getProductDetailDataFlag(state){
+            return state.productDetailFetchFlag
         }
     },
     actions:{
@@ -54,6 +65,15 @@ export const useProductStore=defineStore('products',{
             axios.get('https://ecommerce-199b2-default-rtdb.firebaseio.com/product/popularProducts.json').then(response=>{
                 this.popularProduct=response.data
                 this.popularFetchFlag=true
+            })
+        },
+        fetchProductDetail(id){
+            this.productDetailFetchFlag=false
+            axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productDetailData/${id}.json`).then(response=>{
+                this.productDetail=response.data
+                this.productDetailFetchFlag=true
+            }).catch(err=>{
+                this.productDetailFetchFlag=true
             })
         }
 
