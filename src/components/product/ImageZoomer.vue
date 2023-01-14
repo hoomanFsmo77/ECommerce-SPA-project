@@ -5,7 +5,7 @@
         <img @load="imageLoad($event)" :src="src" class="relative" alt="">
 
         <div class="w-3 h-3 flex justify-center items-center bg-light rounded-full fixed right-0 top-0 m-2">
-          <font-awesome-icon @click="close" class=" text-1.5 !text-dark/70 cursor-pointer" icon="fa-solid fa-magnifying-glass-minus" />
+          <font-awesome-icon @click="close" class="transition hover:!text-dark text-1.5 !text-dark/70 cursor-pointer" icon="fa-solid fa-magnifying-glass-minus" />
         </div>
       </div>
     </Transition>
@@ -17,13 +17,13 @@ let props=defineProps(['src','isActive'])
 let emit=defineEmits(['close'])
 const close = () => {
   emit('close',false)
-  document.body.style.overflow='scroll'
+  document.body.style.overflowY='scroll'
 }
 const imageLoad = e => {
   let cssProps=getComputedStyle(e.target)
   e.target.style.width=cssProps.width
   e.target.style.height=cssProps.height
-  document.body.style.overflow='hidden'
+  document.body.style.overflowY='hidden'
 }
 
 </script>

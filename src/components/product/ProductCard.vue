@@ -18,7 +18,7 @@
       <router-link
           :class="{'peer':!isLoading}"
           class="stretch-link"
-          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name}`}"
+          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name?? category}`}"
       ></router-link>
       <div v-if="overlaySrc" class="product-card-image-overlay peer-hover:opacity-100 peer-hover:visible">
         <img
@@ -67,7 +67,7 @@
 <!--      <<<<<<<<<<< title start >>>>>>>>>>>>>-->
       <router-link
           class="btn-link !text-1.4 !font-700  "
-          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name}`}"
+          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name ?? category}`}"
       >
         {{title}}
       </router-link>
@@ -100,7 +100,7 @@
 <script setup>
 import useProductCard from "../../composables/useProductCard.js";
 import Modal from '../Widget/Modal.vue'
-let props=defineProps(['link','coverSrc','overlaySrc','coverSrcset','overlaySrcset','isSoldOut','isPeriod','price','title','discount','id'])
+let props=defineProps(['link','coverSrc','overlaySrc','coverSrcset','overlaySrcset','isSoldOut','isPeriod','price','title','discount','id','category'])
 const {isActive,closeModal,toggleModal,discountPercent,isLoading,imageLoad}=useProductCard(props)
 
 

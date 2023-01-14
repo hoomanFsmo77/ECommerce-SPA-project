@@ -1164,7 +1164,6 @@
         "price":60,
         "link":{"name":"PRODUCT","params":{"name":"Frothy-Cocky-Art-Print"}},
         "id": "U-45785469"
-
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-lager.png?v=1661241810&width=480",
@@ -2007,6 +2006,7 @@
   },
   "popularProducts": [
     {
+      "category": "naturescapes",
       "id": "N-34896147",
       "title":"A Beautiful Day Art Print",
       "isPopular": true,
@@ -2020,6 +2020,7 @@
       "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=339&amp;v=1667381423&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=509&amp;v=1667381423&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=594&amp;v=1667381423&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=679&amp;v=1667381423&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=905&amp;v=1667381423&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=1188&amp;v=1667381423&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?crop=center&amp;height=1527&amp;v=1667381423&amp;width=1080 1080w"
     },
     {
+      "category": "surfing-koalas-print",
       "id": "S-354987632",
       "isPopular": true,
       "isSoldOut":false,
@@ -2033,6 +2034,7 @@
       "overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=339&v=1664261714&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=509&v=1664261714&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=594&v=1664261714&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=679&v=1664261714&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=905&v=1664261714&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1188&v=1664261714&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1527&v=1664261714&width=1080 1080w"
     },
     {
+      "category": "naturescapes",
       "id": "N-77964200",
       "title":"Reef Art Print",
       "isSoldOut":false,
@@ -2055,7 +2057,8 @@
       "isSoldOut":true,
       "isPeriod":false,
       "price":25,
-      "link":{"name":"PRODUCT","params":{"name":"Australia-From-Dawn-to-Dusk"}}
+      "link":{"name":"PRODUCT","params":{"name":"Australia-From-Dawn-to-Dusk"}},
+      "category": "books"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/frothy-cocky-brentos.png?v=1661241417&width=480",
@@ -2067,10 +2070,13 @@
       "isPeriod":true,
       "price":60,
       "link":{"name":"PRODUCT","params":{"name":"Frothy-Cocky-Art-Print"}},
-      "id": "U-45785469"
+      "id": "U-45785469",
+      "category": "up-late"
+
 
     },
     {
+      "category": "Calendars",
       "id": "CA-569846",
       "isSoldOut":true,
       "discount":20 ,
@@ -2093,7 +2099,8 @@
       "isSoldOut":true,
       "isPeriod":false,
       "price":80,
-      "link":{"name":"PRODUCT","params":{"name":"Bush-Beach-Jumbo-Beach-Towel"}}
+      "link":{"name":"PRODUCT","params":{"name":"Bush-Beach-Jumbo-Beach-Towel"}},
+      "category": "beach-towels"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/1_ecc6cc1c-2885-426b-81b2-7128c290024e.jpg?v=1670228951&width=480",
@@ -2105,7 +2112,8 @@
       "isSoldOut":false,
       "isPeriod":false,
       "price":80,
-      "link":{"name":"PRODUCT","params":{"name":"Surfing-Koala-Jumbo-Beach-Towel"}}
+      "link":{"name":"PRODUCT","params":{"name":"Surfing-Koala-Jumbo-Beach-Towel"}},
+      "category": "beach-towels"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-trees-tote-bag-brentos2.jpg?v=1669784423&width=480",
@@ -2117,7 +2125,8 @@
       "isSoldOut":false,
       "isPeriod":false,
       "price":40,
-      "link":{"name":"PRODUCT","params":{"name":"Koala-Forest-Tote-Bags"}}
+      "link":{"name":"PRODUCT","params":{"name":"Koala-Forest-Tote-Bags"}},
+      "category": "beach-totes"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/yeah-nah-vegemite-spider-huntsman-tshirt-brentos.jpg?v=1667386911&width=480",
@@ -2129,7 +2138,8 @@
       "isSoldOut":true,
       "isPeriod":false,
       "price":60,
-      "link":{"name":"PRODUCT","params":{"name":"Yeah-Nah-Tee"}}
+      "link":{"name":"PRODUCT","params":{"name":"Yeah-Nah-Tee"}},
+      "category": "t-shirts"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-sticker-pack.jpg?v=1601292030&width=480",
@@ -2141,7 +2151,8 @@
       "isSoldOut":true,
       "isPeriod":false,
       "price":10,
-      "link":{"name":"PRODUCT","params":{"name":"Surfing-Koala-Sticker-Pack"}}
+      "link":{"name":"PRODUCT","params":{"name":"Surfing-Koala-Sticker-Pack"}},
+      "category": "stickers"
     },
     {
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/90s-cockatoos-tote-bag2.jpg?v=1669784579&width=480",
@@ -2153,7 +2164,8 @@
       "isSoldOut":false,
       "isPeriod":false,
       "price":40,
-      "link":{"name":"PRODUCT","params":{"name":"Retro-Cockies-Tote-Bags"}}
+      "link":{"name":"PRODUCT","params":{"name":"Retro-Cockies-Tote-Bags"}},
+      "category": "beach-totes"
     }
   ],
   "productDetailData": [

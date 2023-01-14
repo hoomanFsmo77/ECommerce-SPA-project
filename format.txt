@@ -1,0 +1,8 @@
+gallery
+
+.grid.grid--slider.grid-1.grid--gap-small img
+
+///////////////////////////
+
+title
+h1.product__title.h2

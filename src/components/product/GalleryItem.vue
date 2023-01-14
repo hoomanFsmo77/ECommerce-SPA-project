@@ -1,6 +1,6 @@
 <template>
   <div class="relative mr-1">
-    <font-awesome-icon @click="isActive=true" class="absolute top-0 right-0 m-1 text-1.5 !text-dark/70 cursor-pointer z-50" icon="fa-solid fa-magnifying-glass-plus" />
+    <font-awesome-icon @click="isActive=true" class="absolute top-0 transition hover:!text-dark right-0 m-1 text-1.5 !text-dark/70 cursor-pointer z-50" icon="fa-solid fa-magnifying-glass-plus " />
     <img
         class="cursor-grab rounded-8"
         v-lazy="src"

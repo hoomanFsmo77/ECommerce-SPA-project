@@ -1,6 +1,0 @@
-.carousel__pagination{margin:0 !important}.carousel__pagination-button::after{width:9px !important;height:9px !important;border-radius:50% !important;transition:all 300ms linear}.carousel__pagination-button--active::after{width:30px !important;border-radius:7px !important}.carousel__viewport{padding-bottom:10px !important}
-
-.vue-skeletor.vue-skeletor--rect.\!absolute.top-0.left-0[data-v-3c3c7db1]{
-  background-color: #ccc!important;
-}
-
