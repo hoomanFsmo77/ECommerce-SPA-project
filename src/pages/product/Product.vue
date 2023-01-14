@@ -36,18 +36,22 @@
                 <template  v-if="productData.discount">
                   <div class="flex gap-2">
                     <h3 class="font-600 my-1">${{productData.discount.toFixed(2)}}</h3>
-                    <h3 class="font-600 my-1 line-through text-gray-500">${{productData.price.toFixed(2)}}</h3>
+                    <h3 class="font-600 my-1 line-through text-gray-500">${{whichFrame===0 ? totalPriceWithOutFrame :totalPriceWithFrame }}</h3>
                   </div>
 
                 </template>
                 <template v-else>
-                  <h3 class="font-600 my-1">${{price.toFixed(2)}}</h3>
+                  <h3 class="font-600 my-1">${{whichFrame===0 ? totalPriceWithOutFrame :totalPriceWithFrame }}</h3>
                 </template>
                 <p v-html="item.content" class="mb-1 font-500 text-1" v-for="item in productData.description"></p>
               </div>
               <div class="mt-4 " v-if="productData.option.sizes">
                 <h5 class="font-600 mb-1">Size</h5>
-                <button :ref="setInitialSize(price===item.price ? item : null)" :class="{'selected':price===item.price}" @click="changeSize(item.price,item)" v-for="item in productData.option.sizes" class="btn btn-dark-outline mr-1">
+                <button
+                    :class="{'disabled':!item.available,'selected':sizeIndex===index}"
+                    @click="changeSize(item,index)" v-for="(item,index) in productData.option.sizes"
+                    class="btn btn-dark-outline mr-1 "
+                >
                   {{item.size}}
                 </button>
               </div>
@@ -56,14 +60,16 @@
                   <div class="flex items-center gap-1">
                     <h1 class="font-600 my-2">${{productData.discount.toFixed(2)}}</h1>
                     <div>
-                      <span class="line-through ">${{productData.price.toFixed(2)}}</span>
+                      <span class="line-through ">${{whichFrame===0 ? totalPriceWithOutFrame :totalPriceWithFrame }}</span>
                       <br>
                       <span class="text-gray-500 ">you have saved ${{(productData.price-productData.discount).toFixed(2)}}</span>
                     </div>
                   </div>
                 </template>
                 <template v-else>
-                  <h1 class="font-600 my-2">${{price.toFixed(2)}}</h1>
+                  <h1 class="font-600 my-2">
+                    ${{whichFrame===0 ? totalPriceWithOutFrame :totalPriceWithFrame }}
+                  </h1>
                 </template>
               </div>
               <div class="divider"></div>
@@ -139,7 +145,7 @@ import ProductCard from '../../components/product/ProductCard.vue'
 //////////////////////////////////////
 let props=defineProps(['name'])
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,setInitialSize,decrement,increment,changeSize,quantity,price,productId,productData,route,fetchFlag,popularProducts}=useProduct()
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame}=useProduct(carousel)
 </script>
 
 <style lang="scss">

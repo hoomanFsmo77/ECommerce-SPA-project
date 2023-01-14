@@ -159,7 +159,7 @@ const routes=[
                     },
                     {
                         name:'ART',
-                        path:':name',
+                        path:'Art/:name',
                         component:ART,
                         props: true
                     },

@@ -7,7 +7,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?v=1614127866&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=339&amp;v=1614127866&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=509&amp;v=1614127866&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=594&amp;v=1614127866&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=679&amp;v=1614127866&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=905&amp;v=1614127866&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=1188&amp;v=1614127866&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/pastel-wildlife-art.jpg?v=1664260919&amp;width=480",
@@ -19,7 +19,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"sydney-art-print"}},
+        "link":{"name":"ART","params":{"name":"sydney-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?v=1597897021&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=339&amp;v=1597897021&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=509&amp;v=1597897021&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=594&amp;v=1597897021&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=679&amp;v=1597897021&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=905&amp;v=1597897021&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=1188&amp;v=1597897021&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-sydney-art-print.jpg?v=1664432387&amp;width=480",
@@ -31,7 +31,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"the-bush-beach-art-print"}},
+        "link":{"name":"ART","params":{"name":"the-bush-beach-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?v=1621838619&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=339&amp;v=1621838619&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=509&amp;v=1621838619&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=594&amp;v=1621838619&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=679&amp;v=1621838619&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=905&amp;v=1621838619&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=1188&amp;v=1621838619&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-beach-australia-art.jpg?v=1664426441&amp;width=480",
@@ -43,7 +43,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"dreaming-koala-art-print"}},
+        "link":{"name":"ART","params":{"name":"dreaming-koala-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?v=1621410173&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=339&amp;v=1621410173&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=509&amp;v=1621410173&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=594&amp;v=1621410173&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=679&amp;v=1621410173&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=905&amp;v=1621410173&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=1188&amp;v=1621410173&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleeping-koala-wall-art.jpg?v=1664428670&amp;width=480",
@@ -55,7 +55,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"kookaburra-wall-art-print-1"}},
+        "link":{"name":"ART","params":{"name":"kookaburra-wall-art-print-1"}},
         "coverSrc": "/cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?v=1596172805&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=339&amp;v=1596172805&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=509&amp;v=1596172805&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=594&amp;v=1596172805&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=679&amp;v=1596172805&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=905&amp;v=1596172805&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=1188&amp;v=1596172805&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburra-wall-art.jpg?v=1664262710&amp;width=480",
@@ -67,7 +67,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"australian-outback-bilbies-wall-art-print"}},
+        "link":{"name":"ART","params":{"name":"australian-outback-bilbies-wall-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?v=1593169546&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=339&amp;v=1593169546&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=509&amp;v=1593169546&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=594&amp;v=1593169546&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=679&amp;v=1593169546&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=905&amp;v=1593169546&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=1188&amp;v=1593169546&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/bilby-wall-art.jpg?v=1664431370&amp;width=480",
@@ -79,7 +79,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"koala-forest-wall-art-print"}},
+        "link":{"name":"ART","params":{"name":"koala-forest-wall-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?v=1614127286&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=339&amp;v=1614127286&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=509&amp;v=1614127286&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=594&amp;v=1614127286&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=679&amp;v=1614127286&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=905&amp;v=1614127286&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=1188&amp;v=1614127286&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-wall-art.jpg?v=1664428226&amp;width=480",
@@ -92,7 +92,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"a-beautiful-day-art-print"}},
+        "link":{"name":"ART","params":{"name":"a-beautiful-day-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?v=1667381423&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=339&amp;v=1667381423&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=509&amp;v=1667381423&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=594&amp;v=1667381423&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=679&amp;v=1667381423&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=905&amp;v=1667381423&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1188&amp;v=1667381423&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1527&amp;v=1667381423&amp;width=1080 1080w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?v=1667381423&amp;width=480",
@@ -104,7 +104,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc": "/cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?v=1634516373&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=339&amp;v=1634516373&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=509&amp;v=1634516373&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=594&amp;v=1634516373&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=679&amp;v=1634516373&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=905&amp;v=1634516373&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=1188&amp;v=1634516373&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?v=1664429321&amp;width=480",
@@ -117,7 +117,7 @@
         "isPeriod":true,
         "isPopular": true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"great-barrier-reef-art-print"}},
+        "link":{"name":"ART","params":{"name":"great-barrier-reef-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?v=1668663791&amp;width=480",
         "coverSrcset": "///cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=339&amp;v=1668663791&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=509&amp;v=1668663791&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=594&amp;v=1668663791&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=679&amp;v=1668663791&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=905&amp;v=1668663791&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1188&amp;v=1668663791&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1527&amp;v=1668663791&amp;width=1080 1080w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?v=1668663791&amp;width=480",
@@ -129,7 +129,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"surfing-koala-rainbow-art-prin"}},
+        "link":{"name":"ART","params":{"name":"surfing-koala-rainbow-art-prin"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?v=1668908737&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=339&amp;v=1668908737&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=509&amp;v=1668908737&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=594&amp;v=1668908737&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=679&amp;v=1668908737&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=905&amp;v=1668908737&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=1188&amp;v=1668908737&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=1527&amp;v=1668908737&amp;width=1080 1080w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?v=1668908738&amp;width=480",
@@ -141,7 +141,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"surfers-paradise-art-prin"}},
+        "link":{"name":"ART","params":{"name":"surfers-paradise-art-prin"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?v=1668908036&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=339&amp;v=1668908036&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=509&amp;v=1668908036&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=594&amp;v=1668908036&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=679&amp;v=1668908036&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=905&amp;v=1668908036&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=1188&amp;v=1668908036&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=1527&amp;v=1668908036&amp;width=1080 1080w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?v=1668908036&amp;width=480",
@@ -153,7 +153,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"wonderland-art-print"}},
+        "link":{"name":"ART","params":{"name":"wonderland-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?v=1665385237&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=160&amp;v=1665385237&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=239&amp;v=1665385237&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=279&amp;v=1665385237&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=319&amp;v=1665385237&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=426&amp;v=1665385237&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=559&amp;v=1665385237&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=718&amp;v=1665385237&amp;width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=851&amp;v=1665385237&amp;width=1280 1280w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?v=1665385260&amp;width=480",
@@ -167,7 +167,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?v=1600402200&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=339&v=1600402200&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=509&v=1600402200&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=594&v=1600402200&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=679&v=1600402200&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=905&v=1600402200&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=1188&v=1600402200&width=840 840w",
         "overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?v=1664427482&width=480",
@@ -178,7 +178,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
         "title":"Create Your Own Surfing Koala Family Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?v=1626245918&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=339&v=1626245918&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=509&v=1626245918&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=594&v=1626245918&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=679&v=1626245918&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=905&v=1626245918&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=1188&v=1626245918&width=840 840w",
@@ -190,7 +190,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Hope-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Hope-Art-Print"}},
         "title":"Hope Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?v=1614127866&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=339&v=1614127866&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=509&v=1614127866&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=594&v=1614127866&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=679&v=1614127866&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=905&v=1614127866&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=1188&v=1614127866&width=840 840w",
@@ -202,7 +202,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Bush-Beach-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"The-Bush-Beach-Art-Print"}},
         "title":"The Bush Beach Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?v=1621838619&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=339&v=1621838619&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=509&v=1621838619&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=594&v=1621838619&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=679&v=1621838619&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=905&v=1621838619&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=1188&v=1621838619&width=840 840w",
@@ -214,7 +214,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Sydney-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Sydney-Art-Print"}},
         "title":"Sydney Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?v=1597897021&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=339&v=1597897021&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=509&v=1597897021&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=594&v=1597897021&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=679&v=1597897021&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=905&v=1597897021&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=1188&v=1597897021&width=840 840w",
@@ -226,7 +226,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Early-Surf-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Early-Surf-Art-Print"}},
         "title":"Early Surf Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?v=1600930779&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=339&v=1600930779&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=509&v=1600930779&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=594&v=1600930779&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=679&v=1600930779&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=905&v=1600930779&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=1188&v=1600930779&width=840 840w",
@@ -238,7 +238,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Left-or-Right-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Left-or-Right-Art-Print"}},
         "title":"Left or Right Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?v=1623916645&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=339&v=1623916645&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=509&v=1623916645&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=594&v=1623916645&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=679&v=1623916645&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=905&v=1623916645&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=1188&v=1623916645&width=840 840w",
@@ -250,7 +250,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"A-Beautiful-Day-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"A-Beautiful-Day-Art-Print"}},
         "title":"A Beautiful Day Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?v=1667381423&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=339&v=1667381423&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=509&v=1667381423&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=594&v=1667381423&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=679&v=1667381423&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=905&v=1667381423&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=1188&v=1667381423&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=1527&v=1667381423&width=1080 1080w",
@@ -262,7 +262,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Together-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Together-Art-Print"}},
         "title":"Together Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?v=1628565132&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=339&v=1628565132&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=509&v=1628565132&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=594&v=1628565132&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=679&v=1628565132&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=905&v=1628565132&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=1188&v=1628565132&width=840 840w",
@@ -273,7 +273,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
         "title":"Aussie Surf Pub Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?v=1598232869&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=339&v=1598232869&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=509&v=1598232869&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=594&v=1598232869&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=679&v=1598232869&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=905&v=1598232869&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=1188&v=1598232869&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?v=1664675782&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=339&v=1664675782&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=509&v=1664675782&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=594&v=1664675782&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=679&v=1664675782&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=905&v=1664675782&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=1188&v=1664675782&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=1527&v=1664675782&width=1080 1080w"
       },
@@ -282,7 +282,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Newport-Beach-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Newport-Beach-Art-Print"}},
         "title":"Newport Beach Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?v=1620027381&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=339&v=1620027381&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=509&v=1620027381&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=594&v=1620027381&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=679&v=1620027381&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=905&v=1620027381&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=1188&v=1620027381&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?v=1664497539&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=339&v=1664497539&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=509&v=1664497539&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=594&v=1664497539&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=679&v=1664497539&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=905&v=1664497539&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=1188&v=1664497539&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=1527&v=1664497539&width=1080 1080w"
       },
@@ -291,7 +291,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Bush-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Bush-Pub-Art-Print"}},
         "title":"Bush Pub Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?v=1614163921&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=339&v=1614163921&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=509&v=1614163921&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=594&v=1614163921&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=679&v=1614163921&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=905&v=1614163921&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=1188&v=1614163921&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?v=1664431791&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=339&v=1664431791&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=509&v=1664431791&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=594&v=1664431791&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=679&v=1664431791&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=905&v=1664431791&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=1188&v=1664431791&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=1527&v=1664431791&width=1080 1080w"
       },
@@ -300,7 +300,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Looking-Up-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Looking-Up-Art-Print"}},
         "title":"Looking Up Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?v=1602224423&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=339&v=1602224423&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=509&v=1602224423&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=594&v=1602224423&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=679&v=1602224423&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=905&v=1602224423&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=1188&v=1602224423&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?v=1664678089&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=339&v=1664678089&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=509&v=1664678089&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=594&v=1664678089&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=679&v=1664678089&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=905&v=1664678089&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=1188&v=1664678089&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=1527&v=1664678089&width=1080 1080w"
       },
@@ -309,7 +309,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Norfolk-Love-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Norfolk-Love-Art-Print"}},
         "title":"Norfolk Love Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?v=1665555813&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=339&v=1665555813&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=509&v=1665555813&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=594&v=1665555813&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=679&v=1665555813&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=905&v=1665555813&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=1188&v=1665555813&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=1527&v=1665555813&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?v=1665555813&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=339&v=1665555813&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=509&v=1665555813&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=594&v=1665555813&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=679&v=1665555813&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=905&v=1665555813&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=1188&v=1665555813&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=1527&v=1665555813&width=1080 1080w"
@@ -319,7 +319,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Salty-Tribe-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Salty-Tribe-Art-Print"}},
         "title":"Salty Tribe Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?v=1628564672&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=339&v=1628564672&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=509&v=1628564672&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=594&v=1628564672&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=679&v=1628564672&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=905&v=1628564672&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=1188&v=1628564672&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?v=1664495986&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=339&v=1664495986&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=509&v=1664495986&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=594&v=1664495986&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=679&v=1664495986&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=905&v=1664495986&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=1188&v=1664495986&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=1527&v=1664495986&width=1080 1080w"},
       {
@@ -327,7 +327,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Crew-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"The-Crew-Art-Print"}},
         "title":"The Crew Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?v=1628565015&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=339&v=1628565015&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=509&v=1628565015&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=594&v=1628565015&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=679&v=1628565015&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=905&v=1628565015&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=1188&v=1628565015&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?v=1664497037&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=339&v=1664497037&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=509&v=1664497037&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=594&v=1664497037&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=679&v=1664497037&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=905&v=1664497037&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=1188&v=1664497037&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=1527&v=1664497037&width=1080 1080w"
       },
@@ -336,7 +336,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Rainbow-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Rainbow-Art-Print"}},
         "title":"Rainbow Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?v=1668908737&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=339&v=1668908737&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=509&v=1668908737&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=594&v=1668908737&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=679&v=1668908737&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=905&v=1668908737&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=1188&v=1668908737&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=1527&v=1668908737&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?v=1668908738&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=339&v=1668908738&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=509&v=1668908738&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=594&v=1668908738&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=679&v=1668908738&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=905&v=1668908738&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=1188&v=1668908738&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=1527&v=1668908738&width=1080 1080w"
       },
@@ -345,7 +345,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Two-Surfer-Koalas-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Two-Surfer-Koalas-Art-Print"}},
         "title":"Two Surfer Koalas Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?v=1668910465&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=339&v=1668910465&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=509&v=1668910465&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=594&v=1668910465&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=679&v=1668910465&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=905&v=1668910465&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=1188&v=1668910465&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=1527&v=1668910465&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?v=1668910465&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=339&v=1668910465&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=509&v=1668910465&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=594&v=1668910465&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=679&v=1668910465&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=905&v=1668910465&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=1188&v=1668910465&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=1527&v=1668910465&width=1080 1080w"
       },
@@ -354,7 +354,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Pitted-Surfing-Koala-Print"}},
+        "link":{"name":"ART","params":{"name":"Pitted-Surfing-Koala-Print"}},
         "title":"Pitted Surfing Koala Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?v=1621838193&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=339&v=1621838193&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=509&v=1621838193&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=594&v=1621838193&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=679&v=1621838193&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=905&v=1621838193&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=1188&v=1621838193&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?v=1664674756&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=339&v=1664674756&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=509&v=1664674756&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=594&v=1664674756&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=679&v=1664674756&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=905&v=1664674756&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=1188&v=1664674756&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=1527&v=1664674756&width=1080 1080w"
       },
@@ -363,7 +363,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Everything-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Everything-Art-Print"}},
         "title":"Everything Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?v=1628564407&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=339&v=1628564407&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=509&v=1628564407&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=594&v=1628564407&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=679&v=1628564407&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=905&v=1628564407&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=1188&v=1628564407&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?v=1664496195&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=339&v=1664496195&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=509&v=1664496195&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=594&v=1664496195&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=679&v=1664496195&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=905&v=1664496195&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=1188&v=1664496195&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=1527&v=1664496195&width=1080 1080w"
@@ -373,7 +373,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Surfers-Paradise-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Surfers-Paradise-Art-Print"}},
         "title":"Surfers Paradise Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?v=1668908036&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=339&v=1668908036&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=509&v=1668908036&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=594&v=1668908036&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=679&v=1668908036&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=905&v=1668908036&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=1188&v=1668908036&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=1527&v=1668908036&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?v=1668908036&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=339&v=1668908036&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=509&v=1668908036&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=594&v=1668908036&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=679&v=1668908036&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=905&v=1668908036&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=1188&v=1668908036&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=1527&v=1668908036&width=1080 1080w"
       },
@@ -382,7 +382,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Wonderland-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Wonderland-Art-Print"}},
         "title":"Wonderland Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?v=1665385237&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=160&v=1665385237&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=239&v=1665385237&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=279&v=1665385237&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=319&v=1665385237&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=426&v=1665385237&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=559&v=1665385237&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=718&v=1665385237&width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=851&v=1665385237&width=1280 1280w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?v=1665385260&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=160&v=1665385260&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=239&v=1665385260&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=279&v=1665385260&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=319&v=1665385260&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=426&v=1665385260&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=559&v=1665385260&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=718&v=1665385260&width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=851&v=1665385260&width=1280 1280w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1024&v=1665385260&width=1540 1540w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1237&v=1665385260&width=1860 1860w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1397&v=1665385260&width=2100 2100w"
       },
@@ -391,7 +391,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Norfolk-Noise-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Norfolk-Noise-Art-Print"}},
         "title":"Norfolk Noise Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?v=1665383830&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=339&v=1665383830&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=509&v=1665383830&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=594&v=1665383830&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=679&v=1665383830&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=905&v=1665383830&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=1188&v=1665383830&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?v=1665383830&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=339&v=1665383830&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=509&v=1665383830&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=594&v=1665383830&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=679&v=1665383830&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=905&v=1665383830&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=1188&v=1665383830&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=1527&v=1665383830&width=1080 1080w"
       },
@@ -400,7 +400,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Surf-Fam-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Surf-Fam-Art-Print"}},
         "title":"Surf Fam Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?v=1628564785&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=339&v=1628564785&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=509&v=1628564785&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=594&v=1628564785&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=679&v=1628564785&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=905&v=1628564785&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=1188&v=1628564785&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?v=1664496819&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=339&v=1664496819&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=509&v=1664496819&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=594&v=1664496819&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=679&v=1664496819&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=905&v=1664496819&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=1188&v=1664496819&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=1527&v=1664496819&width=1080 1080w"
       },
@@ -409,7 +409,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Cockatoo-Picnic-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Cockatoo-Picnic-Art-Print"}},
         "title":"Cockatoo Picnic Art Print",
         "coverSrc":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?v=1665470946&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=339&v=1665470946&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=509&v=1665470946&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=594&v=1665470946&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=679&v=1665470946&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=905&v=1665470946&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=1188&v=1665470946&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=1527&v=1665470946&width=1080 1080w","overlaySrc":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?v=1665470946&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=339&v=1665470946&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=509&v=1665470946&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=594&v=1665470946&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=679&v=1665470946&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=905&v=1665470946&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=1188&v=1665470946&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=1527&v=1665470946&width=1080 1080w"
       }
@@ -420,21 +420,21 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?v=1626245918&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=339&v=1626245918&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=509&v=1626245918&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=594&v=1626245918&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=679&v=1626245918&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=905&v=1626245918&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=1188&v=1626245918&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?v=1664261714&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=339&v=1664261714&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=509&v=1664261714&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=594&v=1664261714&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=679&v=1664261714&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=905&v=1664261714&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1188&v=1664261714&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1527&v=1664261714&width=1080 1080w","title":"Create Your Own Surfing Koala Family Print"},
       {
         "id": "F-854732",
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Whale-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Whale-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?v=1669025740&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=339&v=1669025740&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=509&v=1669025740&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=594&v=1669025740&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=679&v=1669025740&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=905&v=1669025740&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=1188&v=1669025740&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=1527&v=1669025740&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?v=1669025740&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=339&v=1669025740&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=509&v=1669025740&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=594&v=1669025740&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=679&v=1669025740&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=905&v=1669025740&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=1188&v=1669025740&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=1527&v=1669025740&width=1080 1080w","title":"Create Your Own Whale Family Print"},
       {
         "id": "F-152678",
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Kookaburra-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Kookaburra-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?v=1668913498&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=339&v=1668913498&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=509&v=1668913498&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=594&v=1668913498&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=679&v=1668913498&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=905&v=1668913498&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=1188&v=1668913498&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=1527&v=1668913498&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?v=1668913498&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=339&v=1668913498&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=509&v=1668913498&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=594&v=1668913498&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=679&v=1668913498&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=905&v=1668913498&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=1188&v=1668913498&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=1527&v=1668913498&width=1080 1080w","title":"Create Your Own Kookaburra Family Print"}
 
     ],
@@ -448,7 +448,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
         "id": "U-98657896"
       },
       {
@@ -460,7 +460,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Bush-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Bush-Pub-Art-Print"}},
         "id": "U-68754289"
 
       },
@@ -473,7 +473,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Red-Belly-Cherry-Stout-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Red-Belly-Cherry-Stout-Art-Print"}},
         "id": "U-85786547"
 
       },
@@ -486,7 +486,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Frothy-Cocky-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Frothy-Cocky-Art-Print"}},
         "id": "U-45785469"
 
       },
@@ -499,7 +499,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Koala-Lager-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Koala-Lager-Art-Print"}},
         "id": "U-47854968"
       },
       {
@@ -511,7 +511,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Roo-Brew-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Roo-Brew-Art-Print"}},
         "id": "U-86547852"
       },
       {
@@ -523,7 +523,7 @@
         "isSoldOut":false,
         "isPeriod":false,
         "price":140,
-        "link":{"name":"PRODUCT","params":{"name":"Willy-the-Wonderful-Whale-Limited-Edition-Art Print"}},
+        "link":{"name":"ART","params":{"name":"Willy-the-Wonderful-Whale-Limited-Edition-Art Print"}},
         "id": "U-06347850"
       },
       {
@@ -535,7 +535,7 @@
         "isSoldOut":false,
         "isPeriod":false,
         "price":140,
-        "link":{"name":"PRODUCT","params":{"name":"Heart-and-Mind-Limited-Edition-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Heart-and-Mind-Limited-Edition-Art-Print"}},
         "id": "U-35978798"
       },
       {
@@ -547,7 +547,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Snake-Catcher-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Snake-Catcher-Art-Print"}},
         "id": "U-78549300"
       },
       {
@@ -559,7 +559,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Find-The-Fly-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Find-The-Fly-Art-Print"}},
         "id": "U-54892234"
       },
       {
@@ -571,7 +571,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kingfisher-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Kingfisher-Art-Print"}},
         "id": "U-78964523"
       }
     ],
@@ -586,7 +586,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Seagull-and-Chip-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Seagull-and-Chip-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Waves-Blue-Surf-Artwork-The-Peak-Brentos.png?v=1596172472&width=480",
@@ -598,7 +598,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Peak-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"The-Peak-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/little-cute-whale-art-print.jpg?v=1669020079&width=480",
@@ -610,7 +610,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Little-Whale-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Little-Whale-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/mother-and-calf-whale-illustration.jpg?v=1669019405&width=480",
@@ -622,7 +622,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Whale-Calf-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Whale-Calf-Art-Print"}}
       }
     ],
     "wildlife-portraits": [
@@ -636,7 +636,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Cockatoo-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Cockatoo-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-galah-portrait-wall-art-print.png?v=1628574077&width=480",
@@ -648,7 +648,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Galah-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Galah-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-kookaburra-portrait-wall-art-print.png?v=1612404634&width=480",
@@ -660,7 +660,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kookaburra-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Kookaburra-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-magpie-portrait-wall-art-print.png?v=1612405068&width=480",
@@ -672,7 +672,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Magpie-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Magpie-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-koala-portrait-wall-art-print.png?v=1612404897&width=480",
@@ -684,7 +684,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Koala-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Koala-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-lorikeet-portrait-wall-art-print.png?v=1612404560&width=480",
@@ -696,7 +696,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Rainbow-Lorikeet-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Rainbow-Lorikeet-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-tasmanian-devil-portrait-wall-art-print.png?v=1612405162&width=480",
@@ -708,7 +708,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Tassie-Devil-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Tassie-Devil-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-possum-portrait-wall-art-print.png?v=1612405122&width=480",
@@ -720,7 +720,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Possum Art Print"}}
+        "link":{"name":"ART","params":{"name":"Possum Art Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-kangaroo-wall-art-print.jpg?v=1612402903&width=480",
@@ -732,7 +732,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kangaroo-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Kangaroo-Art-Print"}}
       }
     ],
     "fine-art-prints": [
@@ -742,7 +742,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?v=1614127866&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=339&amp;v=1614127866&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=509&amp;v=1614127866&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=594&amp;v=1614127866&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=679&amp;v=1614127866&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=905&amp;v=1614127866&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&amp;height=1188&amp;v=1614127866&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/pastel-wildlife-art.jpg?v=1664260919&amp;width=480",
@@ -754,7 +754,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"sydney-art-print"}},
+        "link":{"name":"ART","params":{"name":"sydney-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?v=1597897021&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=339&amp;v=1597897021&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=509&amp;v=1597897021&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=594&amp;v=1597897021&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=679&amp;v=1597897021&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=905&amp;v=1597897021&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&amp;height=1188&amp;v=1597897021&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-sydney-art-print.jpg?v=1664432387&amp;width=480",
@@ -766,7 +766,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"the-bush-beach-art-print"}},
+        "link":{"name":"ART","params":{"name":"the-bush-beach-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?v=1621838619&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=339&amp;v=1621838619&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=509&amp;v=1621838619&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=594&amp;v=1621838619&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=679&amp;v=1621838619&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=905&amp;v=1621838619&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&amp;height=1188&amp;v=1621838619&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-beach-australia-art.jpg?v=1664426441&amp;width=480",
@@ -778,7 +778,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"dreaming-koala-art-print"}},
+        "link":{"name":"ART","params":{"name":"dreaming-koala-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?v=1621410173&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=339&amp;v=1621410173&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=509&amp;v=1621410173&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=594&amp;v=1621410173&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=679&amp;v=1621410173&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=905&amp;v=1621410173&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-pink-sky-sleeping-artwork-brentos.jpg?crop=center&amp;height=1188&amp;v=1621410173&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleeping-koala-wall-art.jpg?v=1664428670&amp;width=480",
@@ -790,7 +790,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"kookaburra-wall-art-print-1"}},
+        "link":{"name":"ART","params":{"name":"kookaburra-wall-art-print-1"}},
         "coverSrc": "/cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?v=1596172805&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=339&amp;v=1596172805&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=509&amp;v=1596172805&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=594&amp;v=1596172805&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=679&amp;v=1596172805&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=905&amp;v=1596172805&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Kookaburra-art-print-artwork-painting.png?crop=center&amp;height=1188&amp;v=1596172805&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburra-wall-art.jpg?v=1664262710&amp;width=480",
@@ -802,7 +802,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"australian-outback-bilbies-wall-art-print"}},
+        "link":{"name":"ART","params":{"name":"australian-outback-bilbies-wall-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?v=1593169546&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=339&amp;v=1593169546&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=509&amp;v=1593169546&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=594&amp;v=1593169546&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=679&amp;v=1593169546&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=905&amp;v=1593169546&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Bilby-artwork-art-print-outback-australia-brentos.png?crop=center&amp;height=1188&amp;v=1593169546&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/bilby-wall-art.jpg?v=1664431370&amp;width=480",
@@ -814,7 +814,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"koala-forest-wall-art-print"}},
+        "link":{"name":"ART","params":{"name":"koala-forest-wall-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?v=1614127286&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=339&amp;v=1614127286&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=509&amp;v=1614127286&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=594&amp;v=1614127286&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=679&amp;v=1614127286&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=905&amp;v=1614127286&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-forest-art-print-by-brentos.jpg?crop=center&amp;height=1188&amp;v=1614127286&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-wall-art.jpg?v=1664428226&amp;width=480",
@@ -823,10 +823,11 @@
       {
         "id": "N-34896147",
         "title":"A Beautiful Day Art Print",
+        "isPopular": true,
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"a-beautiful-day-art-print"}},
+        "link":{"name":"ART","params":{"name":"a-beautiful-day-art-print"}},
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?v=1667381423&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=339&amp;v=1667381423&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=509&amp;v=1667381423&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=594&amp;v=1667381423&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=679&amp;v=1667381423&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=905&amp;v=1667381423&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1188&amp;v=1667381423&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1527&amp;v=1667381423&amp;width=1080 1080w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?v=1667381423&amp;width=480",
@@ -838,11 +839,60 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc": "/cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?v=1634516373&amp;width=480",
         "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=339&amp;v=1634516373&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=509&amp;v=1634516373&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=594&amp;v=1634516373&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=679&amp;v=1634516373&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=905&amp;v=1634516373&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/blue-dreaming-product-img.png?crop=center&amp;height=1188&amp;v=1634516373&amp;width=840 840w",
         "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?v=1664429321&amp;width=480",
         "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=339&amp;v=1664429321&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=509&amp;v=1664429321&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=594&amp;v=1664429321&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=679&amp;v=1664429321&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=905&amp;v=1664429321&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=1188&amp;v=1664429321&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/sleepnig-koala-blue-sky.jpg?crop=center&amp;height=1527&amp;v=1664429321&amp;width=1080 1080w"
+      },
+      {
+        "id": "N-77964200",
+        "title":"Reef Art Print",
+        "isSoldOut":false,
+        "isPeriod":true,
+        "isPopular": true,
+        "price":60,
+        "link":{"name":"ART","params":{"name":"great-barrier-reef-art-print"}},
+        "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?v=1668663791&amp;width=480",
+        "coverSrcset": "///cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=339&amp;v=1668663791&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=509&amp;v=1668663791&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=594&amp;v=1668663791&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=679&amp;v=1668663791&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=905&amp;v=1668663791&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1188&amp;v=1668663791&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1527&amp;v=1668663791&amp;width=1080 1080w",
+        "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?v=1668663791&amp;width=480",
+        "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=339&amp;v=1668663791&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=509&amp;v=1668663791&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=594&amp;v=1668663791&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=679&amp;v=1668663791&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=905&amp;v=1668663791&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=1188&amp;v=1668663791&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?crop=center&amp;height=1527&amp;v=1668663791&amp;width=1080 1080w"
+      },
+      {
+        "id": "N-10215987",
+        "title":"Rainbow Art Print",
+        "isSoldOut":false,
+        "isPeriod":true,
+        "price":60,
+        "link":{"name":"ART","params":{"name":"surfing-koala-rainbow-art-prin"}},
+        "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?v=1668908737&amp;width=480",
+        "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=339&amp;v=1668908737&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=509&amp;v=1668908737&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=594&amp;v=1668908737&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=679&amp;v=1668908737&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=905&amp;v=1668908737&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=1188&amp;v=1668908737&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&amp;height=1527&amp;v=1668908737&amp;width=1080 1080w",
+        "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?v=1668908738&amp;width=480",
+        "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=339&amp;v=1668908738&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=509&amp;v=1668908738&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=594&amp;v=1668908738&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=679&amp;v=1668908738&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=905&amp;v=1668908738&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=1188&amp;v=1668908738&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&amp;height=1527&amp;v=1668908738&amp;width=1080 1080w"
+      },
+      {
+        "id": "N-44698720",
+        "title":"Surfers Paradise Art Print",
+        "isSoldOut":false,
+        "isPeriod":true,
+        "price":60,
+        "link":{"name":"ART","params":{"name":"surfers-paradise-art-prin"}},
+        "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?v=1668908036&amp;width=480",
+        "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=339&amp;v=1668908036&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=509&amp;v=1668908036&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=594&amp;v=1668908036&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=679&amp;v=1668908036&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=905&amp;v=1668908036&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=1188&amp;v=1668908036&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&amp;height=1527&amp;v=1668908036&amp;width=1080 1080w",
+        "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?v=1668908036&amp;width=480",
+        "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=339&amp;v=1668908036&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=509&amp;v=1668908036&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=594&amp;v=1668908036&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=679&amp;v=1668908036&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=905&amp;v=1668908036&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=1188&amp;v=1668908036&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&amp;height=1527&amp;v=1668908036&amp;width=1080 1080w"
+      },
+      {
+        "id": "N-55698724",
+        "title":"Wonderland Art Print",
+        "isSoldOut":false,
+        "isPeriod":true,
+        "price":60,
+        "link":{"name":"ART","params":{"name":"wonderland-art-print"}},
+        "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?v=1665385237&amp;width=480",
+        "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=160&amp;v=1665385237&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=239&amp;v=1665385237&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=279&amp;v=1665385237&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=319&amp;v=1665385237&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=426&amp;v=1665385237&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=559&amp;v=1665385237&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=718&amp;v=1665385237&amp;width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&amp;height=851&amp;v=1665385237&amp;width=1280 1280w",
+        "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?v=1665385260&amp;width=480",
+        "overlaySrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=160&amp;v=1665385260&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=239&amp;v=1665385260&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=279&amp;v=1665385260&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=319&amp;v=1665385260&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=426&amp;v=1665385260&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=559&amp;v=1665385260&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=718&amp;v=1665385260&amp;width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=851&amp;v=1665385260&amp;width=1280 1280w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=1024&amp;v=1665385260&amp;width=1540 1540w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=1237&amp;v=1665385260&amp;width=1860 1860w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&amp;height=1397&amp;v=1665385260&amp;width=2100 2100w"
       },
       {
         "title":"Timing Sets Art Print",
@@ -850,17 +900,18 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"hope-art-print"}},
+        "link":{"name":"ART","params":{"name":"hope-art-print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?v=1600402200&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=339&v=1600402200&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=509&v=1600402200&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=594&v=1600402200&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=679&v=1600402200&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=905&v=1600402200&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Surfing-koala-waves-surf-beach-brentos-art-print.png?crop=center&height=1188&v=1600402200&width=840 840w",
         "overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?v=1664427482&width=480",
         "overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=339&v=1664427482&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=509&v=1664427482&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=594&v=1664427482&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=679&v=1664427482&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=905&v=1664427482&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=1188&v=1664427482&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/timing-sets-art-by-brentos.jpg?crop=center&height=1527&v=1664427482&width=1080 1080w"},
       {
         "id": "S-354987632",
+        "isPopular": true,
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
         "title":"Create Your Own Surfing Koala Family Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?v=1626245918&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=339&v=1626245918&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=509&v=1626245918&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=594&v=1626245918&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=679&v=1626245918&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=905&v=1626245918&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=1188&v=1626245918&width=840 840w",
@@ -872,7 +923,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Hope-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Hope-Art-Print"}},
         "title":"Hope Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?v=1614127866&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=339&v=1614127866&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=509&v=1614127866&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=594&v=1614127866&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=679&v=1614127866&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=905&v=1614127866&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Australian-wildlife-vintage-animals-art-print-hope-retro-brentos.png?crop=center&height=1188&v=1614127866&width=840 840w",
@@ -884,7 +935,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Bush-Beach-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"The-Bush-Beach-Art-Print"}},
         "title":"The Bush Beach Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?v=1621838619&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=339&v=1621838619&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=509&v=1621838619&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=594&v=1621838619&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=679&v=1621838619&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=905&v=1621838619&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-bush-beach-art.jpg?crop=center&height=1188&v=1621838619&width=840 840w",
@@ -896,7 +947,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Sydney-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Sydney-Art-Print"}},
         "title":"Sydney Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?v=1597897021&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=339&v=1597897021&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=509&v=1597897021&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=594&v=1597897021&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=679&v=1597897021&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=905&v=1597897021&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Sydney-harbour-art-wildlife-brentos.png?crop=center&height=1188&v=1597897021&width=840 840w",
@@ -908,7 +959,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Early-Surf-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Early-Surf-Art-Print"}},
         "title":"Early Surf Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?v=1600930779&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=339&v=1600930779&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=509&v=1600930779&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=594&v=1600930779&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=679&v=1600930779&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=905&v=1600930779&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/early-surf-surfing-koala-art-print-brentos.jpg?crop=center&height=1188&v=1600930779&width=840 840w",
@@ -920,7 +971,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Left-or-Right-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Left-or-Right-Art-Print"}},
         "title":"Left or Right Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?v=1623916645&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=339&v=1623916645&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=509&v=1623916645&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=594&v=1623916645&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=679&v=1623916645&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=905&v=1623916645&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/left-or-right-brentos-surfing-koalas-art-print.jpg?crop=center&height=1188&v=1623916645&width=840 840w",
@@ -932,7 +983,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"A-Beautiful-Day-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"A-Beautiful-Day-Art-Print"}},
         "title":"A Beautiful Day Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?v=1667381423&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=339&v=1667381423&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=509&v=1667381423&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=594&v=1667381423&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=679&v=1667381423&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=905&v=1667381423&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=1188&v=1667381423&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&height=1527&v=1667381423&width=1080 1080w",
@@ -944,7 +995,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Together-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Together-Art-Print"}},
         "title":"Together Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?v=1628565132&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=339&v=1628565132&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=509&v=1628565132&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=594&v=1628565132&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=679&v=1628565132&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=905&v=1628565132&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-family_bfa5f242-4a36-4534-a42b-fed4a1971c77.jpg?crop=center&height=1188&v=1628565132&width=840 840w",
@@ -955,7 +1006,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
         "title":"Aussie Surf Pub Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?v=1598232869&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=339&v=1598232869&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=509&v=1598232869&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=594&v=1598232869&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=679&v=1598232869&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=905&v=1598232869&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?crop=center&height=1188&v=1598232869&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?v=1664675782&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=339&v=1664675782&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=509&v=1664675782&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=594&v=1664675782&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=679&v=1664675782&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=905&v=1664675782&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=1188&v=1664675782&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-framed-print.jpg?crop=center&height=1527&v=1664675782&width=1080 1080w"
       },
@@ -964,7 +1015,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Newport-Beach-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Newport-Beach-Art-Print"}},
         "title":"Newport Beach Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?v=1620027381&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=339&v=1620027381&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=509&v=1620027381&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=594&v=1620027381&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=679&v=1620027381&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=905&v=1620027381&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-newport-beach-wall-art-print.jpg?crop=center&height=1188&v=1620027381&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?v=1664497539&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=339&v=1664497539&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=509&v=1664497539&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=594&v=1664497539&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=679&v=1664497539&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=905&v=1664497539&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=1188&v=1664497539&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/newport-beach-art-brentos.jpg?crop=center&height=1527&v=1664497539&width=1080 1080w"
       },
@@ -973,7 +1024,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Bush-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Bush-Pub-Art-Print"}},
         "title":"Bush Pub Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?v=1614163921&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=339&v=1614163921&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=509&v=1614163921&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=594&v=1614163921&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=679&v=1614163921&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=905&v=1614163921&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/australian-outback-bush-pub.jpg?crop=center&height=1188&v=1614163921&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?v=1664431791&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=339&v=1664431791&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=509&v=1664431791&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=594&v=1664431791&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=679&v=1664431791&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=905&v=1664431791&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=1188&v=1664431791&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/bush-pub-by-brentos.jpg?crop=center&height=1527&v=1664431791&width=1080 1080w"
       },
@@ -982,7 +1033,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Looking-Up-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Looking-Up-Art-Print"}},
         "title":"Looking Up Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?v=1602224423&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=339&v=1602224423&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=509&v=1602224423&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=594&v=1602224423&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=679&v=1602224423&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=905&v=1602224423&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/looking-up-brentos.jpg?crop=center&height=1188&v=1602224423&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?v=1664678089&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=339&v=1664678089&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=509&v=1664678089&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=594&v=1664678089&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=679&v=1664678089&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=905&v=1664678089&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=1188&v=1664678089&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-through-wave.jpg?crop=center&height=1527&v=1664678089&width=1080 1080w"
       },
@@ -991,7 +1042,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Norfolk-Love-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Norfolk-Love-Art-Print"}},
         "title":"Norfolk Love Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?v=1665555813&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=339&v=1665555813&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=509&v=1665555813&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=594&v=1665555813&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=679&v=1665555813&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=905&v=1665555813&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=1188&v=1665555813&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-love-brentos.png?crop=center&height=1527&v=1665555813&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?v=1665555813&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=339&v=1665555813&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=509&v=1665555813&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=594&v=1665555813&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=679&v=1665555813&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=905&v=1665555813&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=1188&v=1665555813&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-beach-art.png?crop=center&height=1527&v=1665555813&width=1080 1080w"
@@ -1001,7 +1052,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Salty-Tribe-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Salty-Tribe-Art-Print"}},
         "title":"Salty Tribe Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?v=1628564672&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=339&v=1628564672&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=509&v=1628564672&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=594&v=1628564672&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=679&v=1628564672&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=905&v=1628564672&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family_4d7650b9-b1ef-4923-91cd-9ad25c9fb140.jpg?crop=center&height=1188&v=1628564672&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?v=1664495986&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=339&v=1664495986&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=509&v=1664495986&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=594&v=1664495986&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=679&v=1664495986&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=905&v=1664495986&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=1188&v=1664495986&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art_286f461e-9ef4-4ffb-8f78-656f03bb115f.jpg?crop=center&height=1527&v=1664495986&width=1080 1080w"},
       {
@@ -1009,7 +1060,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Crew-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"The-Crew-Art-Print"}},
         "title":"The Crew Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?v=1628565015&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=339&v=1628565015&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=509&v=1628565015&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=594&v=1628565015&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=679&v=1628565015&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=905&v=1628565015&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-brentos_b71a628d-5072-46c5-8ffe-e491227bd0b4.jpg?crop=center&height=1188&v=1628565015&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?v=1664497037&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=339&v=1664497037&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=509&v=1664497037&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=594&v=1664497037&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=679&v=1664497037&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=905&v=1664497037&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=1188&v=1664497037&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/the-crew-surfing-koalas.jpg?crop=center&height=1527&v=1664497037&width=1080 1080w"
       },
@@ -1018,7 +1069,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Rainbow-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Rainbow-Art-Print"}},
         "title":"Rainbow Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?v=1668908737&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=339&v=1668908737&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=509&v=1668908737&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=594&v=1668908737&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=679&v=1668908737&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=905&v=1668908737&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=1188&v=1668908737&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-pink-wave-surfing-koala.jpg?crop=center&height=1527&v=1668908737&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?v=1668908738&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=339&v=1668908738&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=509&v=1668908738&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=594&v=1668908738&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=679&v=1668908738&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=905&v=1668908738&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=1188&v=1668908738&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-surfing-koala-art_61d7d649-f32e-4360-96d4-45647f23e61c.jpg?crop=center&height=1527&v=1668908738&width=1080 1080w"
       },
@@ -1027,7 +1078,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Two-Surfer-Koalas-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Two-Surfer-Koalas-Art-Print"}},
         "title":"Two Surfer Koalas Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?v=1668910465&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=339&v=1668910465&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=509&v=1668910465&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=594&v=1668910465&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=679&v=1668910465&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=905&v=1668910465&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=1188&v=1668910465&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/two-surfing-koalas_dbbaa645-5000-434d-86bc-74c207c12052.jpg?crop=center&height=1527&v=1668910465&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?v=1668910465&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=339&v=1668910465&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=509&v=1668910465&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=594&v=1668910465&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=679&v=1668910465&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=905&v=1668910465&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=1188&v=1668910465&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas-art-print.jpg?crop=center&height=1527&v=1668910465&width=1080 1080w"
       },
@@ -1036,7 +1087,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Pitted-Surfing-Koala-Print"}},
+        "link":{"name":"ART","params":{"name":"Pitted-Surfing-Koala-Print"}},
         "title":"Pitted Surfing Koala Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?v=1621838193&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=339&v=1621838193&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=509&v=1621838193&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=594&v=1621838193&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=679&v=1621838193&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=905&v=1621838193&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-surfing-koala-art-brentos.jpg?crop=center&height=1188&v=1621838193&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?v=1664674756&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=339&v=1664674756&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=509&v=1664674756&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=594&v=1664674756&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=679&v=1664674756&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=905&v=1664674756&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=1188&v=1664674756&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/pitted-koala.jpg?crop=center&height=1527&v=1664674756&width=1080 1080w"
       },
@@ -1045,7 +1096,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Everything-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Everything-Art-Print"}},
         "title":"Everything Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?v=1628564407&width=480",
         "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=339&v=1628564407&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=509&v=1628564407&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=594&v=1628564407&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=679&v=1628564407&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=905&v=1628564407&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koalas_e5ce9f04-80c4-4b76-9d5e-bb1b5cd47a89.jpg?crop=center&height=1188&v=1628564407&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?v=1664496195&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=339&v=1664496195&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=509&v=1664496195&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=594&v=1664496195&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=679&v=1664496195&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=905&v=1664496195&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=1188&v=1664496195&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-parent.jpg?crop=center&height=1527&v=1664496195&width=1080 1080w"
@@ -1055,7 +1106,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Surfers-Paradise-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Surfers-Paradise-Art-Print"}},
         "title":"Surfers Paradise Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?v=1668908036&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=339&v=1668908036&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=509&v=1668908036&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=594&v=1668908036&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=679&v=1668908036&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=905&v=1668908036&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=1188&v=1668908036&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-artwork.jpg?crop=center&height=1527&v=1668908036&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?v=1668908036&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=339&v=1668908036&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=509&v=1668908036&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=594&v=1668908036&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=679&v=1668908036&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=905&v=1668908036&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=1188&v=1668908036&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfers-paradise-framed-wall-art.jpg?crop=center&height=1527&v=1668908036&width=1080 1080w"
       },
@@ -1064,7 +1115,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Wonderland-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Wonderland-Art-Print"}},
         "title":"Wonderland Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?v=1665385237&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=160&v=1665385237&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=239&v=1665385237&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=279&v=1665385237&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=319&v=1665385237&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=426&v=1665385237&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=559&v=1665385237&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=718&v=1665385237&width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/Wonderland-brentos.png?crop=center&height=851&v=1665385237&width=1280 1280w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?v=1665385260&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=160&v=1665385260&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=239&v=1665385260&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=279&v=1665385260&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=319&v=1665385260&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=426&v=1665385260&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=559&v=1665385260&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=718&v=1665385260&width=1080 1080w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=851&v=1665385260&width=1280 1280w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1024&v=1665385260&width=1540 1540w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1237&v=1665385260&width=1860 1860w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/wonderland-framed.png?crop=center&height=1397&v=1665385260&width=2100 2100w"
       },
@@ -1073,7 +1124,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Norfolk-Noise-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Norfolk-Noise-Art-Print"}},
         "title":"Norfolk Noise Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?v=1665383830&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=339&v=1665383830&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=509&v=1665383830&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=594&v=1665383830&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=679&v=1665383830&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=905&v=1665383830&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/norfolk-pines-cockatoos.png?crop=center&height=1188&v=1665383830&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?v=1665383830&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=339&v=1665383830&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=509&v=1665383830&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=594&v=1665383830&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=679&v=1665383830&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=905&v=1665383830&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=1188&v=1665383830&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoos-norfolk-pines-artwork.png?crop=center&height=1527&v=1665383830&width=1080 1080w"
       },
@@ -1082,7 +1133,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Surf-Fam-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Surf-Fam-Art-Print"}},
         "title":"Surf Fam Art Print",
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?v=1628564785&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=339&v=1628564785&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=509&v=1628564785&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=594&v=1628564785&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=679&v=1628564785&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=905&v=1628564785&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/create-your-own-surfing-koala-family_c73a8f3c-7a1f-4a8f-910f-1cfb02ef466e.jpg?crop=center&height=1188&v=1628564785&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?v=1664496819&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=339&v=1664496819&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=509&v=1664496819&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=594&v=1664496819&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=679&v=1664496819&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=905&v=1664496819&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=1188&v=1664496819&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-fam-framed-print.jpg?crop=center&height=1527&v=1664496819&width=1080 1080w"
       },
@@ -1091,7 +1142,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Cockatoo-Picnic-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Cockatoo-Picnic-Art-Print"}},
         "title":"Cockatoo Picnic Art Print",
         "coverSrc":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?v=1665470946&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=339&v=1665470946&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=509&v=1665470946&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=594&v=1665470946&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=679&v=1665470946&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=905&v=1665470946&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=1188&v=1665470946&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-picnic-brentos-art.png?crop=center&height=1527&v=1665470946&width=1080 1080w","overlaySrc":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?v=1665470946&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=339&v=1665470946&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=509&v=1665470946&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=594&v=1665470946&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=679&v=1665470946&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=905&v=1665470946&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=1188&v=1665470946&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cockatoo-framed-art.png?crop=center&height=1527&v=1665470946&width=1080 1080w"
       },
@@ -1099,21 +1150,21 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?v=1626245918&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=339&v=1626245918&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=509&v=1626245918&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=594&v=1626245918&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=679&v=1626245918&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=905&v=1626245918&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=1188&v=1626245918&width=840 840w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?v=1664261714&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=339&v=1664261714&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=509&v=1664261714&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=594&v=1664261714&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=679&v=1664261714&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=905&v=1664261714&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1188&v=1664261714&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family-art.jpg?crop=center&height=1527&v=1664261714&width=1080 1080w","title":"Create Your Own Surfing Koala Family Print"},
       {
         "id": "F-854732",
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Whale-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Whale-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?v=1669025740&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=339&v=1669025740&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=509&v=1669025740&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=594&v=1669025740&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=679&v=1669025740&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=905&v=1669025740&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=1188&v=1669025740&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/cute-whale-family-art-print_9dc71a91-0bee-4939-bc10-3905edac4ec8.jpg?crop=center&height=1527&v=1669025740&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?v=1669025740&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=339&v=1669025740&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=509&v=1669025740&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=594&v=1669025740&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=679&v=1669025740&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=905&v=1669025740&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=1188&v=1669025740&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-baby-whale-art-print_f916828b-18be-49a5-9e5c-956078f60dba.jpg?crop=center&height=1527&v=1669025740&width=1080 1080w","title":"Create Your Own Whale Family Print"},
       {
         "id": "F-152678",
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Kookaburra-Family-Print"}},
+        "link":{"name":"ART","params":{"name":"Create-Your-Own-Kookaburra-Family-Print"}},
         "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?v=1668913498&width=480","coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=339&v=1668913498&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=509&v=1668913498&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=594&v=1668913498&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=679&v=1668913498&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=905&v=1668913498&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=1188&v=1668913498&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/kookaburras-art.png?crop=center&height=1527&v=1668913498&width=1080 1080w","overlaySrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?v=1668913498&width=480","overlaySrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=339&v=1668913498&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=509&v=1668913498&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=594&v=1668913498&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=679&v=1668913498&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=905&v=1668913498&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=1188&v=1668913498&width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/framed-kookaburra-art.jpg?crop=center&height=1527&v=1668913498&width=1080 1080w","title":"Create Your Own Kookaburra Family Print"},
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surf-pub-koala-waves-beer-magpie-australia-art-print-brentos.png?v=1598232869&width=480",
@@ -1124,7 +1175,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Aussie-Surf-Pub-Art-Print"}},
         "id": "U-98657896"
       },
       {
@@ -1136,7 +1187,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Bush-Pub-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Bush-Pub-Art-Print"}},
         "id": "U-68754289"
 
       },
@@ -1149,7 +1200,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Red-Belly-Cherry-Stout-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Red-Belly-Cherry-Stout-Art-Print"}},
         "id": "U-85786547"
 
       },
@@ -1162,8 +1213,9 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Frothy-Cocky-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Frothy-Cocky-Art-Print"}},
         "id": "U-45785469"
+
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/koala-lager.png?v=1661241810&width=480",
@@ -1174,7 +1226,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Koala-Lager-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Koala-Lager-Art-Print"}},
         "id": "U-47854968"
       },
       {
@@ -1186,7 +1238,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Roo-Brew-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Roo-Brew-Art-Print"}},
         "id": "U-86547852"
       },
       {
@@ -1198,7 +1250,7 @@
         "isSoldOut":false,
         "isPeriod":false,
         "price":140,
-        "link":{"name":"PRODUCT","params":{"name":"Willy-the-Wonderful-Whale-Limited-Edition-Art Print"}},
+        "link":{"name":"ART","params":{"name":"Willy-the-Wonderful-Whale-Limited-Edition-Art Print"}},
         "id": "U-06347850"
       },
       {
@@ -1210,7 +1262,7 @@
         "isSoldOut":false,
         "isPeriod":false,
         "price":140,
-        "link":{"name":"PRODUCT","params":{"name":"Heart-and-Mind-Limited-Edition-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Heart-and-Mind-Limited-Edition-Art-Print"}},
         "id": "U-35978798"
       },
       {
@@ -1222,7 +1274,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Snake-Catcher-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Snake-Catcher-Art-Print"}},
         "id": "U-78549300"
       },
       {
@@ -1234,7 +1286,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Find-The-Fly-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Find-The-Fly-Art-Print"}},
         "id": "U-54892234"
       },
       {
@@ -1246,7 +1298,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kingfisher-Art-Print"}},
+        "link":{"name":"ART","params":{"name":"Kingfisher-Art-Print"}},
         "id": "U-78964523"
       },
       {
@@ -1259,7 +1311,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Seagull-and-Chip-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Seagull-and-Chip-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/Waves-Blue-Surf-Artwork-The-Peak-Brentos.png?v=1596172472&width=480",
@@ -1271,7 +1323,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"The-Peak-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"The-Peak-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/little-cute-whale-art-print.jpg?v=1669020079&width=480",
@@ -1283,7 +1335,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Little-Whale-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Little-Whale-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/mother-and-calf-whale-illustration.jpg?v=1669019405&width=480",
@@ -1295,7 +1347,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Whale-Calf-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Whale-Calf-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-cockatoo-wall-art-print.jpg?v=1612402830&width=480",
@@ -1307,7 +1359,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Cockatoo-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Cockatoo-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-galah-portrait-wall-art-print.png?v=1628574077&width=480",
@@ -1319,7 +1371,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Galah-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Galah-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-kookaburra-portrait-wall-art-print.png?v=1612404634&width=480",
@@ -1331,7 +1383,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kookaburra-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Kookaburra-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-magpie-portrait-wall-art-print.png?v=1612405068&width=480",
@@ -1343,7 +1395,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Magpie-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Magpie-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-koala-portrait-wall-art-print.png?v=1612404897&width=480",
@@ -1355,7 +1407,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Koala-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Koala-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-rainbow-lorikeet-portrait-wall-art-print.png?v=1612404560&width=480",
@@ -1367,7 +1419,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Rainbow-Lorikeet-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Rainbow-Lorikeet-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-tasmanian-devil-portrait-wall-art-print.png?v=1612405162&width=480",
@@ -1379,7 +1431,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Tassie-Devil-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Tassie-Devil-Art-Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-possum-portrait-wall-art-print.png?v=1612405122&width=480",
@@ -1391,7 +1443,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Possum Art Print"}}
+        "link":{"name":"ART","params":{"name":"Possum Art Print"}}
       },
       {
         "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-kangaroo-wall-art-print.jpg?v=1612402903&width=480",
@@ -1403,7 +1455,7 @@
         "isSoldOut":false,
         "isPeriod":true,
         "price":60,
-        "link":{"name":"PRODUCT","params":{"name":"Kangaroo-Art-Print"}}
+        "link":{"name":"ART","params":{"name":"Kangaroo-Art-Print"}}
       }
     ],
     "travel-posters": [
@@ -2013,7 +2065,7 @@
       "isSoldOut":false,
       "isPeriod":true,
       "price":60,
-      "link":{"name":"PRODUCT","params":{"name":"a-beautiful-day-art-print"}},
+      "link":{"name":"ART","params":{"name":"a-beautiful-day-art-print"}},
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?v=1667381423&amp;width=480",
       "coverSrcset": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=339&amp;v=1667381423&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=509&amp;v=1667381423&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=594&amp;v=1667381423&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=679&amp;v=1667381423&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=905&amp;v=1667381423&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1188&amp;v=1667381423&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-a-beautiful-day.png?crop=center&amp;height=1527&amp;v=1667381423&amp;width=1080 1080w",
       "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-tropical-beach.png?v=1667381423&amp;width=480",
@@ -2026,7 +2078,7 @@
       "isSoldOut":false,
       "isPeriod":true,
       "price":60,
-      "link":{"name":"PRODUCT","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
+      "link":{"name":"ART","params":{"name":"Create-Your-Own-Surfing-Koala-Family-Print"}},
       "title":"Create Your Own Surfing Koala Family Print",
       "coverSrc":"https://cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?v=1626245918&width=480",
       "coverSrcset":"//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=339&v=1626245918&width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=509&v=1626245918&width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=594&v=1626245918&width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=679&v=1626245918&width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=905&v=1626245918&width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/surfing-koala-family.jpg?crop=center&height=1188&v=1626245918&width=840 840w",
@@ -2041,7 +2093,7 @@
       "isPeriod":true,
       "isPopular": true,
       "price":60,
-      "link":{"name":"PRODUCT","params":{"name":"great-barrier-reef-art-print"}},
+      "link":{"name":"ART","params":{"name":"great-barrier-reef-art-print"}},
       "coverSrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?v=1668663791&amp;width=480",
       "coverSrcset": "///cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=339&amp;v=1668663791&amp;width=240 240w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=509&amp;v=1668663791&amp;width=360 360w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=594&amp;v=1668663791&amp;width=420 420w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=679&amp;v=1668663791&amp;width=480 480w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=905&amp;v=1668663791&amp;width=640 640w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1188&amp;v=1668663791&amp;width=840 840w,//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-great-barrier-reef-art.png?crop=center&amp;height=1527&amp;v=1668663791&amp;width=1080 1080w",
       "overlaySrc": "//cdn.shopify.com/s/files/1/0272/9548/1943/products/reef-art-print.jpg?v=1668663791&amp;width=480",
@@ -2069,7 +2121,7 @@
       "isSoldOut":false,
       "isPeriod":true,
       "price":60,
-      "link":{"name":"PRODUCT","params":{"name":"Frothy-Cocky-Art-Print"}},
+      "link":{"name":"ART","params":{"name":"Frothy-Cocky-Art-Print"}},
       "id": "U-45785469",
       "category": "up-late"
 

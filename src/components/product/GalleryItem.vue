@@ -1,7 +1,9 @@
 <template>
-  <div class="relative mr-1">
+  <div  class="relative mr-1">
+    <Skeletor v-if="isLoading" class="rounded-8 !absolute z-[9999] top-0 left-0" width="100%" :shimmer="true" height="800"/>
     <font-awesome-icon @click="isActive=true" class="absolute top-0 transition hover:!text-dark right-0 m-1 text-1.5 !text-dark/70 cursor-pointer z-50" icon="fa-solid fa-magnifying-glass-plus " />
     <img
+        @load="imageLoad"
         class="cursor-grab rounded-8"
         v-lazy="src"
         :srcset="srcset"
@@ -19,11 +21,17 @@ import {ref} from "vue";
 import ImageZoomer from './ImageZoomer.vue'
 let props=defineProps(['src','srcset','zoom'])
 const isActive=ref(false)
+const isLoading=ref(true)
 const close = () => {
   isActive.value=false
 }
+const imageLoad = () => {
+  isLoading.value=false
+}
 </script>
 
-<style scoped>
-
+<style lang="scss" >
+.vue-skeletor.vue-skeletor--rect.\!absolute.top-0.left-0{
+  background-color: #ccc!important;
+}
 </style>

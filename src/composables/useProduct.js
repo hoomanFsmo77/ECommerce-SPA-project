@@ -2,12 +2,7 @@ import {useRoute} from "vue-router";
 import {computed, onMounted, ref} from "vue";
 import {useProductStore} from "../store/Products.js";
 
-export default ()=>{
-    const productStore=useProductStore()
-    const popularProducts=computed(()=>productStore.getPopularProduct)
-    const fetchFlag=computed(()=>productStore.getPopularProductFetchFlag)
-    const route=useRoute()
-    const productId=ref(route.query.id)
+export default (carousel)=>{
     const productData={
         gallery:[
             {
@@ -43,6 +38,7 @@ export default ()=>{
 
         ],
         title:'Australia Kangaroos Poster',
+        available:5,
         description:[
             {
                 content:'I believe in creating beautiful Australian Made products using the highest quality materials, and in doing so giving a voice to our native wildlife and supporting local businesses.'
@@ -51,23 +47,44 @@ export default ()=>{
                 content: 'This poster print features a beach scene with two Kangaroos looking out towards a perfect barrelling wave with vintage typography underneath with the text \'Australia - Somewhere in The Southern Hemisphere.'
             },{
                 content: 'Each poster print is printed on thick 250gsm slightly matte paper that make the pastel colours really pop.'
+            },
+            {
+                content: '<img src="https://cdn.shopify.com/s/files/1/0272/9548/1943/files/australian-made-bar3.png?v=1599223146""/>'
             }
         ],
+        hasFrame:true,
         option:{
             sizes:[
                 {
                     size:'A3',
-                    price:40
+                    price:40,
+                    available:true,
+                    frame:{
+                        price:80,
+                        available:true
+                    }
                 },{
                     size:'A2',
-                    price:80
+                    price:80,
+                    available:true,
+                    frame:{
+                        price:100,
+                        available:true
+                    }
+
                 },{
                     size:'A1',
-                    price:120
+                    price:120,
+                    available:true,
+                    frame:{
+                        price:120,
+                        available:true
+                    }
+
                 }
-            ],
+            ]
         },
-        price:35,
+        price:40,
         link:{
             facebook:'#',
             twitter:'#',
@@ -76,47 +93,64 @@ export default ()=>{
         isSoldOut:false,
         discount:null
     }
-    const price=ref(productData.price)
+
+    const productStore=useProductStore()
+    const popularProducts=computed(()=>productStore.getPopularProduct)
+    const fetchFlag=computed(()=>productStore.getPopularProductFetchFlag)
+    const route=useRoute()
+    const productId=ref(route.query.id)
     const quantity=ref(1)
-    const changeSize = (newPrice,size) => {
-        price.value=newPrice
-        userProductDetail.priceDetail=size
+    const sizeIndex=ref(0)
+    const whichFrame=ref(0)
+    const totalPriceWithFrame=computed(()=>productData.option.sizes[sizeIndex.value].frame ? (productData.option.sizes[sizeIndex.value].price + productData.option.sizes[sizeIndex.value].frame.price).toFixed(2) :  (productData.option.sizes[sizeIndex.value].price.toFixed(2) ?? productData.price));
+    const totalPriceWithOutFrame=computed(()=>productData.option.sizes[sizeIndex.value].price.toFixed(2))
+    /////////////////////////////////////////////
+
+    const changeSize = (target,index) => {
+        if(target.available){
+            userProductDetail.value.priceDetail.size=target.size
+            sizeIndex.value=index
+            whichFrame.value=0
+        }
     }
     const increment = () => {
         quantity.value++
-        userProductDetail.quantity++
+        if(quantity.value>productData.available){
+            quantity.value=productData.available
+        }
     }
     const decrement = () => {
         quantity.value--
-        userProductDetail.quantity--
         if(quantity.value<1){
             quantity.value=1
         }
     }
-    const setInitialSize = item => {
-        if(item){
-            userProductDetail.priceDetail.size=item.size
+    const userProductDetail=computed(()=>{
+        return{
+            productId:productId.value,
+            category:route.hash.slice(1),
+            quantity:quantity.value,
+            priceDetail:{
+                size:productData.option.sizes[sizeIndex.value].size,
+                frame:whichFrame.value===0 ? 'No frame' : 'Recycled Timber Frame',
+                price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value
+            },
+            discount:productData.discount || 0
         }
-    }
-    const userProductDetail={
-        productId:productId.value,
-        category:route.hash.slice(1),
-        quantity:1,
-        priceDetail:{
-            size:'',
-            price:price.value
-        },
-        discount:productData.discount || 0
-    }
+    })
     const addToCart = () => {
-        console.log(userProductDetail)
+        console.log(userProductDetail.value)
     }
     onMounted(()=>{
         productStore.fetchPopularProduct()
     })
+    const changeFrame = index => {
+      carousel.value.slideTo(index)
+      whichFrame.value=index
+    }
 
     return {
-        productData,productId,price,quantity,changeSize,increment,decrement,setInitialSize,addToCart,route,
-        popularProducts,fetchFlag
+        productData,productId,quantity,changeSize,increment,decrement,addToCart,route,
+        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame
     }
 }

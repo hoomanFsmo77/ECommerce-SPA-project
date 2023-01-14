@@ -12,7 +12,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassPlus,faMagnifyingGlassMinus,faPlus,faMinus} from '@fortawesome/free-solid-svg-icons'
 import {faFacebookF,faTwitter,faPinterest} from '@fortawesome/free-brands-svg-icons'
-library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassMinus,faMagnifyingGlassPlus,faPlus,faMinus,faFacebookF,faTwitter,faPinterest)
+import {faThumbsUp} from '@fortawesome/free-regular-svg-icons'
+
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassMinus,faMagnifyingGlassPlus,faPlus,faMinus,faFacebookF,faTwitter,faPinterest,faThumbsUp)
 
 
 ////////// vue router
