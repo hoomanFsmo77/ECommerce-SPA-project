@@ -3773,7 +3773,8 @@
           "content":"A giclée illustration printed on 310gsm archival paper with a creamy texture that pairs magically with Brentos' signature pastels. Made in Australia and printed right here in our art studio. Why not add a sustainable, character-filled recycled timber frame?"
         }
       ],
-      "hasFrame":false,
+      "hasFrame":true,
+      "hasFamily": true,
       "option":{
         "sizes":[
           {
@@ -3811,6 +3812,28 @@
             }
           }
 
+        ],
+        "family": [
+          {
+            "item": "1 x Big Koala + 1 x Little Koala",
+            "index": 2,
+            "available": true
+          },
+          {
+            "item": "1 x Big Koala + 2 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 1 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 2 x Little Koala",
+            "index": 0,
+            "available": true
+          }
         ]
       },
       "price":60,
@@ -6182,6 +6205,7 @@
         }
       ],
       "hasFrame":true,
+      "hasFamily": true,
       "option":{
         "sizes":[
           {
@@ -6219,6 +6243,28 @@
             }
           }
 
+        ],
+        "family": [
+          {
+            "item": "1 x Big Koala + 1 x Little Koala",
+            "index": 2,
+            "available": true
+          },
+          {
+            "item": "1 x Big Koala + 2 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 1 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 2 x Little Koala",
+            "index": 0,
+            "available": true
+          }
         ]
       },
       "price":60,
@@ -6325,6 +6371,7 @@
         }
       ],
       "hasFrame":true,
+      "hasFamily": true,
       "option":{
         "sizes":[
           {
@@ -6362,6 +6409,28 @@
             }
           }
 
+        ],
+        "family": [
+          {
+            "item": "1 x Big Koala + 1 x Little Koala",
+            "index": 2,
+            "available": true
+          },
+          {
+            "item": "1 x Big Koala + 2 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 1 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 2 x Little Koala",
+            "index": 0,
+            "available": true
+          }
         ]
       },
       "price":60,
@@ -6438,6 +6507,7 @@
         }
       ],
       "hasFrame":true,
+      "hasFamily": true,
       "option":{
         "sizes":[
           {
@@ -6475,6 +6545,28 @@
             }
           }
 
+        ],
+        "family": [
+          {
+            "item": "1 x Big Koala + 1 x Little Koala",
+            "index": 2,
+            "available": true
+          },
+          {
+            "item": "1 x Big Koala + 2 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 1 x Little Koala",
+            "index": 4,
+            "available": true
+          },
+          {
+            "item": "2 x Big Koala + 2 x Little Koala",
+            "index": 0,
+            "available": true
+          }
         ]
       },
       "price":60,

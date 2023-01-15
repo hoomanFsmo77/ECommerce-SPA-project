@@ -12,6 +12,7 @@ export default (carousel)=>{
     const productId=ref(route.query.id)
     const quantity=ref(1)
     const sizeIndex=ref(0)
+    const familyIndex=ref(0)
     const whichFrame=ref(0)
     const totalPriceWithFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].frame ? (productData.value.option.sizes[sizeIndex.value].price + productData.value.option.sizes[sizeIndex.value].frame.price).toFixed(2) :  (productData.value.option.sizes[sizeIndex.value].price.toFixed(2) ?? productData.value.price));
     const totalPriceWithOutFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].price.toFixed(2))
@@ -43,8 +44,9 @@ export default (carousel)=>{
             quantity:quantity.value,
             priceDetail:{
                 size:productData.value.option.sizes[sizeIndex.value].size,
-                frame:whichFrame.value===0 ? 'No frame' : 'Recycled Timber Frame',
-                price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value
+                frame:productData.value.hasFrame ? (whichFrame.value===0 ? 'No frame' : 'Recycled Timber Frame') : null,
+                price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value,
+                family:productData.value.hasFamily ? (productData.value.option.family[familyIndex.value].item) : null
             },
             discount:productData.value.discount || 0
         }
@@ -60,10 +62,13 @@ export default (carousel)=>{
       carousel.value.slideTo(index)
       whichFrame.value=index
     }
-
+    const changeFamily=(imageIndex,itemIndex)=>{
+        carousel.value.slideTo(imageIndex)
+        familyIndex.value=itemIndex
+    }
 
     return {
         productData,productId,quantity,changeSize,increment,decrement,addToCart,route,
-        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag
+        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex
     }
 }

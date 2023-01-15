@@ -69,6 +69,7 @@ export const useProductStore=defineStore('products',{
         },
         fetchProductDetail(id){
             this.productDetailFetchFlag=false
+            this.productDetail={}
             axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productDetailData/${id}.json`).then(response=>{
                 this.productDetail=response.data
                 this.productDetailFetchFlag=true

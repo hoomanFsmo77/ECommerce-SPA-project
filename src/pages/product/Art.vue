@@ -1,5 +1,5 @@
 <template>
-  {{productId}}
+<!--  {{productId}}-->
   <section class="relative" :id="`product-show-id-${productId}`">
     <container >
       <row>
@@ -47,8 +47,21 @@
               </template>
               <p v-html="item.content" class="mb-1 font-500 text-1" v-for="item in productData.description"></p>
             </div>
+<!--        <<<<<<<<<<<<<<<<<< family part start >>>>>>>>>>>>>>-->
+            <div v-if="productData.hasFamily" class="mt-4">
+              <h5 class="font-600 mb-1">Choose Your Family Members</h5>
+              <button
+                  :disabled="!productData.option.family[familyIndex].available"
+                  :class="{'disabled':!productData.option.family[familyIndex].available,'selected':familyIndex===index}"
+                  @click="changeFamily(item.index,index)"
+                  v-for="(item,index) in productData.option.family"
+                  class="btn  btn-dark-outline mr-1 mb-1">
+                {{item.item}}
+              </button>
+            </div>
+<!--        <<<<<<<<<<<<<<<<<< family part start >>>>>>>>>>>>>>-->
 
-<!--            <<<<<<<<<<<<< size part start>>>>>>>>>>>>-->
+            <!--            <<<<<<<<<<<<< size part start>>>>>>>>>>>>-->
             <div class="mt-4 " v-if="productData.option.sizes">
               <h5 class="font-600 mb-1">Size</h5>
               <button
@@ -333,7 +346,7 @@ let faqData=[
   },
 ]
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag}=useProduct(carousel)
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex}=useProduct(carousel)
 </script>
 
 <style lang="scss">
