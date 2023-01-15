@@ -1,5 +1,5 @@
 <template>
-<!--  {{productId}}-->
+  {{productId}}
   <section  :id="`product-show-id-${productId}`">
       <container>
         <row>
