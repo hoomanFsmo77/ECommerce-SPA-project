@@ -13,7 +13,7 @@
       </router-link>
     </div>
     <div class="relative w-[95%] py-1 mx-auto">
-      <SearchBox class="w-full" v-model="searchText" @on="showResult($event)"/>
+      <SearchBox @input="initSearch" class="w-full" v-model="searchText" @on="showResult($event)"/>
       <DarkOverlay z-index="999" @outside="closeResult($event)" :is-fire="isOn"/>
       <SearchResult :is-fire="isOn" :search-text="searchText"/>
     </div>
@@ -34,7 +34,7 @@ import SearchBox from "../../Form/SearchBox.vue";
 import DarkOverlay from "../DarkOverlay.vue";
 import SearchResult from "../SearchResult.vue";
 import Badge from "../../Widget/Badge.vue";
-const {cartLength,isOn,showResult,searchText,totalPrice,closeResult}=useDesktopHeader()
+const {cartLength,isOn,showResult,searchText,totalPrice,closeResult,initSearch}=useDesktopHeader()
 </script>
 
 <style scoped>

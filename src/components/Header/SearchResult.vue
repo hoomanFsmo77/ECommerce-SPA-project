@@ -1,20 +1,28 @@
 <template>
   <div v-fade:99999="searchText.length>0 && isFire" class="search-result-container">
     <div  class="search-result">
-      <skeletor-loader v-if="isLoading"/>
+      <skeletor-loader v-if="!searchFlag"/>
       <div v-else>
         <div class="p-1.5 !pb-1">
           <span class="text-0.9  block">Products</span>
 
           <!--      <<<<<<<<< render the search result here >>>>>>>>>>>>>>>-->
           <!--          <<<<<<<<< start >>>>>>>>-->
-          <div class="search-result-item  ">
-            <img v-lazy="'https://cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=110&v=1669608345&width=100'"
-                srcset="//cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=110&v=1669608345&width=100 100w, //cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=220&v=1669608345&width=200 200w, //cdn.shopify.com/s/files/1/0272/9548/1943/products/brentos-hat.jpg?crop=center&height=330&v=1669608345&width=300 300w"
-                src="" height="110"  class="responsive-image rounded-8" alt="">
-            <span class="mt-0.5 block font-600">$45.00</span>
-            <router-link :to="{name:'HOME'}" class="font-600 btn-stretch btn-link">Gumnut Boardriders Hat</router-link>
-          </div>
+          <template v-if="searchResult.product.length>0">
+            <div class="search-result-item  " v-for="item in searchResult.product">
+              <img
+                  v-lazy="item.coverSrc"
+                  :srcset="item.coverSrcset"
+                  src="" height="110"  class="responsive-image rounded-8" alt="">
+              <span class="mt-0.5 block font-600">$45.00</span>
+              <router-link :to="{name:item.link.name,params:{name:item.link.params.name},query:{id:item.id},hash:`#${item.category}`}" class="font-600 btn-stretch btn-link">{{item.title}}</router-link>
+            </div>
+          </template>
+          <template v-else>
+            <p class="font-600 text-0.9">
+              No Search Result Found!
+            </p>
+          </template>
           <!--          <<<<<<<<< end >>>>>>>>-->
         </div>
         <div class="divider"></div>
@@ -23,16 +31,19 @@
           <ul class="ul-col">
             <!--        <<<<<<<<<< render the result of search category here >>>>>>>>>-->
             <!--        <<<<<<<< start >>>>>>>>-->
-            <li>
-              <router-link class="btn-link font-600" :to="{name:'HOME'}">
-                Hats
-              </router-link>
-            </li>
-            <li>
-              <router-link class="btn-link font-600" :to="{name:'HOME'}">
-                Home Page
-              </router-link>
-            </li>
+            <template v-if="searchResult.collection.length>0">
+              <li v-for="item in searchResult.collection">
+                <router-link class="btn-link font-600" :to="item.link">
+                  {{item.text}}
+                </router-link>
+              </li>
+            </template>
+            <template v-else>
+              <li class="font-600 text-0.9">
+                No Search Result Found!
+              </li>
+            </template>
+
             <!--        <<<<<<<<< end >>>>>>>-->
           </ul>
         </div>
@@ -47,27 +58,16 @@
 </template>
 
 <script setup>
-import {ref,watch} from "vue";
+import {ref,watch,computed} from "vue";
 import SkeletorLoader from "../loader/skeletorLoader.vue";
+import {useSearchStore} from "../../store/search.js";
 let props=defineProps(['searchText','isFire'])
-let isLoading=ref(true)
+const store=useSearchStore()
+const searchFlag=computed(()=>store.getNavbarSearchFlag)
+const searchResult=computed(()=>store.getNavbarSearchResult)
 
-const fakeLoading = () => {
-  setTimeout(()=>{
-    isLoading.value=false
-  },1500)
-}
 
-watch(
-    ()=>props.searchText,
-    ()=>{
-      if(props.searchText.length>0){
-          fakeLoading()
-      }else {
-        isLoading.value=true
-      }
-    }
-)
+
 
 </script>
 

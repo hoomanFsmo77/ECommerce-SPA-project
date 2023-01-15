@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[262],{7262:(e,t,a)=>{a.r(t),a.d(t,{default:()=>c});const n={name:"Search"};const c=(0,a(3744).Z)(n,[["render",function(e,t,a,n,c,r){return" search page "}]])}}]);

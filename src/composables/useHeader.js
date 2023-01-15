@@ -1,12 +1,15 @@
 import {computed, ref, watch} from "vue";
 import {useCartStore} from "../store/Cart.js";
 import {useRoute} from "vue-router";
+import {useSearchStore} from "../store/search.js";
 
-
+let timeout=null;
+let delay=1500;
 export const useDesktopHeader=()=>{
     const isOn=ref(false)
     const searchText=ref('')
     const store=useCartStore()
+    const searchStore=useSearchStore()
     const route=useRoute()
     const cartLength=computed(()=>store.cartLength)
     const totalPrice=computed(()=>store.totalPrice.toFixed(2))
@@ -16,6 +19,22 @@ export const useDesktopHeader=()=>{
     const closeResult = e => {
         isOn.value=e
     }
+    const initSearch = () => {
+        searchStore.resetFlag(false)
+        if(timeout){
+            clearTimeout(timeout)
+        }
+        timeout=setTimeout(()=>{
+            searchAction()
+        },delay)
+    }
+    
+    const searchAction = () => {
+        if(searchText.value.length>0){
+            searchStore.triggerNavbarSearch(searchText.value)
+        }
+    }
+
     watch(
         ()=>route.path,
         ()=>{
@@ -23,7 +42,7 @@ export const useDesktopHeader=()=>{
             searchText.value=''
         }
     )
-    return {isOn,showResult,searchText,cartLength,totalPrice,closeResult}
+    return {isOn,showResult,searchText,cartLength,totalPrice,closeResult,initSearch}
 }
 
 
