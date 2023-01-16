@@ -4,7 +4,7 @@ import axios from "axios";
 const filterCollection = (data,searchText) => {
     return data.filter(item=>item.text.toLowerCase().startsWith(searchText.toLowerCase()))
 }
-const filterProducts = (data,searchText,limit) => {
+const filterProducts = (data,searchText) => {
     let result=[]
     Object.entries(data).forEach(item=>{
         item[1].forEach(product=>{
@@ -13,7 +13,7 @@ const filterProducts = (data,searchText,limit) => {
             }
         })
     })
-    return result.slice(0,limit);
+    return result.filter((v,i,a)=>a.findIndex(v2=>(v2.title===v.title))===i)
 }
 
 
@@ -22,7 +22,11 @@ export const useSearchStore=defineStore('search',{
     state:()=>{
         return{
             navbarSearchResult:{collection:''},
-            navbarSearchFlag:false
+            navbarSearchFlag:false,
+
+
+            mainSearchResult:[],
+            mainSearchFlag:false
         }
     },
     getters:{
@@ -31,6 +35,15 @@ export const useSearchStore=defineStore('search',{
       },
       getNavbarSearchResult(state){
           return state.navbarSearchResult
+      },
+      getMainSearchFlag(state){
+          return state.mainSearchFlag
+      },
+      getMainSearchResult(state){
+          return state.mainSearchResult
+      },
+      searchLength(state){
+          return state.mainSearchResult.length
       }
     },
     actions:{
@@ -41,12 +54,20 @@ export const useSearchStore=defineStore('search',{
             let productReq=await axios.get('https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productListData.json')
             Promise.all([collectionReq,productReq]).then(response=>{
                 this.navbarSearchResult.collection=filterCollection(response[0].data,value)
-                this.navbarSearchResult.product=filterProducts(response[1].data,value,4)
+                this.navbarSearchResult.product=filterProducts(response[1].data,value).slice(0,4)
                 this.navbarSearchFlag=true
             })
         },
         resetFlag(value){
             this.navbarSearchFlag=value
+        },
+         triggerMainSearch(value){
+            this.mainSearchResult=[]
+            this.mainSearchFlag=false
+            axios.get('https://ecommerce-199b2-default-rtdb.firebaseio.com/product/productListData.json').then(response=>{
+                this.mainSearchResult=filterProducts(response.data,value)
+                this.mainSearchFlag=true
+            })
         }
 
     }

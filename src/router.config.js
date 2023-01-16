@@ -169,7 +169,7 @@ const routes=[
           {
               name:'SEARCH',
               path:'/search',
-              component:SEARCH
+              component:SEARCH,
           },
           {
               name:'CHALLENGE_PAGE',

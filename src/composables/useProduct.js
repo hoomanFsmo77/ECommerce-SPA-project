@@ -1,5 +1,5 @@
 import {useRoute} from "vue-router";
-import {computed, onMounted, ref} from "vue";
+import {computed, onMounted, ref,watch} from "vue";
 import {useProductStore} from "../store/Products.js";
 
 export default (carousel)=>{
@@ -54,10 +54,23 @@ export default (carousel)=>{
     const addToCart = () => {
         console.log(userProductDetail.value)
     }
-    onMounted(()=>{
-        productStore.fetchPopularProduct()
-        productStore.fetchProductDetail(productId.value)
-    })
+
+    watch(
+        ()=>route.path,
+        ()=>{
+            if(route.name==='ART' || route.name==='PRODUCT'){
+                productStore.fetchPopularProduct()
+                productStore.fetchProductDetail(productId.value)
+            }
+        },
+        {
+            immediate:true
+        }
+    )
+
+
+
+
     const changeFrame = index => {
       carousel.value.slideTo(index)
       whichFrame.value=index

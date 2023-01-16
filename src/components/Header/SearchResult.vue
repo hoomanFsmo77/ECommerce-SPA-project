@@ -48,7 +48,7 @@
           </ul>
         </div>
         <div class="flex sticky bottom-0 bg-light justify-center mt-1 shadow-[0_0_40px_rgba(0,0,0,0.2)] p-1">
-          <router-link class="btn btn-dark-fill w-full text-center" :to="{name:'SEARCH'}">
+          <router-link class="btn btn-dark-fill w-full text-center" :to="{name:'SEARCH',query:{search:searchText}}">
             Search for "{{searchText}}"
           </router-link>
         </div>

@@ -11,6 +11,7 @@ export const corePagination= (props,emit)=>{
         let end=currentPage*props.itemInWarp> props.source.length ? props.source.length : currentPage*props.itemInWarp;
         let currentPageItem=[...target.value].slice(start,end)
         emit('update',currentPageItem)
+        emit('period',{start,end})
     }
 
     onMounted(()=>{

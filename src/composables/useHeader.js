@@ -36,7 +36,7 @@ export const useDesktopHeader=()=>{
     }
 
     watch(
-        ()=>route.path,
+        ()=>route.fullPath,
         ()=>{
             isOn.value=false
             searchText.value=''

@@ -1,6 +1,6 @@
 <template>
   <Transition name="show">
-    <div :style="{top:endTop}" v-if="isActive" class="bg-light border-b-[1px] border-r-[1px] border-l-[1px] border-gray-200  transition-all w-11 absolute  z-50 shadow-lg "   >
+    <div :style="{top:endTop}" v-if="isActive" class="bg-light border-b-[1px] border-r-[1px] border-l-[1px] border-gray-200  transition-all w-11 absolute  z-[99999999] shadow-lg "   >
         <slot></slot>
     </div>
   </Transition>
