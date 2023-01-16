@@ -25,6 +25,8 @@ const MURALS_AND_PUBLIC_ART=()=>import('./pages/pages/Murals and Public Art.vue'
 const CONTACT_BRENTOS=()=>import('./pages/pages/contact brentos.vue')
 const BRAND_COLLABORATIONS=()=>import('./pages/pages/Brand Collaborations.vue')
 const OUR_STORY=()=>import('./pages/pages/our story.vue')
+const COOPERS_BREWERY=()=>import('./pages/pages/coopers-brewery.vue')
+const TAWANY_GROGMOUTH=()=>import('./pages/pages/tawny-grogmouth-2022.vue')
 
 //// policy pages
 const POLICY_INDEX=()=>import('./pages/policy/index.vue')
@@ -141,6 +143,14 @@ const routes=[
                         name:'OUR_STORY',
                         path:'our-story',
                         component:OUR_STORY
+                    },{
+                        name:'COOPERS_BREWERY',
+                        path:'coopers-brewery',
+                        component:COOPERS_BREWERY
+                    },{
+                        name:'TAWANY_GROGMOUTH',
+                        path:'tawany-grogmouth',
+                        component:TAWANY_GROGMOUTH
                     },
 
 

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktemplate=self.webpackChunktemplate||[]).push([[185],{6185:(e,t,s)=>{s.r(t),s.d(t,{default:()=>n});const r={name:"terms of service"};const n=(0,s(3744).Z)(r,[["render",function(e,t,s,r,n,c){return" terms-of-service "}]])}}]);

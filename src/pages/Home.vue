@@ -7,6 +7,7 @@
   <Story/>
   <Service/>
   <NewsLetter/>
+  <RecentWork/>
 </template>
 <script setup>
 import Brand from "../components/Home/Brand.vue";
@@ -17,6 +18,7 @@ import Story from "../components/Home/Story.vue";
 import Service from "../components/Home/Service.vue";
 import NewsLetter from "../components/Home/NewsLetter.vue";
 import Preloader from '../components/Home/Preloader.vue'
+import RecentWork from "../components/Home/RecentWork.vue";
 import {useRouter} from "vue-router";
 import {ref} from "vue";
 /////////////////////////
