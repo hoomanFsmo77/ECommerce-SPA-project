@@ -77,12 +77,7 @@
         <template v-if="isPeriod">
           <button @click="toggleModal" class="btn w-full mt-1 btn-dark-outline">Buy now</button>
           <Modal class="w-full sm:h-[calc(100vh-7rem)] h-[100vh]" @closeModal="closeModal($event)" :is-active="isActive">
-            <template v-slot:left>
-              left content here
-            </template>
-            <template v-slot:right>
-              right content here
-            </template>
+            <ProductDetailModal v-if="isActive" :category="category" :id="id" @closeModal="closeModal($event)"/>
           </Modal>
         </template>
         <template v-else>
@@ -100,6 +95,7 @@
 <script setup>
 import useProductCard from "../../composables/useProductCard.js";
 import Modal from '../Widget/Modal.vue'
+import ProductDetailModal from '../../components/product/ProductDetailModal.vue'
 let props=defineProps(['link','coverSrc','overlaySrc','coverSrcset','overlaySrcset','isSoldOut','isPeriod','price','title','discount','id','category'])
 const {isActive,closeModal,toggleModal,discountPercent,isLoading,imageLoad}=useProductCard(props)
 

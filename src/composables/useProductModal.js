@@ -1,22 +1,20 @@
-import {useRoute} from "vue-router";
-import {computed, onMounted, ref,watch} from "vue";
+import {computed, ref} from "vue";
 import {useProductStore} from "../store/Products.js";
+import {useRoute} from "vue-router";
 
-export default (carousel)=>{
+export default (carousel,props)=>{
+    const route=useRoute()
     const productStore=useProductStore()
-    const popularProducts=computed(()=>productStore.getPopularProduct)
-    const fetchFlag=computed(()=>productStore.getPopularProductFetchFlag)
     const productData=computed(()=>productStore.getProductData)
     const productDetailFlag=computed(()=>productStore.getProductDetailDataFlag)
-    const route=useRoute()
-    const productId=ref(route.query.id)
+    const productId=ref(props.id)
     const quantity=ref(1)
     const sizeIndex=ref(0)
     const familyIndex=ref(0)
     const whichFrame=ref(0)
     const totalPriceWithFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].frame ? (productData.value.option.sizes[sizeIndex.value].price + productData.value.option.sizes[sizeIndex.value].frame.price).toFixed(2) :  (productData.value.option.sizes[sizeIndex.value].price.toFixed(2) ?? productData.value.price.toFixed(2)));
     const totalPriceWithOutFrame=computed(()=>productData.value?.option?.sizes ? productData.value.option.sizes[sizeIndex.value].price.toFixed(2) : productData.value.price.toFixed(2))
-    /////////////////////////////////////////////
+
 
     const changeSize = (target,index) => {
         if(target.available){
@@ -40,7 +38,7 @@ export default (carousel)=>{
     const userProductDetail=computed(()=>{
         return{
             productId:productId.value,
-            category:route.hash.slice(1),
+            category:props.category ?? route.params.name,
             quantity:quantity.value,
             priceDetail:{
                 size:productData.value?.option?.sizes ? productData.value.option.sizes[sizeIndex.value].size : null,
@@ -51,43 +49,22 @@ export default (carousel)=>{
             discount:productData.value.discount || 0
         }
     })
+
     const addToCart = () => {
         console.log(userProductDetail.value)
     }
 
-    watch(
-        ()=>route.path,
-        ()=>{
-            if(route.name==='ART' || route.name==='PRODUCT'){
-                productStore.fetchPopularProduct()
-                productStore.fetchProductDetail(productId.value)
-            }
-        },
-        {
-            immediate:true
-        }
-    )
-
-
-
-
     const changeFrame = index => {
-      carousel.value.slideTo(index)
-      whichFrame.value=index
+        carousel.value.slideTo(index)
+        whichFrame.value=index
     }
     const changeFamily=(imageIndex,itemIndex)=>{
         carousel.value.slideTo(imageIndex)
         familyIndex.value=itemIndex
     }
-    const setInitialSizeIndex = (available,index) => {
-        if(available){
-            sizeIndex.value=index
-            return false;
-        }
-    }
+
 
     return {
-        productData,productId,quantity,changeSize,increment,decrement,addToCart,route,
-        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex,setInitialSizeIndex
+        productData,productDetailFlag,quantity,sizeIndex,familyIndex,whichFrame,totalPriceWithOutFrame,totalPriceWithFrame,increment,decrement,addToCart,changeFrame,changeFamily,changeSize
     }
 }
