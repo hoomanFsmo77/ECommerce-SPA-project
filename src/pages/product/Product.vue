@@ -1,5 +1,4 @@
 <template>
-<!--  {{productId}}-->
   <section  :id="`product-show-id-${productId}`">
       <container>
         <row>
@@ -47,12 +46,13 @@
                 </template>
                 <p v-html="item.content" class="mb-1 font-500 text-1" v-for="item in productData.description"></p>
               </div>
-              <div class="mt-4 " v-if="productData.option.sizes">
+              <div class="mt-4 " v-if="productData?.option?.sizes">
                 <h5 class="font-600 mb-1">Size</h5>
                 <button
                     :class="{'disabled':!item.available,'selected':sizeIndex===index}"
                     @click="changeSize(item,index)" v-for="(item,index) in productData.option.sizes"
                     class="btn btn-dark-outline mr-1 "
+                    :ref="setInitialSizeIndex(item.available,index)"
                 >
                   {{item.size}}
                 </button>
@@ -148,7 +148,7 @@ import PreLoader from '../../components/loader/preLoader.vue'
 //////////////////////////////////////
 let props=defineProps(['name'])
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag}=useProduct(carousel)
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,setInitialSizeIndex}=useProduct(carousel)
 </script>
 
 <style lang="scss">

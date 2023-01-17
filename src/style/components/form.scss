@@ -17,7 +17,7 @@
     @apply  bg-dark text-light border-dark;
   }
   .btn-dark-outline.disabled{
-    @apply  !border-gray-400 !text-gray-400 !line-through hover:!bg-transparent hover:!text-gray-400 !cursor-default;
+    @apply  !border-gray-400 !text-gray-400 !line-through hover:!bg-transparent hover:!text-gray-400 !cursor-default !bg-light ;
   }
   .btn-dark-outline-light{
     @apply !rounded-l-[0px] transition-all px-2 border-[1px] border-light hover:border-dark text-light capitalize;

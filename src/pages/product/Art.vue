@@ -1,5 +1,4 @@
 <template>
-<!--  {{productId}}-->
   <section class="relative" :id="`product-show-id-${productId}`">
     <container >
       <row>
@@ -62,7 +61,7 @@
 <!--        <<<<<<<<<<<<<<<<<< family part start >>>>>>>>>>>>>>-->
 
             <!--            <<<<<<<<<<<<< size part start>>>>>>>>>>>>-->
-            <div class="mt-4 " v-if="productData.option.sizes">
+            <div class="mt-4 " v-if="productData?.option?.sizes">
               <h5 class="font-600 mb-1">Size</h5>
               <button
                       :class="{'disabled':!item.available,'selected':sizeIndex===index}"

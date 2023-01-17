@@ -7,7 +7,7 @@
         </column>
       </row>
       <row v-if="fetchFlag">
-        <column class="px-0.7" v-for="item in recentWorkData" col="12" sm="4">
+        <column class="pr-1" v-for="item in recentWorkData" col="12" sm="4">
           <RecentWorkCard :title="item.title" :srcset="item.srcset" :src="item.src" :sub-title="item.subTitle" :link="item.link"/>
         </column>
       </row>

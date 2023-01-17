@@ -14,8 +14,8 @@ export default (carousel)=>{
     const sizeIndex=ref(0)
     const familyIndex=ref(0)
     const whichFrame=ref(0)
-    const totalPriceWithFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].frame ? (productData.value.option.sizes[sizeIndex.value].price + productData.value.option.sizes[sizeIndex.value].frame.price).toFixed(2) :  (productData.value.option.sizes[sizeIndex.value].price.toFixed(2) ?? productData.value.price));
-    const totalPriceWithOutFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].price.toFixed(2))
+    const totalPriceWithFrame=computed(()=>productData.value.option.sizes[sizeIndex.value].frame ? (productData.value.option.sizes[sizeIndex.value].price + productData.value.option.sizes[sizeIndex.value].frame.price).toFixed(2) :  (productData.value.option.sizes[sizeIndex.value].price.toFixed(2) ?? productData.value.price.toFixed(2)));
+    const totalPriceWithOutFrame=computed(()=>productData.value?.option?.sizes ? productData.value.option.sizes[sizeIndex.value].price.toFixed(2) : productData.value.price.toFixed(2))
     /////////////////////////////////////////////
 
     const changeSize = (target,index) => {
@@ -43,7 +43,7 @@ export default (carousel)=>{
             category:route.hash.slice(1),
             quantity:quantity.value,
             priceDetail:{
-                size:productData.value.option.sizes[sizeIndex.value].size,
+                size:productData.value?.option?.sizes ? productData.value.option.sizes[sizeIndex.value].size : null,
                 frame:productData.value.hasFrame ? (whichFrame.value===0 ? 'No frame' : 'Recycled Timber Frame') : null,
                 price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value,
                 family:productData.value.hasFamily ? (productData.value.option.family[familyIndex.value].item) : null
@@ -79,9 +79,14 @@ export default (carousel)=>{
         carousel.value.slideTo(imageIndex)
         familyIndex.value=itemIndex
     }
+    const setInitialSizeIndex = (available,index) => {
+        if(available){
+            sizeIndex.value=index
+        }
+    }
 
     return {
         productData,productId,quantity,changeSize,increment,decrement,addToCart,route,
-        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex
+        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex,setInitialSizeIndex
     }
 }
