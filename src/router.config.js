@@ -19,14 +19,15 @@ const ALL_COLLECTION=()=>import('./pages/Collection/AllCollections.vue')
 
 //// pages
 const PAGES_INDEX=()=>import('./pages/pages/index.vue')
-const PAINTINGS=()=>import('./pages/pages/Paintings.vue')
-const COMICS=()=>import('./pages/pages/Comics.vue')
-const MURALS_AND_PUBLIC_ART=()=>import('./pages/pages/Murals and Public Art.vue')
+// const PAINTINGS=()=>import('./pages/pages/Paintings.vue')
+// const COMICS=()=>import('./pages/pages/Comics.vue')
+// const MURALS_AND_PUBLIC_ART=()=>import('./pages/pages/Murals and Public Art.vue')
 const CONTACT_BRENTOS=()=>import('./pages/pages/contact brentos.vue')
 const BRAND_COLLABORATIONS=()=>import('./pages/pages/Brand Collaborations.vue')
 const OUR_STORY=()=>import('./pages/pages/our story.vue')
-const COOPERS_BREWERY=()=>import('./pages/pages/coopers-brewery.vue')
-const TAWANY_GROGMOUTH=()=>import('./pages/pages/tawny-grogmouth-2022.vue')
+// const COOPERS_BREWERY=()=>import('./pages/pages/coopers-brewery.vue')
+// const TAWANY_GROGMOUTH=()=>import('./pages/pages/tawny-grogmouth-2022.vue')
+const MAIN_PAGES=()=>import('./pages/pages/Main.vue')
 
 //// policy pages
 const POLICY_INDEX=()=>import('./pages/policy/index.vue')
@@ -119,41 +120,24 @@ const routes=[
                 component:PAGES_INDEX,
                 children: [
                     {
-                        name:'PAINTINGS',
-                        path:'Paintings',
-                        component:PAINTINGS
-                    },
-                    {
-                        name:'COMICS',
-                        path:'Comics',
-                        component:COMICS
-                    },{
-                        name:'MURALS_AND_PUBLIC_ART',
-                        path:'Murals-and-Public-Art',
-                        component:MURALS_AND_PUBLIC_ART
-                    },{
                         name:'CONTACT_BRENTOS',
                         path:'contact-brentos',
                         component:CONTACT_BRENTOS
                     },{
                         name:'BRAND_COLLABORATIONS',
-                        path:'Brand-Collaborations',
+                        path:'brand-collabrations',
                         component:BRAND_COLLABORATIONS
                     },{
                         name:'OUR_STORY',
                         path:'our-story',
                         component:OUR_STORY
-                    },{
-                        name:'COOPERS_BREWERY',
-                        path:'coopers-brewery',
-                        component:COOPERS_BREWERY
-                    },{
-                        name:'TAWANY_GROGMOUTH',
-                        path:'tawany-grogmouth',
-                        component:TAWANY_GROGMOUTH
                     },
-
-
+                    {
+                        name:'MAIN_PAGES',
+                        path:':name',
+                        component:MAIN_PAGES,
+                        props:true
+                    }
                 ]
             },
             {

@@ -1,0 +1,120 @@
+{
+  "pagesData": {
+    "paintings": [
+        {
+          "col": 12,
+          "topTitle": "2022"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/brentos-coopers-magpie-painting.jpg?v=1664157188",
+          "bottomTitle": "Coopers Magpie",
+          "description": "Acrylic on Canvas (76cm X 76cm)"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/brentos-coopers-cockatoo-painting.jpg?v=1664157183",
+          "bottomTitle": "Coopers Cockatoo",
+          "description": "Acrylic on Canvas (76cm X 76cm)"
+        },
+        {
+          "col": 12,
+          "topTitle": "2021"
+        },
+        {
+          "col": 12,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/wonderland-2021.jpg?v=1664156837",
+          "bottomTitle": "Wonderland",
+          "description": "Acrylic on Canvas (127cm X 76cm)"
+        },
+        {
+          "col": 12,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/Spring-2021.jpg?v=1664156636",
+          "bottomTitle": "Spring",
+          "description": "Acrylic on Canvas (76cm X 102cm)"
+        },
+        {
+          "col": 12,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/Ghosts-Of-The-Peninsula.jpg",
+          "bottomTitle": "Ghosts of the Peninsula",
+          "description": "Acrylic on Canvas (102cm X 76cm)"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/pftb-majormitchell.jpg",
+          "bottomTitle": "Major Mitchell",
+          "description": "Acrylic on Canvas (61cm X 91cm)"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/pftb-bilby.jpg",
+          "bottomTitle": "Bilby",
+          "description": "Acrylic on Canvas (61cm X 91cm)"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/pftb-koala.jpg",
+          "bottomTitle": "Koala",
+          "description": "Acrylic on Canvas (61cm X 91cm)"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/pftb-redbelly.jpg",
+          "bottomTitle": "Red Belly Black Snake",
+          "description": "Acrylic on Canvas (61cm X 91cm)"
+        },
+        {
+          "col": 12,
+          "topTitle": "2020"
+        },
+        {
+          "col": 12,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/Original-Brentos-Painting.jpg",
+          "bottomTitle": "Us",
+          "description": "Acrylic on Canvas (152cm X 102cm)"
+        },
+        {
+          "col": 12,
+          "topTitle": "2019"
+        },
+        {
+          "col": 6,
+          "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/files/One-Of-a-Kind-2019.jpg",
+          "bottomTitle": "One of a Kind",
+          "description": "Acrylic on Wooden Board (20cm X 35cm)"
+        }
+      ],
+    "comics": [
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-fa96518f--postagedelays.png",
+        "topTitle": "Postage delays:"
+      },
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-3164ca0e--birdpoopcomic.png",
+        "topTitle": "The life-giving power of bird poo:"
+      },
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-8d32fc5a--brentoswrongholemagpiecomic.png",
+        "topTitle": "The Wrong Hole:"
+      },
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-475d3dd0--brentoscomickookaburraminer.png",
+        "topTitle": "The Kookaburra and the Miner Bird:"
+      },
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-cfeea945--brentosbinchickendinnercomic.png",
+        "topTitle": "Bin Chicken Dinner"
+      },
+      {
+        "col": 12,
+        "src": "https://cdn.shopify.com/s/files/1/0272/9548/1943/t/5/assets/pf-c6182353--kookaburravb.png",
+        "topTitle": "The Drunk Kookaburra"
+      }
+    ]
+  }
+}

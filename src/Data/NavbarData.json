@@ -127,13 +127,14 @@
         {
           "id":61,
           "name":"paintings",
-          "link":{"name":"PAINTINGS"},
+          "link":{"name":"MAIN_PAGES","params": {"name": "paintings"}},
           "subMenu": 0
         },
         {
           "id":62,
           "name":"comics",
-          "link":{"name":"COMICS"},
+          "link":{"name":"MAIN_PAGES","params": {"name": "comics"}},
+
           "subMenu": 0
         }
 
@@ -149,7 +150,8 @@
         {
           "id":71,
           "name":"mural gallery",
-          "link":{"name":"MURALS_AND_PUBLIC_ART"},
+          "link":{"name":"MAIN_PAGES","params": {"name": "mural-gallery"}},
+
           "subMenu": 0
         },
         {
