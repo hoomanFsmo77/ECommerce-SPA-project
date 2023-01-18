@@ -15,4 +15,8 @@
   .span-row{
     @apply block w-full;
   }
+
+  .icon-wrapper{
+    @apply w-2.5 h-2.5 bg-gray-200 outline-[1px] outline-gray-300 outline rounded-full flex justify-center items-center outline-offset-[3px]
+  }
 }

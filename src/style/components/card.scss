@@ -33,5 +33,12 @@
     .product-card-badge{
       @apply uppercase p-0.5 py-0.3 rounded-8 bg-gray-500 text-light absolute top-0 right-0 m-1;
     }
+
+  }
+  .insta-feed-card{
+    @apply pt-24 relative;
+  }
+  .insta-feed-img{
+    @apply absolute top-0 left-0 w-full h-full object-cover;
   }
 }

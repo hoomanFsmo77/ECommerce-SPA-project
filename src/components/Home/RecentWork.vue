@@ -7,12 +7,12 @@
         </column>
       </row>
       <row v-if="fetchFlag">
-        <column class="pr-1" v-for="item in recentWorkData" col="12" sm="4">
+        <column class="pr-1" v-for="item in recentWorkData" col="12" md="4">
           <RecentWorkCard :title="item.title" :srcset="item.srcset" :src="item.src" :sub-title="item.subTitle" :link="item.link"/>
         </column>
       </row>
       <row v-else>
-        <column class="px-0.7" v-for="i in 3" col="12" sm="4">
+        <column class="pr-1 mb-1" v-for="i in 3" col="12" sm="4">
           <Skeletor  class="rounded-4 mr-1" width="100%" :shimmer="true" height="400"/>
         </column>
       </row>

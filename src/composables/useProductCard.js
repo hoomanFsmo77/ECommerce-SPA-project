@@ -3,6 +3,7 @@ import {useProductStore} from "../store/Products.js";
 
 export default (props)=>{
     const productStore=useProductStore()
+    const fetchFlag=computed(()=>productStore.getProductDetailDataFlag)
     let isLoading=ref(true)
     let discountPercent=computed(()=>Math.ceil((1-(props.discount / props.price))*100))
     let isActive=ref(false)
@@ -21,5 +22,5 @@ export default (props)=>{
         isLoading.value=false
     }
 
-    return {discountPercent,toggleModal,closeModal,isActive,isLoading,imageLoad}
+    return {discountPercent,toggleModal,closeModal,isActive,isLoading,imageLoad,fetchFlag}
 }

@@ -11,10 +11,10 @@ import './Data/NavbarData.json'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faCartShopping ,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassPlus,faMagnifyingGlassMinus,faPlus,faMinus} from '@fortawesome/free-solid-svg-icons'
-import {faFacebookF,faTwitter,faPinterest} from '@fortawesome/free-brands-svg-icons'
+import {faFacebookF,faTwitter,faPinterest,faInstagram} from '@fortawesome/free-brands-svg-icons'
 import {faThumbsUp} from '@fortawesome/free-regular-svg-icons'
 
-library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassMinus,faMagnifyingGlassPlus,faPlus,faMinus,faFacebookF,faTwitter,faPinterest,faThumbsUp)
+library.add(faCartShopping,faMagnifyingGlass,faChevronDown,faTruckFast,faChevronRight,faBars,faX,faAngleRight,faAngleLeft,faChevronLeft,faEarthEurope,faTree,faMapLocationDot,faHandHoldingDollar,faMagnifyingGlassMinus,faMagnifyingGlassPlus,faPlus,faMinus,faFacebookF,faTwitter,faPinterest,faThumbsUp,faInstagram)
 
 
 ////////// vue router
