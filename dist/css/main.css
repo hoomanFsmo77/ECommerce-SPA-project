@@ -1117,6 +1117,43 @@ h6, .h6 {
   outline-offset: 3px;
   outline-color: #d1d5db;
 }
+
+.footer-link {
+  font-size: 0.9rem !important;
+  font-weight: 500;
+  text-transform: capitalize;
+  --tw-text-opacity: 1;
+  color: rgb(28 24 31/var(--tw-text-opacity));
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.footer-link:hover {
+  color: rgba(28, 24, 31, 0.7);
+}
+
+.footer-border {
+  margin-bottom: 1.5rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(229 231 235/var(--tw-border-opacity));
+  padding-bottom: 1rem;
+}
+
+.footer-border:last-child {
+  border-bottom-width: 0px;
+}
+
+@media (min-width: 768px) {
+  .footer-border {
+    margin-bottom: 0;
+    border-bottom-width: 0px;
+    padding-bottom: 0;
+  }
+}
 /*!**************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style/Tailwind.config/Tailwind.utilities.scss ***!
   \**************************************************************************************************************************************************************************************/
@@ -1305,6 +1342,11 @@ h6, .h6 {
   margin-bottom: 0 !important;
 }
 
+.my-0\.2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
 .\!mb-0 {
   margin-bottom: 0 !important;
 }
@@ -1391,6 +1433,10 @@ h6, .h6 {
 
 .mb-3 {
   margin-bottom: 3rem;
+}
+
+.mb-0\.4 {
+  margin-bottom: 0.4rem;
 }
 
 .block {
@@ -1644,6 +1690,11 @@ h6, .h6 {
   border-color: rgba(209, 213, 219, 0.8);
 }
 
+.border-b-gray-200 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(229 231 235/var(--tw-border-opacity));
+}
+
 .bg-gray-100\/70 {
   background-color: rgba(243, 244, 246, 0.7);
 }
@@ -1818,6 +1869,11 @@ h6, .h6 {
   padding-bottom: 0.9rem;
 }
 
+.py-2\.5 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .\!pb-0 {
   padding-bottom: 0 !important;
 }
@@ -1876,6 +1932,14 @@ h6, .h6 {
 
 .pt-24 {
   padding-top: 24rem;
+}
+
+.pr-2 {
+  padding-right: 2rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
 }
 
 .text-left {
@@ -2008,6 +2072,10 @@ h6, .h6 {
 
 .\!leading-1 {
   line-height: 1 !important;
+}
+
+.leading-1\.7 {
+  line-height: 1.7;
 }
 
 .text-gray-500 {
@@ -2246,11 +2314,24 @@ h6, .h6 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .sm\:px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .sm\:pl-1 {
     padding-left: 1rem;
   }
   .sm\:\!pr-1 {
     padding-right: 1rem !important;
+  }
+  .sm\:pr-2 {
+    padding-right: 2rem;
+  }
+  .sm\:pl-2 {
+    padding-left: 2rem;
+  }
+  .sm\:text-right {
+    text-align: right;
   }
   .sm\:text-3 {
     font-size: 3rem;
@@ -2304,6 +2385,9 @@ h6, .h6 {
   }
   .md\:order-3 {
     order: 3;
+  }
+  .md\:mb-0 {
+    margin-bottom: 0;
   }
   .md\:block {
     display: block;

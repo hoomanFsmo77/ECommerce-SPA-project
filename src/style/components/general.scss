@@ -19,4 +19,11 @@
   .icon-wrapper{
     @apply w-2.5 h-2.5 bg-gray-200 outline-[1px] outline-gray-300 outline rounded-full flex justify-center items-center outline-offset-[3px]
   }
+
+  .footer-link{
+    @apply underline !text-0.9 font-500 text-dark hover:text-dark/70 transition-all capitalize underline-offset-[6px]
+  }
+  .footer-border{
+    @apply border-b-[1px] border-b-gray-200 mb-1.5 pb-1 last:border-b-[0px] md:border-b-[0px] md:pb-0 md:mb-0
+  }
 }
