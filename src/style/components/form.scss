@@ -7,6 +7,9 @@
       @apply text-1 ml-0.5 font-600;
     }
   }
+  .btn-lg{
+    @apply py-1.2 px-2 text-1.2
+  }
   .btn-dark-fill{
     @apply bg-dark text-light [&_*]:text-light hover:bg-[#444] transition-all;
   }

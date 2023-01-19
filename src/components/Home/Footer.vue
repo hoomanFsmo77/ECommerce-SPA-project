@@ -20,15 +20,15 @@
         <column class="sm:px-2 footer-border" col="12" sm="6" md="3">
           <h6 class="font-700 mb-1">Quick links</h6>
           <ul class="ul-col">
-            <li><router-link  class="footer-link" :to="{name:'OUR_STORY'}">our story</router-link>
+            <li><router-link  class="underline-link" :to="{name:'OUR_STORY'}">our story</router-link>
             </li>
-            <li><router-link  class="footer-link" :to="{name:'CONTACT_BRENTOS'}">contact us</router-link>
+            <li><router-link  class="underline-link" :to="{name:'CONTACT_BRENTOS'}">contact us</router-link>
             </li>
-            <li><router-link  class="footer-link" :to="{name:'REFUND_POLICY'}">refund policy</router-link>
+            <li><router-link  class="underline-link" :to="{name:'REFUND_POLICY'}">refund policy</router-link>
             </li>
-            <li><router-link  class="footer-link" :to="{name:'TERMS_OF_SERVICE'}">terms of service</router-link>
+            <li><router-link  class="underline-link" :to="{name:'TERMS_OF_SERVICE'}">terms of service</router-link>
             </li>
-            <li><router-link  class="footer-link" :to="{name:'PRIVACY_POLICY'}">privacy policy</router-link>
+            <li><router-link  class="underline-link" :to="{name:'PRIVACY_POLICY'}">privacy policy</router-link>
             </li>
           </ul>
 
@@ -57,7 +57,7 @@
         <column col="12" sm="6" >
           <p class="font-600 !text-1">
             Copyright © 2023
-            <router-link class="footer-link !text-1" :to="{name:'HOME'}">
+            <router-link class="underline-link !text-1" :to="{name:'HOME'}">
               Brentos
             </router-link>
           </p>

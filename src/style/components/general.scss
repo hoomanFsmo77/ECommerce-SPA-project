@@ -20,7 +20,7 @@
     @apply w-2.5 h-2.5 bg-gray-200 outline-[1px] outline-gray-300 outline rounded-full flex justify-center items-center outline-offset-[3px]
   }
 
-  .footer-link{
+  .underline-link{
     @apply underline !text-0.9 font-500 text-dark hover:text-dark/70 transition-all capitalize underline-offset-[6px]
   }
   .footer-border{
