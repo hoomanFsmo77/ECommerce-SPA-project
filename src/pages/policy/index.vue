@@ -1,5 +1,5 @@
 <template>
-policy index
+  <router-view></router-view>
 </template>
 
 <script>

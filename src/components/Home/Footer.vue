@@ -44,7 +44,7 @@
             (weather permitting)
           </em>
           </span>
-          <a href="http://www.w3.org/2000/svg">
+          <a href="https://www.instagram.com/artofbrentos">
             <font-awesome-icon class=" mt-1" size="xl" icon="fa-brands fa-instagram" />
           </a>
 
