@@ -20,6 +20,8 @@
               :src="item.src"
               :bottom-title="item.bottomTitle"
               :description="item.description"
+              :link="item.link"
+              :video="item.video"
           />
         </row>
       </template>
