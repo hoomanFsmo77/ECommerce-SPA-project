@@ -14,17 +14,7 @@
 <script>
 export default {
   name: "PagesRowCard",
-  props:['col','topTitle','bottomTitle','src','description','link','video'],
-  data(){
-    return{
-      isLoading:true
-    }
-  },
-  methods:{
-    imageLoad(){
-      this.isLoading=false
-    }
-  }
+  props:['col','topTitle','bottomTitle','src','description','link','video']
 }
 </script>
 

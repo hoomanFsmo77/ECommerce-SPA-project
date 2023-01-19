@@ -1877,6 +1877,21 @@ h6, .h6 {
   padding-bottom: 0.9rem;
 }
 
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .\!pb-0 {
   padding-bottom: 0 !important;
 }
@@ -2375,6 +2390,9 @@ h6, .h6 {
   .md\:mb-0 {
     margin-bottom: 0;
   }
+  .md\:mb-2 {
+    margin-bottom: 2rem;
+  }
   .md\:block {
     display: block;
   }
@@ -2383,6 +2401,10 @@ h6, .h6 {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:px-6 {
+    padding-left: 6rem;
+    padding-right: 6rem;
   }
   .md\:pl-1 {
     padding-left: 1rem;
