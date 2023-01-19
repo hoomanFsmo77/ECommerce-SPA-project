@@ -1,12 +1,12 @@
 <template>
   <container class="relative">
-    <PreLoader :show="!fetchFlag && !errorFlag"/>
     <row>
       <column col="12">
         <BreadCrumb :pages="[{name:'Home',link:{name:'HOME'}},{name:'Collections',link:{name:'ALL_COLLECTION'}},{name:name.split('-').join(' ')}]"/>
         <h1 class="font-600 text-left mb-1">{{name.split('-').join(' ')}}</h1>
       </column>
     </row>
+    <PreLoader class="!static !items-center !h-[300px]" :show="!fetchFlag && !errorFlag"/>
     <template v-if="fetchFlag && productListData">
       <template  v-if="24 < productListData.length">
         <row>

@@ -171,7 +171,8 @@
         {
           "id":71,
           "name":"Brand collabs",
-          "link":{"name":"BRAND_COLLABORATIONS"},
+          "link":{"name":"MAIN_PAGES","params": {"name": "brand-collaboration"}},
+
           "subMenu": 0
         },
         {

@@ -19,14 +19,8 @@ const ALL_COLLECTION=()=>import('./pages/Collection/AllCollections.vue')
 
 //// pages
 const PAGES_INDEX=()=>import('./pages/pages/index.vue')
-// const PAINTINGS=()=>import('./pages/pages/Paintings.vue')
-// const COMICS=()=>import('./pages/pages/Comics.vue')
-// const MURALS_AND_PUBLIC_ART=()=>import('./pages/pages/Murals and Public Art.vue')
 const CONTACT_BRENTOS=()=>import('./pages/pages/contact brentos.vue')
-const BRAND_COLLABORATIONS=()=>import('./pages/pages/Brand Collaborations.vue')
 const OUR_STORY=()=>import('./pages/pages/our story.vue')
-// const COOPERS_BREWERY=()=>import('./pages/pages/coopers-brewery.vue')
-// const TAWANY_GROGMOUTH=()=>import('./pages/pages/tawny-grogmouth-2022.vue')
 const MAIN_PAGES=()=>import('./pages/pages/Main.vue')
 
 //// policy pages
@@ -123,10 +117,6 @@ const routes=[
                         name:'CONTACT_BRENTOS',
                         path:'contact-brentos',
                         component:CONTACT_BRENTOS
-                    },{
-                        name:'BRAND_COLLABORATIONS',
-                        path:'brand-collabrations',
-                        component:BRAND_COLLABORATIONS
                     },{
                         name:'OUR_STORY',
                         path:'our-story',
