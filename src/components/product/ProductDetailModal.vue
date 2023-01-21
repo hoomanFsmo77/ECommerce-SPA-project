@@ -18,7 +18,7 @@
   </column>
   <column class="order-2 md:order-3" md="6" col="12">
     <div class="flex w-full justify-between items-center">
-      <span class="text-gray-600 font-600 !text-1">Brentos</span>
+      <span class="text-gray-600 font-600 !text-1 pl-1">Brentos</span>
       <font-awesome-icon size="lg" class="cursor-pointer text-gray-700 " @click="closeModal" icon="fa-solid fa-x" />
     </div>
     <div v-if="productDetailFlag" class="sm:pl-1">
@@ -53,6 +53,7 @@
 <!--            <<<<<<<<<<<<< size part start>>>>>>>>>>>>-->
       <div class="mt-4 " v-if="productData?.option?.sizes">
         <h5 class="font-600 mb-1">Size</h5>
+        {{setSelectedSize}}
         <button
             :class="{'disabled':!item.available,'selected':sizeIndex===index }"
             @click="changeSize(item,index)"
@@ -146,13 +147,13 @@ import useProductModal from "../../composables/useProductModal.js";
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 import GalleryItem from '../../components/product/GalleryItem.vue'
 ////////////////////////////////////////////////////////////
-let props=defineProps(['id','category'])
+let props=defineProps(['id','category','link'])
 let emit=defineEmits(['closeModal'])
 const closeModal = () => {
   emit('closeModal',false)
 }
 const {next,prev,settings,carousel}=useCarousel()
-const {productDetailFlag,productData,totalPriceWithFrame,totalPriceWithOutFrame,whichFrame,familyIndex,sizeIndex,quantity,decrement,increment,addToCart,changeFamily,changeFrame,changeSize}=useProductModal(carousel,props)
+const {productDetailFlag,productData,totalPriceWithFrame,totalPriceWithOutFrame,whichFrame,familyIndex,sizeIndex,quantity,decrement,increment,addToCart,changeFamily,changeFrame,changeSize,setSelectedSize}=useProductModal(carousel,props)
 
 </script>
 

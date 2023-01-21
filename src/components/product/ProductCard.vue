@@ -18,7 +18,7 @@
       <router-link
           :class="{'peer':!isLoading}"
           class="stretch-link"
-          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name?? category}`}"
+          :to="productLink"
       ></router-link>
       <div v-if="overlaySrc" class="product-card-image-overlay peer-hover:opacity-100 peer-hover:visible">
         <img
@@ -67,7 +67,7 @@
 <!--      <<<<<<<<<<< title start >>>>>>>>>>>>>-->
       <router-link
           class="btn-link !text-1.4 !font-700  "
-          :to="{name:link.name,params:{name:link.params.name},query:{id:id},hash:`#${$route.params.name ?? category}`}"
+          :to="productLink"
       >
         {{title}}
       </router-link>
@@ -77,13 +77,21 @@
         <template v-if="isPeriod">
           <button @click="toggleModal" class="btn w-full mt-1 btn-dark-outline">Buy now</button>
           <Modal class="w-full sm:h-[calc(100vh-7rem)] h-[100vh]" @closeModal="closeModal($event)" :is-active="isActive" :preloader="fetchFlag">
-            <ProductDetailModal v-if="isActive" :category="category" :id="id" @closeModal="closeModal($event)"/>
+            <ProductDetailModal v-if="isActive" :category="category" :link="props.link" :id="id" @closeModal="closeModal($event)"/>
           </Modal>
         </template>
         <template v-else>
-          <router-link class="btn w-full mt-1 btn-dark-outline block" :to="{name:'CART'}">
+          <button @click="addToCart" class="btn w-full mt-1 btn-dark-outline block ">
             Buy now
-          </router-link>
+            <hollow-dots-spinner
+                v-if="addToCartFlag"
+                class="z-50 !static !m-auto"
+                                 :animation-duration="1000"
+                                 :dot-size="10"
+                                 :dots-num="3"
+                                 color="#333"
+            />
+          </button>
         </template>
       </template>
 <!--        <<<<<<<<<<<< buy now button end >>>>>>>>>>>>>-->
@@ -93,11 +101,12 @@
 </template>
 
 <script setup>
+import { HollowDotsSpinner } from 'epic-spinners'
 import useProductCard from "../../composables/useProductCard.js";
 import Modal from '../Widget/Modal.vue'
 import ProductDetailModal from '../../components/product/ProductDetailModal.vue'
 let props=defineProps(['link','coverSrc','overlaySrc','coverSrcset','overlaySrcset','isSoldOut','isPeriod','price','title','discount','id','category'])
-const {isActive,closeModal,toggleModal,discountPercent,isLoading,imageLoad,fetchFlag}=useProductCard(props)
+const {isActive,closeModal,toggleModal,discountPercent,isLoading,imageLoad,fetchFlag,addToCart,productLink,addToCartFlag}=useProductCard(props)
 
 
 

@@ -1,10 +1,12 @@
 import {computed, ref} from "vue";
 import {useProductStore} from "../store/Products.js";
+import {useCartStore} from "../store/Cart.js";
 import {useRoute} from "vue-router";
 
 export default (carousel,props)=>{
     const route=useRoute()
     const productStore=useProductStore()
+    const cartStore=useCartStore()
     const productData=computed(()=>productStore.getProductData)
     const productDetailFlag=computed(()=>productStore.getProductDetailDataFlag)
     const productId=ref(props.id)
@@ -37,7 +39,12 @@ export default (carousel,props)=>{
     }
     const userProductDetail=computed(()=>{
         return{
+            src:productData.value.gallery[0].src,
+            srcset:productData.value.gallery[0].srcset,
+            available:productData.value.available,
+            title:productData.value.title,
             productId:productId.value,
+            link:props.link,
             category:props.category ?? route.params.name,
             quantity:quantity.value,
             priceDetail:{
@@ -46,12 +53,12 @@ export default (carousel,props)=>{
                 price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value,
                 family:productData.value.hasFamily ? (productData.value.option.family[familyIndex.value].item) : null
             },
-            discount:productData.value.discount || 0
+            discount:productData.value.discount || null
         }
     })
 
     const addToCart = () => {
-        console.log(userProductDetail.value)
+        cartStore.addToUserCart(userProductDetail.value)
     }
 
     const changeFrame = index => {
@@ -62,9 +69,14 @@ export default (carousel,props)=>{
         carousel.value.slideTo(imageIndex)
         familyIndex.value=itemIndex
     }
+    const setSelectedSize = computed(() => {
+        if(productDetailFlag.value){
+            sizeIndex.value=productData.value.option.sizes.findIndex(item=>item.available)
+        }
+    })
 
 
     return {
-        productData,productDetailFlag,quantity,sizeIndex,familyIndex,whichFrame,totalPriceWithOutFrame,totalPriceWithFrame,increment,decrement,addToCart,changeFrame,changeFamily,changeSize
+        productData,productDetailFlag,quantity,sizeIndex,familyIndex,whichFrame,totalPriceWithOutFrame,totalPriceWithFrame,increment,decrement,addToCart,changeFrame,changeFamily,changeSize,setSelectedSize
     }
 }

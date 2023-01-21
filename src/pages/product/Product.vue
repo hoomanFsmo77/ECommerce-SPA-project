@@ -48,11 +48,12 @@
               </div>
               <div class="mt-4 " v-if="productData?.option?.sizes">
                 <h5 class="font-600 mb-1">Size</h5>
+                {{setSelectedSize}}
                 <button
-                    :class="{'disabled':!item.available,'selected':sizeIndex===index}"
-                    @click="changeSize(item,index)" v-for="(item,index) in productData.option.sizes"
+                    :class="{'disabled':!item.available,'selected':sizeIndex===index && item.available}"
+                    @click="changeSize(item,index)"
+                    v-for="(item,index) in productData.option.sizes"
                     class="btn btn-dark-outline mr-1 "
-                    :ref="setInitialSizeIndex(item.available,index)"
                 >
                   {{item.size}}
                 </button>
@@ -75,7 +76,7 @@
                 </template>
               </div>
               <div class="divider"></div>
-              <div class="flex gap-1 items-center">
+              <div class="flex flex-col sm:flex-row gap-1 items-center">
                   <div v-if="!productData.isSoldOut">
                     <button @click="decrement" class="btn btn-dark-outline !py-1">
                       <font-awesome-icon size="lg" icon="fa-solid fa-minus" />
@@ -148,7 +149,7 @@ import PreLoader from '../../components/loader/preLoader.vue'
 //////////////////////////////////////
 let props=defineProps(['name'])
 const {next,prev,settings,carousel}=useCarousel()
-const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,setInitialSizeIndex}=useProduct(carousel)
+const {addToCart,decrement,increment,changeSize,quantity,productId,productData,route,fetchFlag,popularProducts,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,setSelectedSize}=useProduct(carousel)
 </script>
 
 <style lang="scss">

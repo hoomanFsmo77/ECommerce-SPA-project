@@ -1,9 +1,13 @@
 import {useRoute} from "vue-router";
-import {computed, onMounted, ref,watch} from "vue";
+import {computed, ref,watch} from "vue";
 import {useProductStore} from "../store/Products.js";
+import {useCartStore} from "../store/Cart.js";
+
 
 export default (carousel)=>{
+
     const productStore=useProductStore()
+    const cartStore=useCartStore()
     const popularProducts=computed(()=>productStore.getPopularProduct)
     const fetchFlag=computed(()=>productStore.getPopularProductFetchFlag)
     const productData=computed(()=>productStore.getProductData)
@@ -39,8 +43,12 @@ export default (carousel)=>{
     }
     const userProductDetail=computed(()=>{
         return{
+            src:productData.value.gallery[0].src,
+            available:productData.value.available,
+            link:route.fullPath,
+            srcset:productData.value.gallery[0].srcset,
+            title:productData.value.title,
             productId:productId.value,
-            category:route.hash.slice(1),
             quantity:quantity.value,
             priceDetail:{
                 size:productData.value?.option?.sizes ? productData.value.option.sizes[sizeIndex.value].size : null,
@@ -48,12 +56,18 @@ export default (carousel)=>{
                 price:whichFrame.value===0 ? totalPriceWithOutFrame.value : totalPriceWithFrame.value,
                 family:productData.value.hasFamily ? (productData.value.option.family[familyIndex.value].item) : null
             },
-            discount:productData.value.discount || 0
+            discount:productData.value.discount || null
         }
     })
     const addToCart = () => {
-        console.log(userProductDetail.value)
+        cartStore.addToUserCart(userProductDetail.value)
     }
+    const setSelectedSize = computed(() => {
+        if(fetchFlag.value){
+            sizeIndex.value=productData.value.option.sizes.findIndex(item=>item.available)
+        }
+    })
+
 
     watch(
         ()=>route.path,
@@ -79,15 +93,12 @@ export default (carousel)=>{
         carousel.value.slideTo(imageIndex)
         familyIndex.value=itemIndex
     }
-    const setInitialSizeIndex = (available,index) => {
-        if(available){
-            sizeIndex.value=index
-            return false;
-        }
-    }
+
+
+
 
     return {
         productData,productId,quantity,changeSize,increment,decrement,addToCart,route,
-        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex,setInitialSizeIndex
+        popularProducts,fetchFlag,changeFrame,sizeIndex,totalPriceWithFrame,whichFrame,totalPriceWithOutFrame,productDetailFlag,changeFamily,familyIndex,setSelectedSize
     }
 }

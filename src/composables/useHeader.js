@@ -12,7 +12,7 @@ export const useDesktopHeader=()=>{
     const searchStore=useSearchStore()
     const route=useRoute()
     const cartLength=computed(()=>store.cartLength)
-    const totalPrice=computed(()=>store.totalPrice.toFixed(2))
+    const totalPrice=computed(()=>store.getTotalPrice)
     const showResult=e=>{
         isOn.value=e
     }

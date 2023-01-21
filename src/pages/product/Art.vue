@@ -79,7 +79,7 @@
               <button
                   :disabled="!productData.option.sizes[sizeIndex].available"
                   :class="{'disabled':!productData.option.sizes[sizeIndex].available,'selected':whichFrame===0}" @click="changeFrame(0)"
-                  class="btn  btn-dark-outline mr-1 ">
+                  class="btn  btn-dark-outline mr-1 sm:mb-0 mb-1">
                   No frame
               </button>
               <button :disabled="!productData.option.sizes[sizeIndex].frame.available"
@@ -110,7 +110,7 @@
             </div>
 <!--            <<<<<<<<<<<<< price part end>>>>>>>>>>>>-->
             <div class="divider"></div>
-            <div class="flex gap-1 items-center">
+            <div class="flex  flex-col sm:flex-row gap-1 items-center">
               <div v-if="!productData.isSoldOut">
                 <button @click="decrement" class="btn btn-dark-outline !py-1">
                   <font-awesome-icon size="lg" icon="fa-solid fa-minus" />

@@ -45,6 +45,11 @@ import 'vue3-carousel/dist/carousel.css'
 ///// lazy loading image
 import VueLazyLoad from 'vue3-lazyload'
 
+
+///// toast
+import Toast from "vue-toastification";
+import "vue-toastification/dist/index.css";
+
 ////////// Vue
 import {createApp} from "vue";
 import App from "./App.vue";
@@ -60,6 +65,10 @@ app.component('container-full',containerFull);
 app.component(Skeletor.name, Skeletor);
 app.use(VueSkeletor, {shimmer: false,})
 app.use(VueLazyLoad)
+app.use(Toast,{
+    position:'bottom-right',
+    timeout: 2000
+});
 app.directive('fade',vFade)
 app.directive('collapse',vCollapse)
 app.mount('#app')
