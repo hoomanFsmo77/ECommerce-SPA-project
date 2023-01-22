@@ -7,7 +7,7 @@
             <h3 class="text-center my-1">
               Australian art and quality summer goods by illustrator and author Brentos
             </h3>
-            <span class="text-center span-row font-500">
+            <span class="text-center span-row font-500 text-1">
               Art inspired by the Australian bush and long summers at the beach.
             </span>
           </column>

@@ -12,7 +12,7 @@
         <font-awesome-icon icon="fa-solid fa-truck-fast" size="lg" class="text-dark"/>
         <div>
           <span class="text-0.7 block">Free Shipping in Australia</span>
-          <span class="font-600 text-0.9  text-dark">Orders Over $70</span>
+          <span class=" text-0.9  text-dark">Orders Over $70</span>
         </div>
       </div>
       <ul v-if="fetchFlag">

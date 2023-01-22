@@ -70,7 +70,7 @@
         </column>
         <column col="12" md="4">
           <div class="p-1 bg-gray-100 border-[1px] border-gray-300 rounded-6 ">
-            <p class="font-600">{{totalPrice> 70 ? 'You are eligible for free shipping!' : `You are $${70-totalPrice} away from free shipping.`}}</p>
+            <p class="font-600">{{totalPrice>= 70 ? 'You are eligible for free shipping!' : `You are $${70-totalPrice} away from free shipping.`}}</p>
           </div>
           <div class="p-1 border-[1px] border-gray-300 mt-1.5 rounded-6">
               <p>Total</p>

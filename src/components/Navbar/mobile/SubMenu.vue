@@ -1,5 +1,5 @@
 <template>
-  <ul v-collapse="isActive" class="w-full transition-all v-collapse  bg-gray-200">
+  <ul v-collapse="isActive" class="w-full transition-all v-collapse  bg-gray-100">
    <slot/>
   </ul>
 </template>

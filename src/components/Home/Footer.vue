@@ -14,7 +14,7 @@
         </column>
         <column class="sm:px-1 footer-border" col="12" sm="6" md="3">
           <h6 class="font-700 mb-1">Acknowledgement of Country</h6>
-          <p class="leading-1.7 font-600">We acknowledge the Traditional Custodians of country throughout Australia and their connections to land, sea and community. We pay our respect to their elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples.</p>
+          <p class="leading-1.7 ">We acknowledge the Traditional Custodians of country throughout Australia and their connections to land, sea and community. We pay our respect to their elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples.</p>
 
         </column>
         <column class="sm:px-2 footer-border" col="12" sm="6" md="3">

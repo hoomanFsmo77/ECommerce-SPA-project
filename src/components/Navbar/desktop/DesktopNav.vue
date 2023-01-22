@@ -11,7 +11,7 @@
         <div>
           <span class="text-0.7 ">Free Shipping in Australia</span>
           <br>
-          <span class="font-600 text-dark">Orders Over $70</span>
+          <span class=" text-dark">Orders Over $70</span>
         </div>
       </div>
     </column>

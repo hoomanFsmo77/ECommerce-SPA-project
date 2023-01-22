@@ -181,7 +181,7 @@ module.exports = {
       'full':'9999px'
     },
     fontFamily:{
-      main:['Montserrat','sans-serif']
+      main:['Ubuntu','sans-serif']
     },
     container:{
       center:true,
