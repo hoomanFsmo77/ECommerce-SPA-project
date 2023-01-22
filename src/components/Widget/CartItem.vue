@@ -118,8 +118,8 @@
 
 <script setup>
 let props=defineProps(['src','srcset','title','param','productId','category','quantity','priceDetail','discount','link','available'])
-import useCart from "../../composables/useCart.js";
-const {productLink,increment,decrement,productQuantity,removeProduct,productPrice}=useCart(props)
+import {useItemCart} from "../../composables/useCart.js";
+const {productLink,increment,decrement,productQuantity,removeProduct,productPrice}=useItemCart(props)
 const windowWidth=window.innerWidth
 
 </script>

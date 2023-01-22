@@ -165,12 +165,13 @@ const routes=[
     {
         name:'',
         component:CHECKOUT_INDEX,
-        path: '/checkout',
+        path: '',
         children: [
             {
                 name:'INFORMATION',
                 component:INFORMATION,
-                path: 'information'
+                path: ':id/checkout/:token',
+                props:true
             },{
                 name:'PAYMENT',
                 component:PAYMENT,

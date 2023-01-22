@@ -46,4 +46,23 @@
   .search-result-item{
     @apply my-1 text-0.9 relative;
   }
+  .input-float{
+    @apply border-[1px] border-gray-200 p-0.7 focus:border-dark transition-all  rounded-6 outline-none focus:outline-none w-full !font-400
+  }
+  .float-placeholder{
+    @apply absolute left-[2%] bottom-[29%] !font-300 !text-0.9 transition-all
+  }
+  .checkbox{
+    @apply appearance-none w-[18px] h-[18px] p-[6px] border-[1px] border-gray-300 rounded-6  focus:border-dark  transition-all checked:border-dark checked:bg-dark checked:text-white
+    checked:bg-[url("../../assets/check.svg")] checked:bg-center  checked:rounded-6 outline-0
+  }
+  .select-wrap{
+    @apply my-0.5  rounded-6 overflow-hidden relative
+  }
+  .select-label{
+    @apply text-0.8 font-300 my-0.4 mx-0.5
+  }
+  .select{
+    @apply appearance-none pb-0.5 pt-1.5 bg-light px-0.5 !text-0.9 !font-300 [&_option]:!text-0.9 [&_option]:!font-300 border-[1px] border-gray-200 rounded-6 focus:border-dark transition-all
+  }
 }

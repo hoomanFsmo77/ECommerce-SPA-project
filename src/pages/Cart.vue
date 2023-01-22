@@ -70,15 +70,15 @@
         </column>
         <column col="12" md="4">
           <div class="p-1 bg-gray-100 border-[1px] border-gray-300 rounded-6 ">
-            <p class="font-600">{{totalPrice>= 70 ? 'You are eligible for free shipping!' : `You are $${70-totalPrice} away from free shipping.`}}</p>
+            <p class="">{{totalPrice>= 70 ? 'You are eligible for free shipping!' : `You are $${70-totalPrice} away from free shipping.`}}</p>
           </div>
           <div class="p-1 border-[1px] border-gray-300 mt-1.5 rounded-6">
               <p>Total</p>
               <h1 class="font-700 mb-1" >${{totalPrice}}</h1>
             <p class="text-gray-500 text-0.8">Tax included. Shipping calculated at checkout.</p>
-            <router-link class="btn btn-dark-outline block my-1.5 text-center w-full" to="">
+            <button @click="goToCheckout" class="btn btn-dark-outline block my-1.5 text-center w-full" >
               Check Out
-            </router-link>
+            </button>
           </div>
 
         </column>
@@ -88,15 +88,10 @@
 </template>
 
 <script setup>
-import {computed} from "vue";
 import BreadCrumb from '../components/Widget/BreadCrumb.vue'
 import CartItem from "../components/Widget/CartItem.vue";
-import {useCartStore} from "../store/Cart.js";
-const cartStore=useCartStore()
-const cartList=computed(()=>cartStore.getCart)
-const cartLen=computed(()=>cartStore.cartLength)
-const totalPrice=computed(()=>cartStore.getTotalPrice)
-const windowWidth=window.innerWidth
+import {useCart} from "../composables/useCart.js";
+const {goToCheckout,totalPrice,toast,cartStore,cartList,cartLen,windowWidth}=useCart()
 
 </script>
 

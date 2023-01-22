@@ -26,4 +26,7 @@
   .footer-border{
     @apply border-b-[1px] border-b-gray-200 mb-1.5 pb-1 last:border-b-[0px] md:border-b-[0px] md:pb-0 md:mb-0
   }
+  .question-mark{
+    @apply inline-block hover:bg-gray-600 transition-all ml-0.5 w-1 h-1 rounded-full bg-gray-400 flex justify-center items-center text-light cursor-pointer
+  }
 }
