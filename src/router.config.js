@@ -24,10 +24,9 @@ const OUR_STORY=()=>import('./pages/pages/our story.vue')
 const MAIN_PAGES=()=>import('./pages/pages/Main.vue')
 
 //// policy pages
+const POLICY_MAIN=()=>import('./pages/policy/Main.vue')
 const POLICY_INDEX=()=>import('./pages/policy/index.vue')
-const REFUND_POLICY=()=>import('./pages/policy/refund policy.vue')
-const PRIVACY_POLICY=()=>import('./pages/policy/privacy policy.vue')
-const TERMS_OF_SERVICE=()=>import('./pages/policy/terms of service.vue')
+
 
 //// product pages
 const PRODUCT_INDEX=()=>import('./pages/product/index.vue')
@@ -91,19 +90,10 @@ const routes=[
                 component:POLICY_INDEX,
                 children: [
                     {
-                        name:'REFUND_POLICY',
-                        path:'refund-policy',
-                        component:REFUND_POLICY
-                    },
-                    {
-                        name:'TERMS_OF_SERVICE',
-                        path:'terms-of-service',
-                        component:TERMS_OF_SERVICE
-                    },
-                    {
-                        name:'PRIVACY_POLICY',
-                        path:'privacy-policy',
-                        component:PRIVACY_POLICY
+                        name:'POLICY_MAIN',
+                        path:':name',
+                        component:POLICY_MAIN,
+                        props:true
                     },
 
                 ]

@@ -2,12 +2,17 @@ import {watch,ref,computed} from "vue";
 import {useRoute,useRouter} from "vue-router";
 import {generateRandomNumber, getCookie, setCookie} from "./useHelper.js";
 import {useCartStore} from "../store/Cart.js";
+import axios from "axios";
 
 export const useInformation=(props)=>{
     const cartStore=useCartStore()
     const cartList=computed(()=>cartStore.getCart)
     const totalPrice=computed(()=>cartStore.getTotalPrice)
     const isCollapse=ref(false)
+    const isOpenModal=ref(false)
+    const modalTarget=ref('')
+    const policyData=ref([])
+    const fetchFlag=ref(false)
     const windowWidth=window.innerWidth
     const route=useRoute()
     const router=useRouter()
@@ -53,8 +58,19 @@ export const useInformation=(props)=>{
 
     }
     const openModal = target => {
+        isOpenModal.value=!isOpenModal.value
+        modalTarget.value=target
+        policyData.value=[]
+        fetchFlag.value=true
+        axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/policy/policyData/${target}.json`).then(response=>{
+            fetchFlag.value=false
+            policyData.value=response.data
+        })
 
     }
+    const closeModal =e => {
+      isOpenModal.value=e
+    }
 
-    return{contactInfo,news,userInfo,country,firstname,lastname,address,addressType,state,zip,city,goShipping,openModal,cartList,totalPrice,windowWidth,isCollapse}
+    return{contactInfo,news,userInfo,country,firstname,lastname,address,addressType,state,zip,city,goShipping,openModal,cartList,totalPrice,windowWidth,isCollapse,isOpenModal,modalTarget,closeModal,policyData,fetchFlag}
 }

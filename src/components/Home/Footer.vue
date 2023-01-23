@@ -24,11 +24,11 @@
             </li>
             <li><router-link  class="underline-link" :to="{name:'CONTACT_BRENTOS'}">contact us</router-link>
             </li>
-            <li><router-link  class="underline-link" :to="{name:'REFUND_POLICY'}">refund policy</router-link>
+            <li><router-link  class="underline-link" :to="{name:'POLICY_MAIN',params:{name:'refund-policy'}}">refund policy</router-link>
             </li>
-            <li><router-link  class="underline-link" :to="{name:'TERMS_OF_SERVICE'}">terms of service</router-link>
+            <li><router-link  class="underline-link" :to="{name:'POLICY_MAIN',params:{name:'terms-of-service'}}">terms of service</router-link>
             </li>
-            <li><router-link  class="underline-link" :to="{name:'PRIVACY_POLICY'}">privacy policy</router-link>
+            <li><router-link  class="underline-link" :to="{name:'POLICY_MAIN',params:{name:'privacy-policy'}}">privacy policy</router-link>
             </li>
           </ul>
 

@@ -141,7 +141,7 @@
             <div class="flex justify-between items-center">
               <span class="font-400 text-gray-600 flex items-center">
                 Shipping
-                <span class=" question-mark">
+                <span @click="openModal('shipping-policy')" class=" question-mark">
                       <font-awesome-icon size="sm" icon="fa-solid fa-question" />
                 </span>
               </span>
@@ -340,15 +340,20 @@
       </row>
     </container-full>
   </section>
+  <Modal row-class="!p-0 !m-0" class="w-full sm:h-[calc(100vh-7rem)] rounded-6 h-[100vh]" @closeModal="closeModal($event)" :is-active="isOpenModal" :preloader="!fetchFlag">
+    <PolicyModal @closeModal="closeModal($event)" v-if="isOpenModal" :title="modalTarget" :data="policyData"/>
+  </Modal>
 </template>
 
 <script  setup>
+import Modal from '../../components/Widget/Modal.vue'
 import BreadCrumb from "../../components/Checkout/BreadCrumb.vue";
 import SelectBox from "../../components/Form/SelectBox.vue";
+import PolicyModal from "../../components/Checkout/PolicyModal.vue";
 import {useInformation} from "../../composables/useCheckout.js";
 import FloatInput from "../../components/Form/FloatInput.vue";
 let props=defineProps(['id','token'])
-const {contactInfo,news,userInfo,country,lastname,firstname,zip,state,addressType,address,city,goShipping,openModal,cartList,totalPrice,windowWidth,isCollapse}=useInformation(props)
+const {contactInfo,news,country,lastname,firstname,zip,state,addressType,address,city,goShipping,openModal,cartList,totalPrice,windowWidth,isCollapse,modalTarget,isOpenModal,closeModal,policyData,fetchFlag}=useInformation(props)
 
 </script>
 
