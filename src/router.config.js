@@ -160,7 +160,7 @@ const routes=[
             {
                 name:'INFORMATION',
                 component:INFORMATION,
-                path: ':id/checkout/:token',
+                path: ':id/checkout/information/:token',
                 props:true
             },{
                 name:'PAYMENT',
@@ -169,7 +169,7 @@ const routes=[
             },{
                 name:'SHIPPING',
                 component:SHIPPING,
-                path: 'shipping'
+                path: ':id/checkout/shipping/:token'
             },
         ]
     }
