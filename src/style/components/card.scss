@@ -55,4 +55,14 @@
     @apply [&_p]:text-0.9 [&_p]:!font-400 [&_p]:!leading-1.4
   }
 
+  .payment-card{
+    @apply border-[1px] border-gray-300 rounded-6;
+    .payment-card-header{
+      @apply p-0.8 justify-between flex items-center border-b-[1px] border-gray-300
+    }
+    .payment-card-body{
+      @apply p-0.8 bg-gray-100
+    }
+  }
+
 }

@@ -165,11 +165,13 @@ const routes=[
             },{
                 name:'PAYMENT',
                 component:PAYMENT,
-                path: 'payment'
+                path: ':id/checkout/payment/:token',
+                props:true
             },{
                 name:'SHIPPING',
                 component:SHIPPING,
-                path: ':id/checkout/shipping/:token'
+                path: ':id/checkout/shipping/:token',
+                props:true
             },
         ]
     }

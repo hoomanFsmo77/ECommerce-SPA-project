@@ -29,4 +29,17 @@
   .question-mark{
     @apply inline-block hover:bg-gray-600 transition-all ml-0.5 w-1 h-1 rounded-full bg-gray-400 flex justify-center items-center text-light cursor-pointer
   }
+
+  .tooltip{
+      @apply absolute w-[180px] h-auto bg-dark/80 p-0.5 rounded-6 top-[-62px] left-[-84px]  before:w-0 before:w-0 before:border-solid before:border-[transparent_transparent_#333_transparent] before:absolute before:left-[83px] before:top-[50px] before:rotate-180;
+  }
+  .tooltip::before{
+    border-width: 0 9.5px 11px 9.5px;
+
+  }
+
+
+  .tooltip-content{
+    @apply font-400 text-0.7 text-center text-light;
+  }
 }

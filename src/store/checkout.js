@@ -12,21 +12,31 @@ const getData = () => {
 export const useCheckoutStore=defineStore('checkout',{
     state:()=>{
         return {
-            userInfo: getData() ?? {}
+            userInfo: getData() ?? {
+                contact:null,
+                shipping:null
+            }
         }
     },
     getters:{
-      getUserInformation(state){
-          return state.userInfo
+      getUserInformationContact(state){
+          return state.userInfo.contact
+      },
+        getUserInformationShipping(state){
+          return state.userInfo.shipping
+      },
+      hasShippingMethod(state){
+          return !!state.userInfo.shipping
       }
     },
     actions:{
-        setUserInformation(data){
-            this.userInfo=data
-            storeData(data)
+        setUserInformationContact(data){
+            this.userInfo.contact=data
+            storeData(this.userInfo)
         },
-        addShippingMethod(data){
-            this.userInfo={...this.userInfo,shipping:data}
+        setUserInformationShipping(data){
+            this.userInfo.shipping=data
+            storeData(this.userInfo)
         }
     }
 })

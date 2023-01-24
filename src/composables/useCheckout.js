@@ -4,49 +4,11 @@ import {generateRandomNumber, getCookie, setCookie} from "./useHelper.js";
 import {useCheckoutStore} from "../store/checkout.js";
 import {useCartStore} from "../store/Cart.js";
 import axios from "axios";
-
-export const useCheckout=(props)=>{
-    //// cart
-    const cartStore=useCartStore()
-    const cartList=computed(()=>cartStore.getCart)
-    const totalPrice=computed(()=>cartStore.getTotalPrice)
-    const isCollapse=ref(false)
-
-    //// modal
-    const isOpenModal=ref(false)
-    const modalTarget=ref('')
-    const policyData=ref([])
-    const fetchFlag=ref(false)
-
-    const windowWidth=window.innerWidth
-
-    //////////////
-    const openModal = target => {
-        isOpenModal.value=!isOpenModal.value
-        modalTarget.value=target
-        policyData.value=[]
-        fetchFlag.value=true
-        axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/policy/policyData/${target}.json`).then(response=>{
-            fetchFlag.value=false
-            policyData.value=response.data
-        })
-
-    }
-    const closeModal =e => {
-        isOpenModal.value=e
-    }
-
-    return{
-        cartList,totalPrice,isCollapse,isOpenModal,modalTarget,policyData,fetchFlag,openModal,closeModal,windowWidth
-    }
-}
+let cookieId=getCookie('checkout_token').id
+let cookieHash=getCookie('checkout_token').hash
 
 
-export const useInformation=(props)=>{
-    //// checkout store
-    const checkoutStore=useCheckoutStore()
-    const userInformationStore=computed(()=>checkoutStore.getUserInformation)
-
+export const useCheckoutCollection=()=>{
     //// country
     const country=ref({
         code:'us',
@@ -60,10 +22,6 @@ export const useInformation=(props)=>{
     const state=ref({code:''})
     const stateData=ref([])
 
-
-    const route=useRoute()
-    const router=useRouter()
-
     ///// form
     const contactInfo=ref('')
     const news=ref(false)
@@ -73,25 +31,6 @@ export const useInformation=(props)=>{
     const addressType=ref('')
     const city=ref('')
     const zip=ref('')
-
-    let cookieId=getCookie('checkout_token').id
-    let cookieHash=getCookie('checkout_token').hash
-    /////////////////////////////////////////////////////////////
-
-
-    watch(
-        ()=>country.value,
-        ()=>{
-            state.value.code=''
-            stateData.value=[]
-            axios.get(`http://battuta.medunes.net/api/region/${country.value.code}/all/?key=429cde78b78143d632027ccc2adde41b`).then(response=>{
-                stateData.value=response.data
-                stateFlag.value=true
-            })
-        },{
-            immediate:true
-        }
-    )
 
     const userInfo=computed(()=>{
         return{
@@ -132,13 +71,148 @@ export const useInformation=(props)=>{
         }
     })
 
+    watch(
+        ()=>country.value,
+        ()=>{
+            state.value.code=''
+            stateData.value=[]
+            axios.get(`http://battuta.medunes.net/api/region/${country.value.code}/all/?key=429cde78b78143d632027ccc2adde41b`).then(response=>{
+                stateData.value=response.data
+                stateFlag.value=true
+            })
+        },{
+            immediate:true
+        }
+    )
+    onMounted(()=>{
+        axios.get('http://battuta.medunes.net/api/country/all/?key=429cde78b78143d632027ccc2adde41b').then(response=>{
+            countryData.value=response.data
+            countryFlag.value=true
+        })
+    })
+    const validation = (condition,target) => {
+        if(condition){
+            userInfo.value[target].valid=true
+            return false;
+        }else{
+            userInfo.value[target].valid=false
+            return true;
+        }
+    }
+
+    const setUserInformation = info => {
+        country.value.code=info.country.value.code
+        country.value.name=info.country.value.name
+        state.value.code=info.state.value.code
+        contactInfo.value=info.contactInfo.value
+        news.value=info.news
+        firstname.value=info.firstname.value
+        lastname.value=info.lastname.value
+        address.value=info.address.value
+        addressType.value=info.addressType
+        city.value=info.city.value
+        zip.value=info.zip.value
+    }
+    return{
+        country,countryData,countryFlag,state,stateData,contactInfo,news,firstname,lastname,address,addressType,city,zip,stateFlag,userInfo,validation,setUserInformation
+    }
+}
+
+
+export const useCheckout=()=>{
+    //// cart
+    const cartStore=useCartStore()
+    const cartList=computed(()=>cartStore.getCart)
+    const totalPrice=computed(()=>cartStore.getTotalPrice)
+    const isCollapse=ref(false)
+
+    //// checkout
+    const checkoutStore=useCheckoutStore()
+    const userInformationShippingStore=computed(()=>checkoutStore.getUserInformationShipping)
+    const hasShippingStore=computed(()=>checkoutStore.hasShippingMethod)
+
+    //// modal
+    const isOpenModal=ref(false)
+    const modalTarget=ref('')
+    const policyData=ref([])
+    const fetchFlag=ref(false)
+
+    const windowWidth=window.innerWidth
+
+    //////////////
+    const openModal = target => {
+        isOpenModal.value=!isOpenModal.value
+        modalTarget.value=target
+        policyData.value=[]
+        fetchFlag.value=true
+        axios.get(`https://ecommerce-199b2-default-rtdb.firebaseio.com/policy/policyData/${target}.json`).then(response=>{
+            fetchFlag.value=false
+            policyData.value=response.data
+        })
+
+    }
+    const closeModal =e => {
+        isOpenModal.value=e
+    }
+
+    return{
+        cartList,totalPrice,isCollapse,isOpenModal,modalTarget,policyData,fetchFlag,openModal,closeModal,windowWidth,hasShippingStore,userInformationShippingStore
+    }
+}
+export const useCheckoutLinks=()=>{
+    ///// checkout
+    const checkoutStore=useCheckoutStore()
+    const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
+
+    const calculateShippingMethodLink=computed(()=>{
+        return {
+            name:'SHIPPING',
+            params:{
+                id:cookieId,
+                token:cookieHash
+            },
+            query:{
+                'step':'shipping_method'
+            }
+        }
+    })
+    const calculateContactInfoLink=computed(()=>{
+        return{
+            name:'INFORMATION',
+            params:{
+                id:cookieId,
+                token:cookieHash
+            },
+            query:{
+                'current_step':'contact_information'
+            }
+        }
+    })
+    const calculateShippingAddress=computed(()=>{
+        return `${userInformationContactStore.value.address.value}, ${userInformationContactStore.value.city.value}, ${userInformationContactStore.value.state.value.code} ${userInformationContactStore.value.zip.value}, ${userInformationContactStore.value.country.value.name}`
+    })
+
+
+    return{
+        calculateShippingMethodLink,calculateContactInfoLink,calculateShippingAddress
+    }
+}
+export const useInformation=(props,userInfo,setUserInformation)=>{
+    //// checkout store
+    const checkoutStore=useCheckoutStore()
+    const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
+
+    const route=useRoute()
+    const router=useRouter()
+
+
     const goShipping = () => {
         let result=[]
         Object.entries(userInfo.value).forEach(item=>{
           typeof item[1]?.valid === 'boolean' && result.push(item[1]?.valid)
         })
         if(result.every(item=>item===true)){
-            checkoutStore.setUserInformation(userInfo.value)
+            checkoutStore.setUserInformationContact(userInfo.value)
             router.push({
                 name:'SHIPPING',
                 params:{
@@ -153,34 +227,6 @@ export const useInformation=(props)=>{
         }
     }
 
-    onMounted(()=>{
-        axios.get('http://battuta.medunes.net/api/country/all/?key=429cde78b78143d632027ccc2adde41b').then(response=>{
-            countryData.value=response.data
-            countryFlag.value=true
-        })
-    })
-    const validation = (condition,target) => {
-      if(condition){
-          userInfo.value[target].valid=true
-          return false;
-      }else{
-          userInfo.value[target].valid=false
-          return true;
-      }
-    }
-    const setUserInformation = info => {
-        country.value.code=info.country.value.code
-        country.value.name=info.country.value.name
-         state.value.code=info.state.value.code
-        contactInfo.value=info.contactInfo.value
-         news.value=info.news
-         firstname.value=info.firstname.value
-         lastname.value=info.lastname.value
-         address.value=info.address.value
-         addressType.value=info.addressType
-         city.value=info.city.value
-         zip.value=info.zip.value
-    }
 
 
     watch(
@@ -191,8 +237,7 @@ export const useInformation=(props)=>{
                 router.push({name:'NOT_FOUND'})
             }
             if(route.query.current_step==='contact_information'){
-                setUserInformation(userInformationStore.value)
-
+                setUserInformation(userInformationContactStore.value)
             }
 
         },{
@@ -201,42 +246,79 @@ export const useInformation=(props)=>{
     )
 
 
-    return{contactInfo,news,userInfo,country,firstname,lastname,address,addressType,state,zip,city,goShipping,countryData,stateData,countryFlag,stateFlag,validation}
+    return{goShipping}
 }
-
 export const useShipping=()=>{
+    //// route
+    const route=useRoute()
+
+    ///// checkout
     const checkoutStore=useCheckoutStore()
-    const userInformationStore=computed(()=>checkoutStore.getUserInformation)
-
-    const calculatePreviousLink=computed(()=>{
-        let id=getCookie('checkout_token').id
-        let hash=getCookie('checkout_token').hash
-        return{
-            name:'INFORMATION',
-            params:{
-                id:id,
-                token:hash
-            },
-            query:{
-                'current_step':'contact_information'
-            }
-        }
-    })
-    const calculateShippingAddress=computed(()=>{
-        return `${userInformationStore.value.address.value}, ${userInformationStore.value.city.value}, ${userInformationStore.value.state.value.code} ${userInformationStore.value.zip.value}, ${userInformationStore.value.country.value.name}`
-    })
-
-    const goPayment = () => {
-        checkoutStore.addShippingMethod({
+    const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
+    const userInformationShippingStore=computed(()=>checkoutStore.getUserInformationShipping)
+    const hasShippingStore=computed(()=>checkoutStore.hasShippingMethod)
+    const shippingMethods=[
+        {
+            id:1,
             name:'Standard International',
             time:'6 to 27 business days',
             price:30
-        })
+        }
+    ]
+    const methodIndex=ref( 0)
+    const selectedMethod=index=>{
+        methodIndex.value=index
+        checkoutStore.setUserInformationShipping(shippingMethods[index])
     }
 
 
+    onMounted(()=>{
+        if(!hasShippingStore.value){
+            selectedMethod(0)
+        }
+    })
+
+
+
+
+    watch(
+        ()=>route.query,
+        ()=>{
+            if(hasShippingStore.value &&  (route.query.step==='shipping_method' || route.query.current_step==='shipping_method')){
+                selectedMethod(userInformationShippingStore.value.id-1)
+            }
+        },{
+            immediate:true
+        }
+    )
+
 
     return{
-        calculatePreviousLink,userInformationStore,calculateShippingAddress,goPayment
+        userInformationContactStore,shippingMethods,selectedMethod,cookieId,cookieHash,methodIndex
+    }
+}
+
+
+export const usePayment=(userInfo)=>{
+
+    ///// checkout
+    const checkoutStore=useCheckoutStore()
+    const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
+    const userInformationShippingStore=computed(()=>checkoutStore.getUserInformationShipping)
+
+    const wantChangeMethod=ref(false)
+    const wantRemember=ref(false)
+    const phoneNumber=ref('')
+    const cardNumber=ref('')
+    const cardName=ref('')
+    const expDay=ref('')
+    const secCode=ref('')
+
+    const finishPayment = () => {
+
+    }
+
+    return{
+        userInformationContactStore,userInformationShippingStore,wantChangeMethod,wantRemember,phoneNumber,cardNumber,cardName,expDay,secCode,finishPayment
     }
 }
