@@ -37,7 +37,6 @@ let props=defineProps(['label','modelValue'])
 onMounted(()=>{
   fetchFlag.value=false
   axios.get('https://restcountries.com/v3.1/all').then(response=>{
-    console.log(response.data)
     data.value=response.data
     fetchFlag.value=true
   })

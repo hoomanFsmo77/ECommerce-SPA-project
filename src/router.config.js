@@ -38,6 +38,8 @@ const CHECKOUT_INDEX=()=>import('./pages/checkout/index.vue')
 const INFORMATION=()=>import('./pages/checkout/information.vue')
 const PAYMENT=()=>import('./pages/checkout/payment.vue')
 const SHIPPING=()=>import('./pages/checkout/shipping.vue')
+const ORDER_SUMMARY=()=>import('./pages/checkout/OrderSummary.vue')
+
 
 //// search page
 const SEARCH=()=>import('./pages/Search.vue')
@@ -174,6 +176,10 @@ const routes=[
                 props:true
             },
         ]
+    },{
+        name:'ORDER_SUMMARY',
+        component:ORDER_SUMMARY,
+        path: '/:id/order_summary/:token'
     }
 
 

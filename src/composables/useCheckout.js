@@ -8,6 +8,39 @@ let cookieId=getCookie('checkout_token').id
 let cookieHash=getCookie('checkout_token').hash
 
 
+
+
+export const useCheckoutPageValidation=()=>{
+    const route=useRoute()
+    const router=useRouter()
+    const checkoutStore=useCheckoutStore()
+    const cartStore=useCartStore()
+
+    watch(
+        ()=>route.params,
+        ()=>{
+            let cookieId=getCookie('checkout_token').id
+            let cookieHash=getCookie('checkout_token').hash
+            if(route.params.id!=cookieId || route.params.token!=cookieHash){
+                router.push({name:'NOT_FOUND'})
+            }
+        },{
+            immediate:true
+        }
+    )
+    router.beforeEach((to,from,next)=>{
+        if(from.name==='ORDER_SUMMARY' && to.name==='PAYMENT'){
+            next({
+                name:'NOT_FOUND'
+            })
+            cartStore.resetCart()
+            checkoutStore.resetCheckout()
+        }else{
+            next()
+        }
+    })
+
+}
 export const useCheckoutCollection=()=>{
     //// country
     const country=ref({
@@ -76,7 +109,7 @@ export const useCheckoutCollection=()=>{
         ()=>{
             state.value.code=''
             stateData.value=[]
-            axios.get(`http://battuta.medunes.net/api/region/${country.value.code}/all/?key=429cde78b78143d632027ccc2adde41b`).then(response=>{
+            axios.get(`http://battuta.medunes.net/api/region/${country.value.code}/all/?key=470af792c1181f18e0ec0ec9cf03e091`).then(response=>{
                 stateData.value=response.data
                 stateFlag.value=true
             })
@@ -85,7 +118,7 @@ export const useCheckoutCollection=()=>{
         }
     )
     onMounted(()=>{
-        axios.get('http://battuta.medunes.net/api/country/all/?key=429cde78b78143d632027ccc2adde41b').then(response=>{
+        axios.get('http://battuta.medunes.net/api/country/all/?key=470af792c1181f18e0ec0ec9cf03e091').then(response=>{
             countryData.value=response.data
             countryFlag.value=true
         })
@@ -117,9 +150,9 @@ export const useCheckoutCollection=()=>{
         country,countryData,countryFlag,state,stateData,contactInfo,news,firstname,lastname,address,addressType,city,zip,stateFlag,userInfo,validation,setUserInformation
     }
 }
-
-
 export const useCheckout=()=>{
+
+
     //// cart
     const cartStore=useCartStore()
     const cartList=computed(()=>cartStore.getCart)
@@ -232,10 +265,6 @@ export const useInformation=(props,userInfo,setUserInformation)=>{
     watch(
         ()=>route.params,
         ()=>{
-
-            if(props.id!==cookieId && props.token!==cookieHash){
-                router.push({name:'NOT_FOUND'})
-            }
             if(route.query.current_step==='contact_information'){
                 setUserInformation(userInformationContactStore.value)
             }
@@ -297,28 +326,61 @@ export const useShipping=()=>{
         userInformationContactStore,shippingMethods,selectedMethod,cookieId,cookieHash,methodIndex
     }
 }
-
-
 export const usePayment=(userInfo)=>{
+
+    const isOpenModal=ref(false)
 
     ///// checkout
     const checkoutStore=useCheckoutStore()
     const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
     const userInformationShippingStore=computed(()=>checkoutStore.getUserInformationShipping)
+    const allInformation=computed(()=>checkoutStore.getAllInformation)
 
     const wantChangeMethod=ref(false)
     const wantRemember=ref(false)
     const phoneNumber=ref('')
-    const cardNumber=ref('')
     const cardName=ref('')
-    const expDay=ref('')
-    const secCode=ref('')
+    const userCardInfo={
+        cardNumber:{
+            value:'',
+            valid:false
+        },
+        cardName:{
+            value:'',
+            valid:false
+        },
+        expireDay:{
+            value:'',
+            valid:false
+        },
+        securityCode:{
+            value:'',
+            valid:false
+        }
+    }
+    const setValue = (e,prop) => {
+        userCardInfo[prop].value=e
+        userCardInfo[prop].valid=true
+    }
 
     const finishPayment = () => {
-
+        let result=[]
+        Object.entries(userCardInfo).forEach(item=>{
+            typeof item[1]?.valid === 'boolean' && result.push(item[1]?.valid)
+        })
+        if(result.every(item=>item===true)){
+            checkoutStore.setUserInformationCart(userCardInfo)
+            if(wantChangeMethod.value){
+                checkoutStore.setUserInformationContact(userInfo.value)
+            }
+            if(wantRemember.value){
+                checkoutStore.setUserInformationRemember(phoneNumber.value)
+            }
+            isOpenModal.value=!isOpenModal.value
+        }
     }
 
     return{
-        userInformationContactStore,userInformationShippingStore,wantChangeMethod,wantRemember,phoneNumber,cardNumber,cardName,expDay,secCode,finishPayment
+        userInformationContactStore,userInformationShippingStore,wantChangeMethod,wantRemember,phoneNumber,cardName,finishPayment,setValue,isOpenModal
     }
 }

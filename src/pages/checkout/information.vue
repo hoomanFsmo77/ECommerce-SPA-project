@@ -79,12 +79,18 @@ import PolicyModal from "../../components/Checkout/PolicyModal.vue";
 import Modal from '../../components/Widget/Modal.vue'
 import BreadCrumb from "../../components/Checkout/BreadCrumb.vue";
 import SelectBox from "../../components/Form/SelectBox.vue";
-import {useInformation,useCheckout,useCheckoutCollection} from "../../composables/useCheckout.js";
+import {
+  useInformation,
+  useCheckout,
+  useCheckoutCollection,
+  useCheckoutPageValidation
+} from "../../composables/useCheckout.js";
 import FloatInput from "../../components/Form/FloatInput.vue";
 let props=defineProps(['id','token'])
-const {closeModal,openModal,fetchFlag,policyData,modalTarget,isOpenModal}=useCheckout(props)
+const {closeModal,openModal,fetchFlag,policyData,modalTarget,isOpenModal}=useCheckout()
 const {validation,userInfo,zip,city,addressType,address,lastname,firstname,news,contactInfo,stateData,state,countryFlag,countryData,country,stateFlag,setUserInformation}=useCheckoutCollection()
 const {goShipping}=useInformation(props,userInfo,setUserInformation)
+useCheckoutPageValidation()
 
 </script>
 

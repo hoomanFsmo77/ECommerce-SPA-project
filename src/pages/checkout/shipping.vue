@@ -55,7 +55,8 @@
 
 <script setup>
 import BreadCrumb from "../../components/Checkout/BreadCrumb.vue";
-import {useShipping,useCheckoutLinks} from "../../composables/useCheckout.js";
+import {useShipping,useCheckoutLinks,useCheckoutPageValidation} from "../../composables/useCheckout.js";
 const {userInformationContactStore,shippingMethods,selectedMethod,cookieId,cookieHash,methodIndex}=useShipping()
 const {calculateShippingAddress,calculateShippingMethodLink,calculateContactInfoLink}=useCheckoutLinks()
+useCheckoutPageValidation()
 </script>

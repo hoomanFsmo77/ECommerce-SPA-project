@@ -52,20 +52,25 @@
       <div class="payment-card-body">
         <row class="!py-0">
           <column col="12">
-            <InputTooltip v-model="cardNumber" icon="fa-solid fa-lock" placeholder="Card number" toolTip="All transactions are secure and encrypted."/>
+            <InputTooltip   mask="0000000000000000" @accept="setValue($event,'cardNumber')"  icon="fa-solid fa-lock" placeholder="Card number" toolTip="All transactions are secure and encrypted."/>
           </column>
         </row>
         <row class="!py-0">
           <column col="12">
-            <input v-model="cardName" type="text" placeholder="Name on card" class="input-light  input-sm !rounded-6 placeholder:!font-400 !border-gray-400 w-full">
+            <input
+                @input="setValue($event.target.value,'cardName')"
+                v-model="cardName"
+                type="text" placeholder="Name on card"
+                class="input-light  input-sm !font-400 !rounded-6 placeholder:!font-400 !border-gray-400 w-full"
+            >
           </column>
         </row>
         <row>
           <column col="12" md="6" class="md:pr-0.5">
-            <input v-model="expDay" type="text" placeholder="Expiration day (MM / YY)" class="input-light  input-sm !rounded-6 placeholder:!font-400 !border-gray-400 w-full">
+            <input @complete="setValue($event.detail.value,'expireDay')"  v-imask="{mask:'00 / 0000'}"  type="text" placeholder="Expiration day (MM / YY)" class="input-light  input-sm !rounded-6 placeholder:!font-400 !font-400 !border-gray-400 w-full">
           </column>
           <column col="12" md="6">
-            <InputTooltip v-model="secCode" icon="fa-solid fa-circle-question" placeholder="Security code" toolTip="3-digit security code on the back of your card"/>
+            <InputTooltip   @accept="setValue($event,'securityCode')"  mask="0000"  icon="fa-solid fa-circle-question" placeholder="Security code" toolTip="3-digit security code on the back of your card"/>
           </column>
 
         </row>
@@ -155,19 +160,32 @@
 
   </main>
 
+
+  <Modal row-class="!p-0 !m-0" class="w-[400px] m-auto sm:h-[400px] rounded-6 h-[100vh]"  :is-active="isOpenModal" :preloader="true">
+        <CheckoutSummary v-if="isOpenModal"/>
+  </Modal>
 </template>
 
 <script setup>
+import Modal from '../../components/Widget/Modal.vue'
 import SelectBox from "../../components/Form/SelectBox.vue";
 import FloatInput from "../../components/Form/FloatInput.vue";
 import BreadCrumb from "../../components/Checkout/BreadCrumb.vue";
 import InputTooltip from '../../components/Form/InputTooltip.vue';
 import PhoneNumberSelect from "../../components/Form/PhoneNumberSelect.vue";
-import {usePayment,useCheckoutLinks,useCheckoutCollection} from "../../composables/useCheckout.js";
+import CheckoutSummary from "../../components/Checkout/CheckoutSummary.vue";
+import {
+  usePayment,
+  useCheckoutLinks,
+  useCheckoutCollection,
+  useCheckoutPageValidation
+} from "../../composables/useCheckout.js";
 let props=defineProps(['id','token'])
 const {stateData,zip,state,contactInfo,stateFlag,country,firstname,lastname,address,validation,countryFlag,city,addressType,countryData,userInfo}=useCheckoutCollection()
-const {userInformationContactStore,userInformationShippingStore,wantChangeMethod,wantRemember,phoneNumber,secCode,expDay,cardName,cardNumber,finishPayment}=usePayment(userInfo)
+const {userInformationContactStore,userInformationShippingStore,wantChangeMethod,wantRemember,phoneNumber,cardName,finishPayment,setValue,isOpenModal}=usePayment(userInfo)
 const {calculateContactInfoLink,calculateShippingMethodLink,calculateShippingAddress}=useCheckoutLinks()
+useCheckoutPageValidation()
+
 </script>
 
 <style scoped>

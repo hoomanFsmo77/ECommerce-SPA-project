@@ -73,8 +73,15 @@ export const useCartStore=defineStore('cart',{
         },
         removeProductCart(id){
             this.cart.splice(this.cart.findIndex(item=>item.productId===id),1)
-            console.log(this.cart)
             this.calculateTotalPrice()
+        },
+        resetCart(){
+            this.cart=[]
+            this.totalPrice=0
+            storeData({
+                cart:[],
+                totalPrice:0
+            })
         }
     }
 })

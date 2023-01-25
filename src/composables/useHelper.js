@@ -7,9 +7,20 @@ export const setCookie = (name,value,path,day) => {
 }
 
 export const getCookie = (name) => {
-    let target=document.cookie.slice(document.cookie.indexOf(name))
-    let info=JSON.parse(target.slice(target.indexOf('{')))
-    return {
-        id:info.id,hash:info.hash
+    if(document.cookie.includes(name)){
+        let target=document.cookie.slice(document.cookie.indexOf(name))
+        let info=JSON.parse(target.slice(target.indexOf('{')))
+        return {
+            id:info.id,hash:info.hash
+        }
+    }else{
+        return false
     }
+
+}
+
+export  const removeCookie = (name,day,path) => {
+    let date=new Date()
+    date.setTime(date.getTime() - (day*24*60*60*1000))
+    document.cookie=`${name}=;path=${path};expires=${date}`
 }

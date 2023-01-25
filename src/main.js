@@ -50,6 +50,10 @@ import VueLazyLoad from 'vue3-lazyload'
 import Toast from "vue-toastification";
 import "vue-toastification/dist/index.css";
 
+
+//// imask
+import { IMaskDirective } from 'vue-imask';
+
 ////////// Vue
 import {createApp} from "vue";
 import App from "./App.vue";
@@ -71,4 +75,5 @@ app.use(Toast,{
 });
 app.directive('fade',vFade)
 app.directive('collapse',vCollapse)
+app.directive('imask',IMaskDirective)
 app.mount('#app')
