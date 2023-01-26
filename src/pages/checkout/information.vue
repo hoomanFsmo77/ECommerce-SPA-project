@@ -72,7 +72,7 @@
   <Modal row-class="!p-0 !m-0" class="w-full sm:h-[calc(100vh-7rem)] rounded-6 h-[100vh]" @closeModal="closeModal($event)" :is-active="isOpenModal" :preloader="!fetchFlag">
     <PolicyModal @closeModal="closeModal($event)" v-if="isOpenModal" :title="modalTarget" :data="policyData"/>
   </Modal>
-  <Modal row-class="!p-0 !m-0" class="w-[300px] m-auto sm:h-[200px] rounded-6 h-[100vh]" :is-active="isAlertActive" @closeModal="closeAlertModal($event)" :preloader="true">
+  <Modal row-class="!p-0 !m-0" class="sm:w-[300px] w-[100vw] m-auto sm:h-[250px] rounded-6 h-[100vh]" :is-active="isAlertActive" @closeModal="closeAlertModal($event)" :preloader="true">
       <AlertMessage @closeModal="closeAlertModal($event)"/>
   </Modal>
 </template>

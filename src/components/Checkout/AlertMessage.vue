@@ -7,9 +7,10 @@
       </h5>
       <font-awesome-icon size="lg" class="cursor-pointer text-gray-700 " @click="$emit('closeModal',false)" icon="fa-solid fa-x" />
     </div>
-    <p class="text-center font-400">
+    <p class="text-center font-400 mb-1">
        This project is just in client side and does not have backend database, therefore all of your given information won't be released or used in any kind of crime.
-      <br>
+    </p>
+    <p class="text-center font-400">
       you can also enter some fake information to just see the result.
     </p>
   </div>

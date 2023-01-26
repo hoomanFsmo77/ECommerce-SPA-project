@@ -1,7 +1,7 @@
 <template>
   <template v-if="windowWidth>768">
     <td class="w-[60%]">
-      <div class="flex gap-1 table-content-left items-center">
+      <div class="flex  table-content-left items-center">
         <router-link class="w-6 h-6 overflow-hidden block rounded-6" :to="productLink">
           <img
               class="object-cover w-full h-full hover:scale-[1.1] transition-all"
@@ -11,7 +11,7 @@
               alt=""
           >
         </router-link>
-        <div>
+        <div class="ml-1.5">
           <p class="font-600 mb-0.2">
             ${{priceDetail.price}}
           </p>
@@ -66,7 +66,7 @@
     </td>
   </template>
   <template v-else>
-    <div class="flex gap-1 mb-1.5 items-center">
+    <div class="flex  mb-1.5 items-center">
       <router-link class="w-6 h-6 overflow-hidden block rounded-6" :to="productLink">
         <img
             class="object-cover w-full h-full hover:scale-[1.1] transition-all"
@@ -76,7 +76,7 @@
             alt=""
         >
       </router-link>
-      <div>
+      <div class="ml-1.5">
         <p class="font-600 mb-0.2 !text-0.8">
           ${{priceDetail.price}}
         </p>

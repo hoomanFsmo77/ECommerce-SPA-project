@@ -161,7 +161,7 @@
   </main>
 
 
-  <Modal row-class="!p-0 !m-0" class="w-[400px] m-auto sm:h-[400px] rounded-6 h-[100vh]"  :is-active="isOpenModal" :preloader="true">
+  <Modal row-class="!p-0 !m-0" class="sm:w-[400px] w-[100vw] m-auto sm:h-[400px] rounded-6 h-[100vh]"  :is-active="isOpenModal" :preloader="true">
         <CheckoutSummary v-if="isOpenModal"/>
   </Modal>
 </template>

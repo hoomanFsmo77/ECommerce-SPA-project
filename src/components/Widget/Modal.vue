@@ -1,9 +1,9 @@
 <template>
     <teleport to="body">
-      <div  @click.self="closeModal" class="modal " v-fade:9999="isActive">
+      <div  @click.self="closeModal" class="modal " v-fade:99999="isActive">
         <PreLoader class="!items-center !h-[100%] z-[999999]" :show="!preloader"/>
-        <div class="v-modal-container">
-          <div v-bind="$attrs" class="modal-content">
+        <div @click.self="closeModal" class="v-modal-container">
+          <div  v-bind="$attrs" class="modal-content">
             <row :class="rowClass">
              <slot></slot>
             </row>
@@ -11,7 +11,7 @@
         </div>
       </div>
     </teleport>
-  <DarkOverlay :is-fire="isActive" z-index="999"/>
+  <DarkOverlay :is-fire="isActive" z-index="9999"/>
 </template>
 
 <script setup>
