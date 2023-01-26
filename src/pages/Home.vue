@@ -21,19 +21,9 @@ import NewsLetter from "../components/Home/NewsLetter.vue";
 import Preloader from '../components/Home/Preloader.vue'
 import RecentWork from "../components/Home/RecentWork.vue";
 import InstagramFeed from "../components/Home/InstagramFeed.vue";
-import {useRouter} from "vue-router";
-import {ref} from "vue";
+import useHome from "../composables/useHome.js";
 /////////////////////////
-const isLoading=ref(false)
-const router=useRouter()
-router.beforeEach((to,from,next)=>{
-  isLoading.value=true
-  next()
-})
+const {isLoading}=useHome()
 
-router.beforeResolve((to,from,next)=>{
-  isLoading.value=false
-  next()
-})
 
 </script>

@@ -4,8 +4,7 @@ import {generateRandomNumber, getCookie, setCookie} from "./useHelper.js";
 import {useCheckoutStore} from "../store/checkout.js";
 import {useCartStore} from "../store/Cart.js";
 import axios from "axios";
-let cookieId=getCookie('checkout_token').id
-let cookieHash=getCookie('checkout_token').hash
+
 
 
 
@@ -109,7 +108,7 @@ export const useCheckoutCollection=()=>{
         ()=>{
             state.value.code=''
             stateData.value=[]
-            axios.get(`http://battuta.medunes.net/api/region/${country.value.code}/all/?key=470af792c1181f18e0ec0ec9cf03e091`).then(response=>{
+            axios.get(`https://battuta.medunes.net/api/region/${country.value.code}/all/?key=470af792c1181f18e0ec0ec9cf03e091`).then(response=>{
                 stateData.value=response.data
                 stateFlag.value=true
             })
@@ -118,7 +117,7 @@ export const useCheckoutCollection=()=>{
         }
     )
     onMounted(()=>{
-        axios.get('http://battuta.medunes.net/api/country/all/?key=470af792c1181f18e0ec0ec9cf03e091').then(response=>{
+        axios.get('https://battuta.medunes.net/api/country/all/?key=470af792c1181f18e0ec0ec9cf03e091').then(response=>{
             countryData.value=response.data
             countryFlag.value=true
         })
@@ -198,6 +197,8 @@ export const useCheckoutLinks=()=>{
     const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
 
     const calculateShippingMethodLink=computed(()=>{
+        let cookieId=getCookie('checkout_token').id
+        let cookieHash=getCookie('checkout_token').hash
         return {
             name:'SHIPPING',
             params:{
@@ -210,6 +211,8 @@ export const useCheckoutLinks=()=>{
         }
     })
     const calculateContactInfoLink=computed(()=>{
+        let cookieId=getCookie('checkout_token').id
+        let cookieHash=getCookie('checkout_token').hash
         return{
             name:'INFORMATION',
             params:{
@@ -231,6 +234,17 @@ export const useCheckoutLinks=()=>{
     }
 }
 export const useInformation=(props,userInfo,setUserInformation)=>{
+
+    const isAlertActive=ref(false)
+
+    onMounted(()=>{
+        isAlertActive.value=true
+    })
+
+    const closeAlertModal = e => {
+      isAlertActive.value=e
+    }
+
     //// checkout store
     const checkoutStore=useCheckoutStore()
     const userInformationContactStore=computed(()=>checkoutStore.getUserInformationContact)
@@ -245,6 +259,8 @@ export const useInformation=(props,userInfo,setUserInformation)=>{
           typeof item[1]?.valid === 'boolean' && result.push(item[1]?.valid)
         })
         if(result.every(item=>item===true)){
+            let cookieId=getCookie('checkout_token').id
+            let cookieHash=getCookie('checkout_token').hash
             checkoutStore.setUserInformationContact(userInfo.value)
             router.push({
                 name:'SHIPPING',
@@ -275,9 +291,12 @@ export const useInformation=(props,userInfo,setUserInformation)=>{
     )
 
 
-    return{goShipping}
+    return{goShipping,isAlertActive,closeAlertModal}
 }
 export const useShipping=()=>{
+    let cookieId=getCookie('checkout_token').id
+    let cookieHash=getCookie('checkout_token').hash
+
     //// route
     const route=useRoute()
 

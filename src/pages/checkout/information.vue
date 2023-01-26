@@ -72,12 +72,16 @@
   <Modal row-class="!p-0 !m-0" class="w-full sm:h-[calc(100vh-7rem)] rounded-6 h-[100vh]" @closeModal="closeModal($event)" :is-active="isOpenModal" :preloader="!fetchFlag">
     <PolicyModal @closeModal="closeModal($event)" v-if="isOpenModal" :title="modalTarget" :data="policyData"/>
   </Modal>
+  <Modal row-class="!p-0 !m-0" class="w-[300px] m-auto sm:h-[200px] rounded-6 h-[100vh]" :is-active="isAlertActive" @closeModal="closeAlertModal($event)" :preloader="true">
+      <AlertMessage @closeModal="closeAlertModal($event)"/>
+  </Modal>
 </template>
 
 <script  setup>
 import PolicyModal from "../../components/Checkout/PolicyModal.vue";
 import Modal from '../../components/Widget/Modal.vue'
 import BreadCrumb from "../../components/Checkout/BreadCrumb.vue";
+import AlertMessage from "../../components/Checkout/AlertMessage.vue";
 import SelectBox from "../../components/Form/SelectBox.vue";
 import {
   useInformation,
@@ -89,7 +93,7 @@ import FloatInput from "../../components/Form/FloatInput.vue";
 let props=defineProps(['id','token'])
 const {closeModal,openModal,fetchFlag,policyData,modalTarget,isOpenModal}=useCheckout()
 const {validation,userInfo,zip,city,addressType,address,lastname,firstname,news,contactInfo,stateData,state,countryFlag,countryData,country,stateFlag,setUserInformation}=useCheckoutCollection()
-const {goShipping}=useInformation(props,userInfo,setUserInformation)
+const {goShipping,isAlertActive,closeAlertModal}=useInformation(props,userInfo,setUserInformation)
 useCheckoutPageValidation()
 
 </script>

@@ -1,6 +1,9 @@
 <template>
     <div class="p-0.7 w-full ">
-      <h4 class="text-center font-400 mb-2">Thanks for your shopping!</h4>
+      <h4 class="text-center font-400 mb-2">
+        <font-awesome-icon class="!text-1.6 text-green-600 mr-0.5" icon="fa-regular fa-circle-check" />
+        Thanks for your shopping!
+      </h4>
       <p class="text-center font-400 mb-1">
         Here is a summary of your shipping. You should show this page when your products delivered.
       </p>
