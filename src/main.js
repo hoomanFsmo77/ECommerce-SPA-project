@@ -3,6 +3,13 @@ import './style/Tailwind.config/Tailwind.base.scss'
 import './style/Tailwind.config/Tailwind.component.scss'
 import './style/Tailwind.config/Tailwind.utilities.scss'
 
+/////////// images
+import './assets/instagram/1.jpg'
+import './assets/instagram/2.jpg'
+import './assets/instagram/3.jpg'
+import './assets/instagram/4.jpg'
+import './assets/instagram/5.jpg'
+import './assets/instagram/6.jpg'
 
 /////////// data
 import './Data/NavbarData.json'
